@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yousif PTCB
+
+A responsive web app for studying the **January 2026 PTCE** (Pharmacy Technician Certification Exam). Practice with 1050+ questions aligned to the official 2026 content outline domain weights, take weighted mock exams, and review everything you miss.
+
+## Features
+
+- **1050+ questions** tagged by domain and sub-area (2026 PTCE Content Outline v1.4)
+- **2026 domain weighting**
+  - Medications: 35%
+  - Patient Safety & QA: 23.75%
+  - Order Entry & Processing: 22.5%
+  - Federal Requirements: 18.75%
+- **Practice mode** with immediate feedback
+- **Mock exam** — 90 questions (32/21/20/17 split) with optional 110-minute timer
+- **Missed question review** with explanations and mastery tracking
+- **Local progress** saved in your browser (Supabase auth ready for later)
+- **Admin page** to flag questions for review
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Regenerating Questions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The question bank lives in `data/questions.json`. To regenerate:
 
-## Learn More
+```bash
+npm run generate:questions
+```
 
-To learn more about Next.js, take a look at the following resources:
+The generator creates 1050 questions distributed across all 2026 sub-areas. If `OPENAI_API_KEY` is set, future AI top-up support can be added to the script.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Important:** Generated content is for study practice only. Always verify clinical/regulatory facts against current references.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```
+data/questions.json          # Question bank
+scripts/generate-questions.ts # Bank generator + validator
+src/lib/domains.ts           # 2026 weights and sub-areas
+src/lib/exam-builder.ts      # Weighted mock exam assembly
+src/lib/scoring.ts           # Score and domain stats
+src/lib/progress/            # localStorage repository (Supabase-ready interface)
+src/app/                     # Dashboard, practice, exam, review, admin pages
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Future: Supabase Auth & Sync
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Progress uses a repository interface (`src/lib/progress/repository.ts`). To add accounts later:
+
+1. Create Supabase tables: `profiles`, `answers`, `sessions`, `missed_questions`
+2. Implement `SupabaseProgressRepository` with the same interface
+3. Swap the provider in `getProgressRepository()` based on auth state
+
+Suggested schema sketch:
+
+```sql
+-- answers: user_id, question_id, selected_index, correct, mode, session_id, created_at
+-- sessions: id, user_id, mode, question_ids, started_at, completed_at, score
+-- missed: user_id, question_id, miss_count, consecutive_correct, mastered
+```
+
+## Deploy
+
+Deploy to Vercel or any Next.js host:
+
+```bash
+npm run build
+npm start
+```
+
+## Disclaimer
+
+Yousif PTCB is an independent study tool and is not affiliated with or endorsed by PTCB.
