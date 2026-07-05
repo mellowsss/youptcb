@@ -1,8 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { DomainBreakdown } from "@/components/DomainBreakdown";
+import { DomainBreakdown, StudyAdvicePanel } from "@/components/DomainBreakdown";
 import { MissedReviewList } from "@/components/MissedReviewList";
+import {
+  DOMAIN_PASS_THRESHOLD,
+  getOverallScoreGradient,
+} from "@/lib/study-advice";
 import type { SessionScore } from "@/types/question";
 
 interface SessionResultsProps {
@@ -22,12 +26,8 @@ export function SessionResults({
 }: SessionResultsProps) {
   const modeLabel =
     mode === "exam" ? "Mock Exam" : mode === "review" ? "Review Session" : "Practice Session";
-  const scoreColor =
-    score.percentage >= 80
-      ? "from-emerald-500 to-teal-600"
-      : score.percentage >= 60
-        ? "from-amber-500 to-orange-500"
-        : "from-rose-500 to-pink-600";
+  const scoreColor = getOverallScoreGradient(score.percentage);
+  const passedOverall = score.percentage >= DOMAIN_PASS_THRESHOLD;
 
   return (
     <div className="space-y-6">
@@ -40,6 +40,11 @@ export function SessionResults({
             {timeUsedSeconds !== undefined &&
               ` · ${Math.floor(timeUsedSeconds / 60)}m ${timeUsedSeconds % 60}s`}
           </p>
+          <p className="mt-3 inline-block rounded-full bg-white/20 px-3 py-1 text-xs font-bold">
+            {passedOverall
+              ? `✓ At or above ${DOMAIN_PASS_THRESHOLD}% goal`
+              : `Goal: ${DOMAIN_PASS_THRESHOLD}%+ to be exam-ready`}
+          </p>
         </div>
         <div className="flex flex-wrap gap-3 p-5">
           <Link href="/review" className="btn-primary inline-block text-sm">
@@ -51,10 +56,27 @@ export function SessionResults({
           >
             Practice More
           </Link>
+          {mode === "exam" && (
+            <Link
+              href="/exam"
+              className="inline-block rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+            >
+              Retake Mock Exam
+            </Link>
+          )}
         </div>
       </section>
 
-      <DomainBreakdown stats={score.domainStats} />
+      <StudyAdvicePanel
+        domainStats={score.domainStats}
+        missedQuestions={score.missedQuestions}
+        overallPercentage={score.percentage}
+      />
+
+      <DomainBreakdown
+        stats={score.domainStats}
+        title="Your Performance vs 2026 Exam Weights"
+      />
 
       <section>
         <h2 className="mb-4 text-lg font-bold text-slate-900">
