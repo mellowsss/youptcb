@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -18,8 +19,15 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/40 bg-white/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
         <Link href="/" className="group flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 text-sm font-bold text-white shadow-lg shadow-indigo-500/30 transition group-hover:scale-105">
-            YP
+          <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-2xl bg-black shadow-lg shadow-slate-900/20 ring-1 ring-slate-900/10 transition group-hover:scale-105">
+            <Image
+              src="/logo.png"
+              alt="Yousif PTCB pharmacy logo"
+              width={44}
+              height={44}
+              className="h-full w-full object-contain p-1"
+              priority
+            />
           </div>
           <div>
             <p className="text-sm font-bold tracking-tight text-slate-900">Yousif PTCB</p>

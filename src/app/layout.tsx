@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   title: "Yousif PTCB | 2026 PTCE Exam Review",
   description:
     "Practice for the 2026 PTCB exam with 1000+ questions aligned to the January 2026 PTCE content outline.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
