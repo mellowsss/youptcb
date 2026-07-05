@@ -175,14 +175,14 @@ export function generateStudyAdvice(
 }
 
 export function getPerformanceColor(percentage: number, total: number): string {
-  if (total === 0) return "text-slate-400";
-  if (percentage >= DOMAIN_PASS_THRESHOLD) return "text-emerald-700";
-  if (percentage >= DOMAIN_PASS_THRESHOLD - 15) return "text-amber-700";
-  return "text-rose-700";
+  if (total === 0) return "text-forest/40";
+  if (percentage >= DOMAIN_PASS_THRESHOLD) return "text-sage";
+  if (percentage >= DOMAIN_PASS_THRESHOLD - 15) return "text-terracotta";
+  return "text-terracotta";
 }
 
 export function getOverallScoreGradient(percentage: number): string {
-  if (percentage >= OVERALL_PASS_THRESHOLD) return "from-emerald-500 to-teal-600";
-  if (percentage >= OVERALL_PASS_THRESHOLD - 15) return "from-amber-500 to-orange-500";
-  return "from-rose-500 to-pink-600";
+  if (percentage >= OVERALL_PASS_THRESHOLD) return "from-forest to-sage";
+  if (percentage >= OVERALL_PASS_THRESHOLD - 15) return "from-terracotta to-clay";
+  return "from-terracotta to-[#A8957A]";
 }

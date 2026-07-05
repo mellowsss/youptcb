@@ -154,19 +154,19 @@ export default function ExamPage() {
     <div className="mx-auto max-w-2xl space-y-6">
       <div>
         <h1 className="page-title">Mock Exam</h1>
-        <p className="mt-2 text-sm leading-relaxed text-slate-600">
+        <p className="mt-2 text-sm leading-relaxed text-forest/60">
           Simulates the real PTCE with 90 questions distributed by the January 2026 content
           outline: Medications 32, Patient Safety 21, Order Entry 20, Federal 17.
         </p>
       </div>
 
       <div className="glass-card rounded-3xl p-6">
-        <label className="flex items-center gap-3 text-sm text-slate-700">
+        <label className="flex items-center gap-3 text-sm text-forest">
           <input
             type="checkbox"
             checked={useTimer}
             onChange={(e) => setUseTimer(e.target.checked)}
-            className="h-4 w-4 rounded border-slate-300"
+            className="h-4 w-4 rounded border-stone text-sage focus:ring-sage"
           />
           Enable 110-minute timer (real exam length)
         </label>

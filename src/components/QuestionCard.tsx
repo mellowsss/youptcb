@@ -26,24 +26,29 @@ export function QuestionCard({
   const progress = (questionNumber / totalQuestions) * 100;
 
   return (
-    <div className="glass-card overflow-hidden rounded-3xl">
-      <div className={`h-1 bg-gradient-to-r ${domain.gradient}`} style={{ width: `${progress}%` }} />
-      <div className="p-5 md:p-6">
-        <div className="mb-4 flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">
+    <div className="overflow-hidden rounded-3xl border border-stone bg-white shadow-soft">
+      <div className="h-1 bg-clay-light">
+        <div
+          className={`h-full bg-gradient-to-r ${domain.gradient} transition-all duration-700 ease-out`}
+          style={{ width: `${progress}%` }}
+        />
+      </div>
+      <div className="p-6 md:p-8">
+        <div className="mb-6 flex flex-wrap items-center gap-2">
+          <span className="rounded-full bg-clay-light px-3 py-1 text-xs font-medium uppercase tracking-widest text-forest/70">
             Q{questionNumber}/{totalQuestions}
           </span>
           <span
-            className={`rounded-full bg-gradient-to-r px-3 py-1 text-xs font-bold text-white ${domain.gradient}`}
+            className={`rounded-full bg-gradient-to-r px-3 py-1 text-xs font-medium uppercase tracking-widest text-white ${domain.gradient}`}
           >
             {domain.shortLabel}
           </span>
-          <span className="rounded-full border border-slate-200 bg-white/60 px-3 py-1 text-xs text-slate-500">
+          <span className="rounded-full border border-stone px-3 py-1 text-xs text-forest/50">
             {question.subArea} · {getSubAreaTitle(question.domain, question.subArea)}
           </span>
         </div>
 
-        <p className="mb-6 text-lg font-semibold leading-relaxed text-slate-900 md:text-xl">
+        <p className="mb-8 font-serif text-xl font-medium leading-relaxed text-forest md:text-2xl">
           {question.question}
         </p>
 
@@ -52,14 +57,14 @@ export function QuestionCard({
             const isSelected = selectedIndex === index;
             const isCorrect = index === question.correctIndex;
             let optionClass =
-              "border-slate-200/80 bg-white/70 hover:border-indigo-300 hover:bg-indigo-50/50 hover:shadow-sm";
+              "border-stone bg-white hover:border-sage hover:bg-clay-light/50";
 
             if (showFeedback && isCorrect) {
-              optionClass = "border-emerald-400 bg-gradient-to-r from-emerald-50 to-teal-50 shadow-sm";
+              optionClass = "border-sage bg-clay-light shadow-soft";
             } else if (showFeedback && isSelected && !isCorrect) {
-              optionClass = "border-rose-400 bg-gradient-to-r from-rose-50 to-pink-50 shadow-sm";
+              optionClass = "border-terracotta bg-clay-light/80 shadow-soft";
             } else if (isSelected) {
-              optionClass = "border-indigo-400 bg-gradient-to-r from-indigo-50 to-violet-50 shadow-sm";
+              optionClass = "border-forest bg-clay-light shadow-soft";
             }
 
             return (
@@ -68,22 +73,22 @@ export function QuestionCard({
                 type="button"
                 disabled={disabled || showFeedback}
                 onClick={() => onSelect(index)}
-                className={`w-full rounded-2xl border-2 px-4 py-3.5 text-left text-sm font-medium transition ${optionClass} disabled:cursor-default`}
+                className={`flex w-full items-start gap-4 rounded-2xl border px-5 py-4 text-left text-sm transition-all duration-300 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage focus-visible:ring-offset-2 disabled:cursor-default ${optionClass}`}
               >
                 <span
-                  className={`mr-3 inline-flex h-7 w-7 items-center justify-center rounded-lg text-xs font-bold ${
+                  className={`mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xs font-semibold ${
                     showFeedback && isCorrect
-                      ? "bg-emerald-500 text-white"
+                      ? "bg-sage text-white"
                       : showFeedback && isSelected
-                        ? "bg-rose-500 text-white"
+                        ? "bg-terracotta text-white"
                         : isSelected
-                          ? "bg-indigo-600 text-white"
-                          : "bg-slate-100 text-slate-600"
+                          ? "bg-forest text-white"
+                          : "bg-clay-light text-forest"
                   }`}
                 >
                   {String.fromCharCode(65 + index)}
                 </span>
-                {option}
+                <span className="font-medium leading-relaxed text-forest">{option}</span>
               </button>
             );
           })}
@@ -91,16 +96,16 @@ export function QuestionCard({
 
         {showFeedback && (
           <div
-            className={`mt-6 rounded-2xl border p-5 text-sm ${
+            className={`mt-8 rounded-3xl border p-6 ${
               selectedIndex === question.correctIndex
-                ? "border-emerald-200 bg-gradient-to-br from-emerald-50 to-teal-50 text-emerald-900"
-                : "border-rose-200 bg-gradient-to-br from-rose-50 to-orange-50 text-rose-900"
+                ? "border-sage bg-clay-light text-forest"
+                : "border-terracotta/30 bg-clay-light/80 text-forest"
             }`}
           >
-            <p className="text-base font-bold">
-              {selectedIndex === question.correctIndex ? "🎉 Correct!" : "❌ Incorrect"}
+            <p className="font-serif text-lg font-semibold italic">
+              {selectedIndex === question.correctIndex ? "Correct" : "Incorrect"}
             </p>
-            <p className="mt-2 leading-relaxed">{question.explanation}</p>
+            <p className="mt-3 leading-relaxed text-forest/80">{question.explanation}</p>
           </div>
         )}
       </div>

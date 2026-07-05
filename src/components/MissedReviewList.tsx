@@ -16,14 +16,14 @@ export function MissedReviewList({
 }: MissedReviewListProps) {
   if (questions.length === 0) {
     return (
-      <div className="rounded-2xl border border-dashed border-slate-200 bg-white p-8 text-center text-slate-500">
+      <div className="rounded-3xl border border-dashed border-stone bg-white p-10 text-center text-forest/50">
         No missed questions yet. Great work!
       </div>
     );
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       {questions.map((question) => {
         const domain = DOMAIN_MAP[question.domain];
         const selected = selectedAnswers[question.id];
@@ -31,17 +31,17 @@ export function MissedReviewList({
         return (
           <article
             key={question.id}
-            className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
+            className="rounded-3xl border border-stone bg-white p-6 shadow-soft md:p-8"
           >
-            <div className="mb-3 flex flex-wrap items-center gap-2">
-              <span className={`rounded-full px-3 py-1 text-xs font-medium ${domain.bgColor} ${domain.color}`}>
+            <div className="mb-4 flex flex-wrap items-center gap-2">
+              <span className={`rounded-full px-3 py-1 text-xs font-medium uppercase tracking-widest ${domain.bgColor} ${domain.color}`}>
                 {domain.label}
               </span>
-              <span className="text-xs text-slate-500">
+              <span className="text-xs text-forest/50">
                 {question.subArea} · {getSubAreaTitle(question.domain, question.subArea)}
               </span>
             </div>
-            <p className="mb-3 font-medium text-slate-900">{question.question}</p>
+            <p className="mb-4 font-serif text-lg font-medium text-forest">{question.question}</p>
             <div className="space-y-2 text-sm">
               {question.options.map((option, index) => {
                 const isCorrect = index === question.correctIndex;
@@ -49,12 +49,12 @@ export function MissedReviewList({
                 return (
                   <p
                     key={index}
-                    className={`rounded-lg px-3 py-2 ${
+                    className={`rounded-2xl px-4 py-3 ${
                       isCorrect
-                        ? "bg-emerald-50 text-emerald-800"
+                        ? "bg-clay-light text-forest"
                         : wasSelected
-                          ? "bg-red-50 text-red-800"
-                          : "bg-slate-50 text-slate-700"
+                          ? "bg-clay-light/80 text-terracotta"
+                          : "bg-stone/20 text-forest/80"
                     }`}
                   >
                     {String.fromCharCode(65 + index)}. {option}
@@ -62,14 +62,14 @@ export function MissedReviewList({
                 );
               })}
             </div>
-            <p className="mt-3 rounded-lg bg-blue-50 p-3 text-sm text-blue-900">
+            <p className="mt-4 rounded-3xl bg-clay-light p-4 text-sm leading-relaxed text-forest/80">
               {question.explanation}
             </p>
             {onMarkMastered && (
               <button
                 type="button"
                 onClick={() => onMarkMastered(question.id)}
-                className="mt-3 rounded-lg border border-slate-200 px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50"
+                className="mt-4 rounded-full border border-stone px-4 py-2 text-sm font-medium uppercase tracking-widest text-forest transition duration-300 hover:bg-clay-light"
               >
                 Mark as mastered
               </button>

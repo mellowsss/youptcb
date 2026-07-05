@@ -23,12 +23,12 @@ export function DomainBreakdown({
   showPassThreshold = true,
 }: DomainBreakdownProps) {
   return (
-    <section className="glass-card rounded-3xl p-6">
-      <div className="mb-5 flex flex-wrap items-end justify-between gap-2">
-        <h2 className="text-lg font-bold text-slate-900">{title}</h2>
+    <section className="rounded-3xl border border-stone bg-white p-6 shadow-soft md:p-8">
+      <div className="mb-6 flex flex-wrap items-end justify-between gap-2">
+        <h2 className="section-title">{title}</h2>
         {showPassThreshold && (
-          <p className="text-xs font-semibold text-slate-500">
-            Goal: {DOMAIN_PASS_THRESHOLD}%+ per domain to be exam-ready
+          <p className="text-xs font-medium uppercase tracking-widest text-forest/50">
+            Goal: {DOMAIN_PASS_THRESHOLD}%+ per domain
           </p>
         )}
       </div>
@@ -53,32 +53,32 @@ export function DomainBreakdown({
                   · exam weight {Math.round(domain.examWeight * 100)}%
                 </span>
               </div>
-              <div className="relative h-4 overflow-hidden rounded-full bg-slate-100">
+              <div className="relative h-4 overflow-hidden rounded-full bg-clay-light">
                 <div
-                  className={`absolute inset-y-0 left-0 rounded-full bg-gradient-to-r transition-all duration-500 ${
+                  className={`absolute inset-y-0 left-0 rounded-full bg-gradient-to-r transition-all duration-700 ease-out ${
                     status === "good"
                       ? domain.gradient
                       : status === "needs_work"
-                        ? "from-rose-400 to-orange-400"
-                        : "from-slate-300 to-slate-300"
+                        ? "from-terracotta to-clay"
+                        : "from-stone to-stone"
                   }`}
                   style={{ width: `${pct}%` }}
                 />
                 {showPassThreshold && (
                   <div
-                    className="absolute inset-y-0 z-10 border-r-2 border-dashed border-emerald-600/70"
+                    className="absolute inset-y-0 z-10 border-r-2 border-dashed border-sage/80"
                     style={{ left: `${DOMAIN_PASS_THRESHOLD}%` }}
                     title={`${DOMAIN_PASS_THRESHOLD}% goal`}
                   />
                 )}
                 <div
-                  className="absolute inset-y-0 border-r border-dashed border-slate-400/40"
+                  className="absolute inset-y-0 border-r border-dashed border-forest/20"
                   style={{ left: `${Math.round(domain.examWeight * 100)}%` }}
                   title="Exam content weight"
                 />
               </div>
               {stat.total > 0 && stat.percentage < DOMAIN_PASS_THRESHOLD && (
-                <p className="mt-1.5 text-xs text-rose-600">
+                <p className="mt-1.5 text-xs text-terracotta">
                   {DOMAIN_PASS_THRESHOLD - stat.percentage}% below goal — practice this domain more.
                 </p>
               )}
@@ -87,13 +87,13 @@ export function DomainBreakdown({
         })}
       </div>
       {showPassThreshold && (
-        <div className="mt-4 flex flex-wrap gap-4 text-[10px] font-medium text-slate-500">
+        <div className="mt-4 flex flex-wrap gap-4 text-[10px] font-medium uppercase tracking-widest text-forest/40">
           <span className="flex items-center gap-1">
-            <span className="h-2 w-4 border-r-2 border-dashed border-emerald-600/70" />{" "}
+            <span className="h-2 w-4 border-r-2 border-dashed border-sage/80" />{" "}
             {DOMAIN_PASS_THRESHOLD}% goal
           </span>
           <span className="flex items-center gap-1">
-            <span className="h-2 w-4 border-r border-dashed border-slate-400/40" /> Exam weight
+            <span className="h-2 w-4 border-r border-dashed border-forest/20" /> Exam weight
           </span>
         </div>
       )}
@@ -109,9 +109,9 @@ function StatusBadge({
   label: string;
 }) {
   const styles = {
-    good: "bg-emerald-100 text-emerald-800 ring-emerald-200",
-    needs_work: "bg-rose-100 text-rose-800 ring-rose-200",
-    no_data: "bg-slate-100 text-slate-600 ring-slate-200",
+    good: "bg-clay-light text-forest ring-sage/30",
+    needs_work: "bg-clay-light text-terracotta ring-terracotta/30",
+    no_data: "bg-stone/30 text-forest/50 ring-stone",
   };
 
   return (
@@ -136,26 +136,26 @@ export function StudyAdvicePanel({
   const advice = generateStudyAdvice(domainStats, missedQuestions, overallPercentage);
 
   const headerStyles = {
-    ready: "from-emerald-500 to-teal-600",
-    almost: "from-amber-500 to-orange-500",
-    needs_work: "from-rose-500 to-pink-600",
-    not_enough_data: "from-slate-500 to-slate-600",
+    ready: "from-forest to-sage",
+    almost: "from-terracotta to-clay",
+    needs_work: "from-terracotta to-[#A8957A]",
+    not_enough_data: "from-forest/80 to-forest/60",
   };
 
   const weakDomains = advice.domainAdvice.filter((d) => d.status === "needs_work");
 
   return (
-    <section className="glass-card overflow-hidden rounded-3xl">
-      <div className={`bg-gradient-to-r ${headerStyles[advice.overallStatus]} px-6 py-5 text-white`}>
-        <p className="text-sm font-semibold text-white/80">Study Plan</p>
-        <h2 className="mt-1 text-xl font-bold">What To Do Next</h2>
-        <p className="mt-2 text-sm leading-relaxed text-white/90">{advice.overallMessage}</p>
+    <section className="overflow-hidden rounded-3xl border border-stone bg-white shadow-soft">
+      <div className={`bg-gradient-to-r ${headerStyles[advice.overallStatus]} px-6 py-6 text-white md:px-8 md:py-8`}>
+        <p className="text-xs font-medium uppercase tracking-widest text-white/70">Study Plan</p>
+        <h2 className="mt-2 font-serif text-2xl font-semibold italic">What To Do Next</h2>
+        <p className="mt-3 text-sm leading-relaxed text-white/90">{advice.overallMessage}</p>
       </div>
 
-      <div className="space-y-4 p-6">
+      <div className="space-y-6 p-6 md:p-8">
         <div>
-          <h3 className="text-sm font-bold text-slate-900">Recommended Next Steps</h3>
-          <ol className="mt-2 list-decimal space-y-1.5 pl-5 text-sm text-slate-700">
+          <h3 className="font-serif text-lg font-semibold text-forest">Recommended Next Steps</h3>
+          <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm leading-relaxed text-forest/80">
             {advice.nextSteps.map((step, i) => (
               <li key={i}>{step}</li>
             ))}
@@ -164,27 +164,29 @@ export function StudyAdvicePanel({
 
         {weakDomains.length > 0 && (
           <div>
-            <h3 className="text-sm font-bold text-slate-900">Domains Below {DOMAIN_PASS_THRESHOLD}%</h3>
-            <div className="mt-3 space-y-3">
+            <h3 className="font-serif text-lg font-semibold text-forest">
+              Domains Below {DOMAIN_PASS_THRESHOLD}%
+            </h3>
+            <div className="mt-4 space-y-4">
               {weakDomains.map((item) => {
                 const domain = DOMAIN_MAP[item.domain];
                 return (
                   <div
                     key={item.domain}
-                    className="rounded-2xl border border-rose-100 bg-rose-50/50 p-4"
+                    className="rounded-3xl border border-stone bg-clay-light/50 p-5"
                   >
                     <div className="flex flex-wrap items-center justify-between gap-2">
-                      <p className={`font-bold ${domain.color}`}>{item.label}</p>
-                      <span className="text-sm font-bold text-rose-700">{item.percentage}%</span>
+                      <p className={`font-serif font-semibold ${domain.color}`}>{item.label}</p>
+                      <span className="text-sm font-semibold text-terracotta">{item.percentage}%</span>
                     </div>
-                    <ul className="mt-2 space-y-1 text-sm text-slate-700">
+                    <ul className="mt-3 space-y-1.5 text-sm text-forest/80">
                       {item.tips.map((tip, i) => (
                         <li key={i}>• {tip}</li>
                       ))}
                     </ul>
                     <Link
                       href={item.practiceHref}
-                      className="mt-3 inline-block text-sm font-semibold text-indigo-600 hover:underline"
+                      className="mt-4 inline-block text-sm font-medium uppercase tracking-widest text-sage transition duration-300 hover:text-terracotta"
                     >
                       Practice {domain.shortLabel} →
                     </Link>
@@ -196,9 +198,9 @@ export function StudyAdvicePanel({
         )}
 
         {advice.domainAdvice.filter((d) => d.status === "good").length > 0 && (
-          <div className="rounded-2xl border border-emerald-100 bg-emerald-50/50 p-4">
-            <h3 className="text-sm font-bold text-emerald-800">Strong Domains (75%+)</h3>
-            <p className="mt-1 text-sm text-emerald-900">
+          <div className="rounded-3xl border border-stone bg-clay-light/30 p-5">
+            <h3 className="font-serif text-lg font-semibold text-forest">Strong Domains (75%+)</h3>
+            <p className="mt-2 text-sm text-forest/80">
               {advice.domainAdvice
                 .filter((d) => d.status === "good")
                 .map((d) => `${d.label} (${d.percentage}%)`)

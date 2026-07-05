@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { DomainBreakdown, StudyAdvicePanel } from "@/components/DomainBreakdown";
 import { MissedReviewList } from "@/components/MissedReviewList";
+import { Button } from "@/components/ui/Button";
 import {
   DOMAIN_PASS_THRESHOLD,
   getOverallScoreGradient,
@@ -25,44 +25,36 @@ export function SessionResults({
   timeUsedSeconds,
 }: SessionResultsProps) {
   const modeLabel =
-    mode === "exam" ? "Mock Exam" : mode === "review" ? "Review Session" : "Practice Session";
+    mode === "exam" ? "Practice Exam" : mode === "review" ? "Review Session" : "Practice Session";
   const scoreColor = getOverallScoreGradient(score.percentage);
   const passedOverall = score.percentage >= DOMAIN_PASS_THRESHOLD;
 
   return (
-    <div className="space-y-6">
-      <section className="glass-card overflow-hidden rounded-3xl">
-        <div className={`bg-gradient-to-r ${scoreColor} px-6 py-8 text-white`}>
-          <p className="text-sm font-semibold text-white/80">{modeLabel} Results</p>
-          <p className="mt-2 text-5xl font-extrabold tracking-tight">{score.percentage}%</p>
-          <p className="mt-1 text-sm text-white/90">
+    <div className="space-y-10 md:space-y-12">
+      <section className="overflow-hidden rounded-3xl border border-stone bg-white shadow-soft">
+        <div className={`bg-gradient-to-r ${scoreColor} px-6 py-10 text-white md:px-8`}>
+          <p className="text-xs font-medium uppercase tracking-widest text-white/70">{modeLabel} Results</p>
+          <p className="stat-value mt-3 text-6xl text-white md:text-7xl">{score.percentage}%</p>
+          <p className="mt-2 text-sm text-white/85">
             {score.correct} of {score.total} correct
             {timeUsedSeconds !== undefined &&
               ` · ${Math.floor(timeUsedSeconds / 60)}m ${timeUsedSeconds % 60}s`}
           </p>
-          <p className="mt-3 inline-block rounded-full bg-white/20 px-3 py-1 text-xs font-bold">
+          <p className="mt-4 inline-block rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-widest">
             {passedOverall
-              ? `✓ At or above ${DOMAIN_PASS_THRESHOLD}% goal`
+              ? `At or above ${DOMAIN_PASS_THRESHOLD}% goal`
               : `Goal: ${DOMAIN_PASS_THRESHOLD}%+ to be exam-ready`}
           </p>
         </div>
-        <div className="flex flex-wrap gap-3 p-5">
-          <Link href="/review" className="btn-primary inline-block text-sm">
-            Review All Missed
-          </Link>
-          <Link
-            href="/practice"
-            className="inline-block rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
-          >
+        <div className="flex flex-wrap gap-3 p-6">
+          <Button href="/review">Review All Missed</Button>
+          <Button href="/practice" variant="secondary">
             Practice More
-          </Link>
+          </Button>
           {mode === "exam" && (
-            <Link
-              href="/exam"
-              className="inline-block rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
-            >
-              Retake Mock Exam
-            </Link>
+            <Button href="/exam" variant="ghost">
+              Retake Exam
+            </Button>
           )}
         </div>
       </section>
@@ -73,19 +65,16 @@ export function SessionResults({
         overallPercentage={score.percentage}
       />
 
-      <DomainBreakdown
-        stats={score.domainStats}
-        title="Your Performance vs 2026 Exam Weights"
-      />
+      <DomainBreakdown stats={score.domainStats} title="Your Performance vs 2026 Exam Weights" />
 
       <section>
-        <h2 className="mb-4 text-lg font-bold text-slate-900">
+        <h2 className="section-title mb-6">
           What You Missed ({score.missedQuestions.length})
         </h2>
         <MissedReviewList questions={score.missedQuestions} selectedAnswers={selectedAnswers} />
       </section>
 
-      <p className="text-xs text-slate-400">Session ID: {sessionId}</p>
+      <p className="text-xs text-forest/30">Session ID: {sessionId}</p>
     </div>
   );
 }

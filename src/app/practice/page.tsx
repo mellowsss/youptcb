@@ -133,13 +133,13 @@ function PracticeContent() {
     <div className="mx-auto max-w-2xl space-y-6">
       <div>
         <h1 className="page-title">Practice Mode</h1>
-        <p className="mt-2 text-sm text-slate-600">
+        <p className="mt-2 text-sm text-forest/60">
           Immediate feedback after each answer. Wrong answers are saved to your missed queue.
         </p>
       </div>
 
       <div className="glass-card space-y-4 rounded-3xl p-6">
-        <label className="block text-sm font-medium text-slate-700">
+        <label className="block text-sm font-medium text-forest">
           Domain
           <select
             value={domain}
@@ -147,7 +147,7 @@ function PracticeContent() {
               setDomain(e.target.value as DomainId | "all");
               setSubArea("");
             }}
-            className="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2"
+            className="mt-1 w-full rounded-xl border border-stone bg-white focus:border-sage focus:outline-none focus:ring-2 focus:ring-sage/30 px-3 py-2"
           >
             <option value="all">All domains (2026 weighted)</option>
             {DOMAINS.map((d) => (
@@ -159,12 +159,12 @@ function PracticeContent() {
         </label>
 
         {selectedDomain && (
-          <label className="block text-sm font-medium text-slate-700">
+          <label className="block text-sm font-medium text-forest">
             Sub-area (optional)
             <select
               value={subArea}
               onChange={(e) => setSubArea(e.target.value)}
-              className="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2"
+              className="mt-1 w-full rounded-xl border border-stone bg-white focus:border-sage focus:outline-none focus:ring-2 focus:ring-sage/30 px-3 py-2"
             >
               <option value="">All sub-areas</option>
               {selectedDomain.subAreas.map((s) => (
@@ -176,12 +176,12 @@ function PracticeContent() {
           </label>
         )}
 
-        <label className="block text-sm font-medium text-slate-700">
+        <label className="block text-sm font-medium text-forest">
           Number of questions
           <select
             value={count}
             onChange={(e) => setCount(Number(e.target.value))}
-            className="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2"
+            className="mt-1 w-full rounded-xl border border-stone bg-white focus:border-sage focus:outline-none focus:ring-2 focus:ring-sage/30 px-3 py-2"
           >
             {[10, 20, 30, 50].map((n) => (
               <option key={n} value={n}>
