@@ -8,6 +8,13 @@ import {
   QUESTION_FLAGS_STORAGE_KEY,
 } from "@/lib/progress/types";
 
+export const PROGRESS_CHANGED_EVENT = "yousif-ptcb-progress-changed";
+
+function notifyProgressChanged() {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new Event(PROGRESS_CHANGED_EVENT));
+}
+
 const EMPTY_SNAPSHOT: ProgressSnapshot = {
   answers: [],
   missed: [],
@@ -29,6 +36,7 @@ function readSnapshot(): ProgressSnapshot {
 function writeSnapshot(snapshot: ProgressSnapshot): void {
   if (typeof window === "undefined") return;
   localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(snapshot));
+  notifyProgressChanged();
 }
 
 function readFlaggedIds(): Set<string> {
@@ -46,6 +54,7 @@ function readFlaggedIds(): Set<string> {
 function writeFlaggedIds(ids: Set<string>): void {
   if (typeof window === "undefined") return;
   localStorage.setItem(QUESTION_FLAGS_STORAGE_KEY, JSON.stringify(Array.from(ids)));
+  notifyProgressChanged();
 }
 
 function upsertMissed(

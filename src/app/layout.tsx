@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import { Navbar } from "@/components/Navbar";
+import { AppProviders } from "@/components/AppProviders";
 import { PaperGrain } from "@/components/ui/PaperGrain";
 import "./globals.css";
 
@@ -36,8 +37,10 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${sourceSans.variable} h-full`}>
       <body className="min-h-full bg-alabaster text-forest antialiased">
         <PaperGrain />
-        <Navbar />
-        <main className="mx-auto max-w-7xl flex-1 px-4 py-8 md:px-6 md:py-16">{children}</main>
+        <AppProviders>
+          <Navbar />
+          <main className="mx-auto max-w-7xl flex-1 px-4 py-8 md:px-6 md:py-16">{children}</main>
+        </AppProviders>
       </body>
     </html>
   );

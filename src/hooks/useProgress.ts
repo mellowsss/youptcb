@@ -5,6 +5,7 @@ import { getOverallStats } from "@/lib/scoring";
 import {
   createSessionId,
   getProgressRepository,
+  PROGRESS_CHANGED_EVENT,
 } from "@/lib/progress/local-storage";
 import type { ProgressSnapshot } from "@/lib/progress/repository";
 import type { AnswerRecord, SessionRecord } from "@/types/question";
@@ -25,6 +26,12 @@ export function useProgress() {
 
   useEffect(() => {
     refresh();
+  }, [refresh]);
+
+  useEffect(() => {
+    const handleChange = () => refresh();
+    window.addEventListener(PROGRESS_CHANGED_EVENT, handleChange);
+    return () => window.removeEventListener(PROGRESS_CHANGED_EVENT, handleChange);
   }, [refresh]);
 
   const saveAnswer = useCallback(

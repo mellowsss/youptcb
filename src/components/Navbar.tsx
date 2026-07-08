@@ -7,12 +7,15 @@ import { useState } from "react";
 import {
   BookOpen,
   Home,
+  LogOut,
   Menu,
   Settings,
   Target,
   Timer,
   X,
 } from "lucide-react";
+import { SyncStatus } from "@/components/SyncStatus";
+import { useUser } from "@/contexts/UserContext";
 
 const links = [
   { href: "/", label: "Dashboard", Icon: Home },
@@ -25,6 +28,7 @@ const links = [
 export function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { profile, logout } = useUser();
 
   return (
     <>
@@ -70,6 +74,20 @@ export function Navbar() {
               );
             })}
           </nav>
+
+          <div className="hidden items-center gap-3 lg:flex">
+            <SyncStatus />
+            {profile && (
+              <button
+                type="button"
+                onClick={logout}
+                className="inline-flex items-center gap-1.5 rounded-full border border-stone px-3 py-2 text-xs font-medium uppercase tracking-widest text-forest/70 transition hover:bg-clay-light"
+              >
+                <LogOut strokeWidth={1.5} className="h-3.5 w-3.5" />
+                Switch user
+              </button>
+            )}
+          </div>
 
           <button
             type="button"
@@ -118,6 +136,22 @@ export function Navbar() {
                 );
               })}
             </nav>
+            <div className="mt-6 space-y-3 border-t border-stone pt-6">
+              <SyncStatus />
+              {profile && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    logout();
+                    setMobileOpen(false);
+                  }}
+                  className="flex w-full items-center justify-center gap-2 rounded-full border border-stone py-3 text-sm font-medium uppercase tracking-widest text-forest/70"
+                >
+                  <LogOut strokeWidth={1.5} className="h-4 w-4" />
+                  Switch user
+                </button>
+              )}
+            </div>
           </div>
         </div>
       )}
