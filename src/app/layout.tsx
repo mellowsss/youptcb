@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Navbar } from "@/components/Navbar";
 import { PaperGrain } from "@/components/ui/PaperGrain";
 import "./globals.css";
@@ -38,6 +39,7 @@ export default function RootLayout({
         <PaperGrain />
         <Navbar />
         <main className="mx-auto max-w-7xl flex-1 px-4 py-8 md:px-6 md:py-16">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
