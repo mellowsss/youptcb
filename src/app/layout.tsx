@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Navbar } from "@/components/Navbar";
 import { AppProviders } from "@/components/AppProviders";
 import { PaperGrain } from "@/components/ui/PaperGrain";
@@ -41,6 +42,7 @@ export default function RootLayout({
           <Navbar />
           <main className="mx-auto max-w-7xl flex-1 px-4 py-8 md:px-6 md:py-16">{children}</main>
         </AppProviders>
+        <Analytics />
       </body>
     </html>
   );
