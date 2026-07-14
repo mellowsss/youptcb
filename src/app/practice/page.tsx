@@ -8,6 +8,7 @@ import { DOMAINS } from "@/lib/domains";
 import { scoreSession } from "@/lib/scoring";
 import { useProgress } from "@/hooks/useProgress";
 import { SessionResults } from "@/components/SessionResults";
+import { shuffleOptions, type ShuffledOptions } from "@/lib/questions";
 import type { AnswerRecord, DomainId } from "@/types/question";
 
 function PracticeContent() {
@@ -26,6 +27,7 @@ function PracticeContent() {
   const [showFeedback, setShowFeedback] = useState(false);
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
   const [selectedMap, setSelectedMap] = useState<Record<string, number>>({});
+  const [shuffledOptionsMap, setShuffledOptionsMap] = useState<Record<string, ShuffledOptions>>({});
 
   const questions = useMemo(() => {
     if (!started) return [];
@@ -39,6 +41,16 @@ function PracticeContent() {
   }, [started, domain, subArea, count, repo]);
 
   const currentQuestion = questions[currentIndex];
+
+  const currentShuffled = useMemo(() => {
+    if (!currentQuestion) return null;
+    if (shuffledOptionsMap[currentQuestion.id]) {
+      return shuffledOptionsMap[currentQuestion.id];
+    }
+    const shuffled = shuffleOptions(currentQuestion.options, currentQuestion.correctIndex);
+    setShuffledOptionsMap((prev) => ({ ...prev, [currentQuestion.id]: shuffled }));
+    return shuffled;
+  }, [currentQuestion, shuffledOptionsMap]);
   const score = completed ? scoreSession(questions.map((q) => q.id), answers) : null;
 
   const handleStart = () => {
@@ -52,14 +64,15 @@ function PracticeContent() {
   };
 
   const handleSelect = (index: number) => {
-    if (!currentQuestion || showFeedback) return;
+    if (!currentQuestion || showFeedback || !currentShuffled) return;
     setSelectedIndex(index);
     setShowFeedback(true);
 
+    const isCorrect = index === currentShuffled.shuffledCorrectIndex;
     const record: AnswerRecord = {
       questionId: currentQuestion.id,
       selectedIndex: index,
-      correct: index === currentQuestion.correctIndex,
+      correct: isCorrect,
       timestamp: Date.now(),
       sessionId,
       mode: "practice",
@@ -100,7 +113,7 @@ function PracticeContent() {
     );
   }
 
-  if (started && currentQuestion) {
+  if (started && currentQuestion && currentShuffled) {
     return (
       <div className="mx-auto max-w-3xl space-y-4">
         <QuestionCard
@@ -111,6 +124,8 @@ function PracticeContent() {
           showFeedback={showFeedback}
           onSelect={handleSelect}
           disabled={showFeedback}
+          shuffledOptions={currentShuffled.options}
+          shuffledCorrectIndex={currentShuffled.shuffledCorrectIndex}
         />
         {showFeedback && (
           <div className="flex justify-end">

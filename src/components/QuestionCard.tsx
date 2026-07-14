@@ -11,6 +11,8 @@ interface QuestionCardProps {
   showFeedback: boolean;
   onSelect: (index: number) => void;
   disabled?: boolean;
+  shuffledOptions?: [string, string, string, string];
+  shuffledCorrectIndex?: 0 | 1 | 2 | 3;
 }
 
 export function QuestionCard({
@@ -21,9 +23,14 @@ export function QuestionCard({
   showFeedback,
   onSelect,
   disabled = false,
+  shuffledOptions,
+  shuffledCorrectIndex,
 }: QuestionCardProps) {
   const domain = DOMAIN_MAP[question.domain];
   const progress = (questionNumber / totalQuestions) * 100;
+
+  const displayOptions = shuffledOptions ?? question.options;
+  const correctIdx = shuffledCorrectIndex ?? question.correctIndex;
 
   return (
     <div className="overflow-hidden rounded-3xl border border-stone bg-white shadow-soft">
@@ -53,9 +60,9 @@ export function QuestionCard({
         </p>
 
         <div className="space-y-3">
-          {question.options.map((option, index) => {
+          {displayOptions.map((option, index) => {
             const isSelected = selectedIndex === index;
-            const isCorrect = index === question.correctIndex;
+            const isCorrect = index === correctIdx;
             let optionClass =
               "border-stone bg-white hover:border-sage hover:bg-clay-light/50";
 
@@ -97,13 +104,13 @@ export function QuestionCard({
         {showFeedback && (
           <div
             className={`mt-8 rounded-3xl border p-6 ${
-              selectedIndex === question.correctIndex
+              selectedIndex === correctIdx
                 ? "border-sage bg-clay-light text-forest"
                 : "border-terracotta/30 bg-clay-light/80 text-forest"
             }`}
           >
             <p className="font-serif text-lg font-semibold italic">
-              {selectedIndex === question.correctIndex ? "Correct" : "Incorrect"}
+              {selectedIndex === correctIdx ? "Correct" : "Incorrect"}
             </p>
             <p className="mt-3 leading-relaxed text-forest/80">{question.explanation}</p>
           </div>
