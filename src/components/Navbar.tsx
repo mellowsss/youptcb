@@ -12,6 +12,7 @@ import {
   Settings,
   Target,
   Timer,
+  Trophy,
   X,
 } from "lucide-react";
 import { SyncStatus } from "@/components/SyncStatus";
@@ -22,6 +23,7 @@ const links = [
   { href: "/practice", label: "Practice", Icon: BookOpen },
   { href: "/exam", label: "Practice Exam", Icon: Timer },
   { href: "/review", label: "Review", Icon: Target },
+  { href: "/leaderboard", label: "Leaderboard", Icon: Trophy },
   { href: "/admin/review", label: "Admin", Icon: Settings },
 ];
 
