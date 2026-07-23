@@ -8,6 +8,7 @@ import { buildMockExam } from "@/lib/exam-builder";
 import { MOCK_EXAM_SIZE, MOCK_EXAM_TIME_SECONDS } from "@/lib/domains";
 import { scoreSession } from "@/lib/scoring";
 import { useProgress } from "@/hooks/useProgress";
+import { shuffleOptions, type ShuffledOptions } from "@/lib/questions";
 import type { AnswerRecord } from "@/types/question";
 
 export default function ExamPage() {
@@ -22,6 +23,7 @@ export default function ExamPage() {
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
   const [selectedMap, setSelectedMap] = useState<Record<string, number>>({});
   const [timeUsedSeconds, setTimeUsedSeconds] = useState<number | undefined>();
+  const [shuffledOptionsMap, setShuffledOptionsMap] = useState<Record<string, ShuffledOptions>>({});
 
   const questions = useMemo(
     () => (started ? buildMockExam(repo.getFlaggedQuestionIds()) : []),
@@ -29,6 +31,16 @@ export default function ExamPage() {
   );
   const currentQuestion = questions[currentIndex];
   const score = completed ? scoreSession(questions.map((q) => q.id), answers) : null;
+
+  const currentShuffled = useMemo(() => {
+    if (!currentQuestion) return null;
+    if (shuffledOptionsMap[currentQuestion.id]) {
+      return shuffledOptionsMap[currentQuestion.id];
+    }
+    const shuffled = shuffleOptions(currentQuestion.options, currentQuestion.correctIndex);
+    setShuffledOptionsMap((prev) => ({ ...prev, [currentQuestion.id]: shuffled }));
+    return shuffled;
+  }, [currentQuestion, shuffledOptionsMap]);
 
   const finishExam = useCallback(() => {
     const elapsed = Math.round((Date.now() - startedAt) / 1000);
@@ -48,14 +60,15 @@ export default function ExamPage() {
   }, [answers, questions, saveSession, sessionId, startedAt, useTimer]);
 
   const handleSelect = (index: number) => {
-    if (!currentQuestion) return;
+    if (!currentQuestion || !currentShuffled) return;
     setSelectedIndex(index);
 
     const existing = answers.find((a) => a.questionId === currentQuestion.id);
+    const isCorrect = index === currentShuffled.shuffledCorrectIndex;
     const record: AnswerRecord = {
       questionId: currentQuestion.id,
       selectedIndex: index,
-      correct: index === currentQuestion.correctIndex,
+      correct: isCorrect,
       timestamp: Date.now(),
       sessionId,
       mode: "exam",
@@ -104,7 +117,7 @@ export default function ExamPage() {
     );
   }
 
-  if (started && currentQuestion) {
+  if (started && currentQuestion && currentShuffled) {
     return (
       <div className="mx-auto max-w-3xl space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
@@ -127,6 +140,8 @@ export default function ExamPage() {
           selectedIndex={selectedIndex}
           showFeedback={false}
           onSelect={handleSelect}
+          shuffledOptions={currentShuffled.options}
+          shuffledCorrectIndex={currentShuffled.shuffledCorrectIndex}
         />
 
         <div className="flex items-center justify-between gap-3">

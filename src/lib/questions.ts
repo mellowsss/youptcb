@@ -47,3 +47,29 @@ export function shuffleQuestions<T>(items: T[]): T[] {
   }
   return copy;
 }
+
+export interface ShuffledOptions {
+  options: [string, string, string, string];
+  shuffledCorrectIndex: 0 | 1 | 2 | 3;
+  indexMap: number[];
+}
+
+export function shuffleOptions(
+  options: [string, string, string, string],
+  correctIndex: 0 | 1 | 2 | 3
+): ShuffledOptions {
+  const indices = [0, 1, 2, 3];
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+
+  const shuffledOptions = indices.map((i) => options[i]) as [string, string, string, string];
+  const shuffledCorrectIndex = indices.indexOf(correctIndex) as 0 | 1 | 2 | 3;
+
+  return {
+    options: shuffledOptions,
+    shuffledCorrectIndex,
+    indexMap: indices,
+  };
+}

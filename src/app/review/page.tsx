@@ -5,7 +5,7 @@ import { QuestionCard } from "@/components/QuestionCard";
 import { MissedReviewList } from "@/components/MissedReviewList";
 import { buildReviewSet } from "@/lib/exam-builder";
 import { DOMAIN_MAP, DOMAINS } from "@/lib/domains";
-import { getQuestionById } from "@/lib/questions";
+import { getQuestionById, shuffleOptions, type ShuffledOptions } from "@/lib/questions";
 import { scoreSession } from "@/lib/scoring";
 import { useProgress } from "@/hooks/useProgress";
 import { SessionResults } from "@/components/SessionResults";
@@ -23,6 +23,7 @@ export default function ReviewPage() {
   const [showFeedback, setShowFeedback] = useState(false);
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
   const [selectedMap, setSelectedMap] = useState<Record<string, number>>({});
+  const [shuffledOptionsMap, setShuffledOptionsMap] = useState<Record<string, ShuffledOptions>>({});
 
   const filteredMissedIds = useMemo(() => {
     const ids = missedRecords
@@ -50,6 +51,16 @@ export default function ReviewPage() {
   const currentQuestion = quizQuestions[currentIndex];
   const score = completed ? scoreSession(quizQuestions.map((q) => q.id), answers) : null;
 
+  const currentShuffled = useMemo(() => {
+    if (!currentQuestion) return null;
+    if (shuffledOptionsMap[currentQuestion.id]) {
+      return shuffledOptionsMap[currentQuestion.id];
+    }
+    const shuffled = shuffleOptions(currentQuestion.options, currentQuestion.correctIndex);
+    setShuffledOptionsMap((prev) => ({ ...prev, [currentQuestion.id]: shuffled }));
+    return shuffled;
+  }, [currentQuestion, shuffledOptionsMap]);
+
   if (!ready) {
     return <div className="py-12 text-center text-slate-500">Loading missed questions...</div>;
   }
@@ -65,7 +76,24 @@ export default function ReviewPage() {
     );
   }
 
-  if (started && currentQuestion) {
+  if (started && currentQuestion && currentShuffled) {
+    const handleSelect = (index: number) => {
+      setSelectedIndex(index);
+      setShowFeedback(true);
+      const isCorrect = index === currentShuffled.shuffledCorrectIndex;
+      const record: AnswerRecord = {
+        questionId: currentQuestion.id,
+        selectedIndex: index,
+        correct: isCorrect,
+        timestamp: Date.now(),
+        sessionId,
+        mode: "review",
+      };
+      setAnswers((prev) => [...prev, record]);
+      setSelectedMap((prev) => ({ ...prev, [currentQuestion.id]: index }));
+      saveAnswer(record);
+    };
+
     return (
       <div className="mx-auto max-w-3xl space-y-4">
         <QuestionCard
@@ -74,22 +102,10 @@ export default function ReviewPage() {
           totalQuestions={quizQuestions.length}
           selectedIndex={selectedIndex}
           showFeedback={showFeedback}
-          onSelect={(index) => {
-            setSelectedIndex(index);
-            setShowFeedback(true);
-            const record: AnswerRecord = {
-              questionId: currentQuestion.id,
-              selectedIndex: index,
-              correct: index === currentQuestion.correctIndex,
-              timestamp: Date.now(),
-              sessionId,
-              mode: "review",
-            };
-            setAnswers((prev) => [...prev, record]);
-            setSelectedMap((prev) => ({ ...prev, [currentQuestion.id]: index }));
-            saveAnswer(record);
-          }}
+          onSelect={handleSelect}
           disabled={showFeedback}
+          shuffledOptions={currentShuffled.options}
+          shuffledCorrectIndex={currentShuffled.shuffledCorrectIndex}
         />
         {showFeedback && (
           <div className="flex justify-end gap-3">
@@ -170,6 +186,7 @@ export default function ReviewPage() {
             setCurrentIndex(0);
             setAnswers([]);
             setSelectedMap({});
+            setShuffledOptionsMap({});
           }}
           disabled={browseQuestions.length === 0}
           className={`rounded-xl px-4 py-2 text-sm font-medium disabled:opacity-40 ${
