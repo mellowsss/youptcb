@@ -9,6 +9,7 @@ import {
   Home,
   LogOut,
   Menu,
+  Pill,
   Settings,
   Target,
   Timer,
@@ -20,6 +21,7 @@ import { useUser } from "@/contexts/UserContext";
 const links = [
   { href: "/", label: "Dashboard", Icon: Home },
   { href: "/practice", label: "Practice", Icon: BookOpen },
+  { href: "/drugs", label: "Top 200 Drugs", Icon: Pill },
   { href: "/exam", label: "Practice Exam", Icon: Timer },
   { href: "/review", label: "Review", Icon: Target },
   { href: "/admin/review", label: "Admin", Icon: Settings },

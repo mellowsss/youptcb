@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:webpack": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate:questions": "tsx scripts/generate-questions.ts"
+    "generate:questions": "tsx scripts/generate-questions.ts",
+    "generate:drugs": "node --experimental-strip-types scripts/generate-top200-drugs.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.1",

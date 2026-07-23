@@ -1,0 +1,1802 @@
+[
+  {
+    "generic": "lisinopril",
+    "brand": "Prinivil/Zestril",
+    "drugClass": "ACE inhibitor",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, heart failure",
+    "ptceTip": "ACE inhibitors often cause dry cough.",
+    "id": "drug-001"
+  },
+  {
+    "generic": "amlodipine",
+    "brand": "Norvasc",
+    "drugClass": "Calcium channel blocker",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, angina",
+    "ptceTip": "Common side effect: peripheral edema.",
+    "id": "drug-002"
+  },
+  {
+    "generic": "metoprolol",
+    "brand": "Lopressor/Toprol XL",
+    "drugClass": "Beta blocker",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, angina, heart failure",
+    "ptceTip": "Do not stop abruptly.",
+    "id": "drug-003"
+  },
+  {
+    "generic": "atorvastatin",
+    "brand": "Lipitor",
+    "drugClass": "Statin",
+    "category": "Cardiovascular",
+    "indication": "Hyperlipidemia",
+    "ptceTip": "Take in evening for some statins; watch for myalgia.",
+    "id": "drug-004"
+  },
+  {
+    "generic": "losartan",
+    "brand": "Cozaar",
+    "drugClass": "ARB",
+    "category": "Cardiovascular",
+    "indication": "Hypertension",
+    "ptceTip": "ARB alternative when ACE cough occurs.",
+    "id": "drug-005"
+  },
+  {
+    "generic": "hydrochlorothiazide",
+    "brand": "Microzide",
+    "drugClass": "Thiazide diuretic",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, edema",
+    "ptceTip": "Monitor potassium.",
+    "id": "drug-006"
+  },
+  {
+    "generic": "furosemide",
+    "brand": "Lasix",
+    "drugClass": "Loop diuretic",
+    "category": "Cardiovascular",
+    "indication": "Edema, heart failure",
+    "ptceTip": "Take in morning to reduce night urination.",
+    "id": "drug-007"
+  },
+  {
+    "generic": "carvedilol",
+    "brand": "Coreg",
+    "drugClass": "Beta blocker",
+    "category": "Cardiovascular",
+    "indication": "Heart failure, hypertension",
+    "ptceTip": "Non-selective beta blocker with alpha block.",
+    "id": "drug-008"
+  },
+  {
+    "generic": "clopidogrel",
+    "brand": "Plavix",
+    "drugClass": "Antiplatelet",
+    "category": "Cardiovascular",
+    "indication": "CAD, stroke prevention",
+    "ptceTip": "Bleeding risk increases with NSAIDs.",
+    "id": "drug-009"
+  },
+  {
+    "generic": "warfarin",
+    "brand": "Coumadin",
+    "drugClass": "Anticoagulant",
+    "category": "Cardiovascular",
+    "indication": "AFib, DVT prevention",
+    "ptceTip": "INR monitoring; many drug/food interactions.",
+    "id": "drug-010"
+  },
+  {
+    "generic": "apixaban",
+    "brand": "Eliquis",
+    "drugClass": "DOAC",
+    "category": "Cardiovascular",
+    "indication": "AFib, DVT/PE",
+    "ptceTip": "No routine INR; reversal agents exist.",
+    "id": "drug-011"
+  },
+  {
+    "generic": "rivaroxaban",
+    "brand": "Xarelto",
+    "drugClass": "DOAC",
+    "category": "Cardiovascular",
+    "indication": "AFib, DVT/PE",
+    "ptceTip": "Take with evening meal for 15 mg dose.",
+    "id": "drug-012"
+  },
+  {
+    "generic": "spironolactone",
+    "brand": "Aldactone",
+    "drugClass": "K-sparing diuretic",
+    "category": "Cardiovascular",
+    "indication": "Heart failure, hyperaldosteronism",
+    "ptceTip": "Hyperkalemia risk.",
+    "id": "drug-013"
+  },
+  {
+    "generic": "diltiazem",
+    "brand": "Cardizem",
+    "drugClass": "Calcium channel blocker",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, angina, AFib rate control",
+    "ptceTip": "Non-dihydropyridine CCB.",
+    "id": "drug-014"
+  },
+  {
+    "generic": "enalapril",
+    "brand": "Vasotec",
+    "drugClass": "ACE inhibitor",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, heart failure",
+    "ptceTip": "ACE inhibitor class effect: cough.",
+    "id": "drug-015"
+  },
+  {
+    "generic": "valsartan",
+    "brand": "Diovan",
+    "drugClass": "ARB",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, heart failure",
+    "ptceTip": "Do not combine with ACE inhibitor.",
+    "id": "drug-016"
+  },
+  {
+    "generic": "rosuvastatin",
+    "brand": "Crestor",
+    "drugClass": "Statin",
+    "category": "Cardiovascular",
+    "indication": "Hyperlipidemia",
+    "ptceTip": "High-potency statin.",
+    "id": "drug-017"
+  },
+  {
+    "generic": "simvastatin",
+    "brand": "Zocor",
+    "drugClass": "Statin",
+    "category": "Cardiovascular",
+    "indication": "Hyperlipidemia",
+    "ptceTip": "Evening dosing; interaction with many drugs.",
+    "id": "drug-018"
+  },
+  {
+    "generic": "metformin",
+    "brand": "Glucophage",
+    "drugClass": "Biguanide",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes",
+    "ptceTip": "First-line T2DM; hold before contrast dye.",
+    "id": "drug-019"
+  },
+  {
+    "generic": "insulin glargine",
+    "brand": "Lantus/Basaglar",
+    "drugClass": "Long-acting insulin",
+    "category": "Diabetes",
+    "indication": "Diabetes mellitus",
+    "ptceTip": "Do not mix with other insulins in same syringe.",
+    "id": "drug-020"
+  },
+  {
+    "generic": "insulin lispro",
+    "brand": "Humalog",
+    "drugClass": "Rapid-acting insulin",
+    "category": "Diabetes",
+    "indication": "Diabetes mellitus",
+    "ptceTip": "Give with meals.",
+    "id": "drug-021"
+  },
+  {
+    "generic": "semaglutide",
+    "brand": "Ozempic",
+    "drugClass": "GLP-1 agonist",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes, weight management",
+    "ptceTip": "GI upset common initially.",
+    "id": "drug-022"
+  },
+  {
+    "generic": "glipizide",
+    "brand": "Glucotrol",
+    "drugClass": "Sulfonylurea",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes",
+    "ptceTip": "Hypoglycemia risk.",
+    "id": "drug-023"
+  },
+  {
+    "generic": "sitagliptin",
+    "brand": "Januvia",
+    "drugClass": "DPP-4 inhibitor",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes",
+    "ptceTip": "Weight-neutral oral agent.",
+    "id": "drug-024"
+  },
+  {
+    "generic": "empagliflozin",
+    "brand": "Jardiance",
+    "drugClass": "SGLT2 inhibitor",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes, heart failure",
+    "ptceTip": "Genital mycotic infection risk.",
+    "id": "drug-025"
+  },
+  {
+    "generic": "ibuprofen",
+    "brand": "Advil/Motrin",
+    "drugClass": "NSAID",
+    "category": "Pain & Inflammation",
+    "indication": "Pain, fever, inflammation",
+    "ptceTip": "Take with food; GI bleed risk.",
+    "id": "drug-026"
+  },
+  {
+    "generic": "acetaminophen",
+    "brand": "Tylenol",
+    "drugClass": "Analgesic/antipyretic",
+    "category": "Pain & Inflammation",
+    "indication": "Pain, fever",
+    "ptceTip": "Max 3-4 g/day adults; hepatotoxicity.",
+    "id": "drug-027"
+  },
+  {
+    "generic": "naproxen",
+    "brand": "Aleve/Naprosyn",
+    "drugClass": "NSAID",
+    "category": "Pain & Inflammation",
+    "indication": "Pain, inflammation",
+    "ptceTip": "Longer duration than ibuprofen.",
+    "id": "drug-028"
+  },
+  {
+    "generic": "tramadol",
+    "brand": "Ultram",
+    "drugClass": "Opioid analgesic",
+    "category": "Pain & Inflammation",
+    "indication": "Moderate pain",
+    "ptceTip": "Seizure risk; serotonin syndrome with SSRIs.",
+    "id": "drug-029"
+  },
+  {
+    "generic": "oxycodone",
+    "brand": "OxyContin/Roxicodone",
+    "drugClass": "Opioid (CII)",
+    "category": "Pain & Inflammation",
+    "indication": "Severe pain",
+    "ptceTip": "Schedule II; no refills.",
+    "id": "drug-030"
+  },
+  {
+    "generic": "hydrocodone/APAP",
+    "brand": "Norco/Vicodin",
+    "drugClass": "Opioid combo (CII/CIII)",
+    "category": "Pain & Inflammation",
+    "indication": "Moderate-severe pain",
+    "ptceTip": "Acetaminophen limits daily tablets.",
+    "id": "drug-031"
+  },
+  {
+    "generic": "gabapentin",
+    "brand": "Neurontin",
+    "drugClass": "Anticonvulsant",
+    "category": "Pain & Inflammation",
+    "indication": "Neuropathic pain, seizures",
+    "ptceTip": "Titrate slowly; sedation common.",
+    "id": "drug-032"
+  },
+  {
+    "generic": "pregabalin",
+    "brand": "Lyrica",
+    "drugClass": "Anticonvulsant",
+    "category": "Pain & Inflammation",
+    "indication": "Neuropathic pain, fibromyalgia",
+    "ptceTip": "CV risk in some states scheduled.",
+    "id": "drug-033"
+  },
+  {
+    "generic": "meloxicam",
+    "brand": "Mobic",
+    "drugClass": "NSAID",
+    "category": "Pain & Inflammation",
+    "indication": "OA, RA pain",
+    "ptceTip": "Once-daily NSAID.",
+    "id": "drug-034"
+  },
+  {
+    "generic": "sertraline",
+    "brand": "Zoloft",
+    "drugClass": "SSRI",
+    "category": "Mental Health",
+    "indication": "Depression, anxiety",
+    "ptceTip": "Take morning if insomnia.",
+    "id": "drug-035"
+  },
+  {
+    "generic": "escitalopram",
+    "brand": "Lexapro",
+    "drugClass": "SSRI",
+    "category": "Mental Health",
+    "indication": "Depression, anxiety",
+    "ptceTip": "SSRI class: serotonin syndrome risk.",
+    "id": "drug-036"
+  },
+  {
+    "generic": "fluoxetine",
+    "brand": "Prozac",
+    "drugClass": "SSRI",
+    "category": "Mental Health",
+    "indication": "Depression, OCD, panic",
+    "ptceTip": "Long half-life.",
+    "id": "drug-037"
+  },
+  {
+    "generic": "duloxetine",
+    "brand": "Cymbalta",
+    "drugClass": "SNRI",
+    "category": "Mental Health",
+    "indication": "Depression, neuropathic pain",
+    "ptceTip": "Do not stop abruptly.",
+    "id": "drug-038"
+  },
+  {
+    "generic": "bupropion",
+    "brand": "Wellbutrin",
+    "drugClass": "NDRI",
+    "category": "Mental Health",
+    "indication": "Depression, smoking cessation",
+    "ptceTip": "Lowers seizure threshold.",
+    "id": "drug-039"
+  },
+  {
+    "generic": "alprazolam",
+    "brand": "Xanax",
+    "drugClass": "Benzodiazepine (CIV)",
+    "category": "Mental Health",
+    "indication": "Anxiety, panic",
+    "ptceTip": "Short-acting benzo; dependence risk.",
+    "id": "drug-040"
+  },
+  {
+    "generic": "lorazepam",
+    "brand": "Ativan",
+    "drugClass": "Benzodiazepine (CIV)",
+    "category": "Mental Health",
+    "indication": "Anxiety, seizures",
+    "ptceTip": "No active metabolites.",
+    "id": "drug-041"
+  },
+  {
+    "generic": "quetiapine",
+    "brand": "Seroquel",
+    "drugClass": "Atypical antipsychotic",
+    "category": "Mental Health",
+    "indication": "Bipolar, schizophrenia",
+    "ptceTip": "Sedation and metabolic effects.",
+    "id": "drug-042"
+  },
+  {
+    "generic": "aripiprazole",
+    "brand": "Abilify",
+    "drugClass": "Atypical antipsychotic",
+    "category": "Mental Health",
+    "indication": "Schizophrenia, bipolar",
+    "ptceTip": "Partial dopamine agonist.",
+    "id": "drug-043"
+  },
+  {
+    "generic": "methylphenidate",
+    "brand": "Ritalin/Concerta",
+    "drugClass": "Stimulant (CII)",
+    "category": "Mental Health",
+    "indication": "ADHD",
+    "ptceTip": "Schedule II stimulant.",
+    "id": "drug-044"
+  },
+  {
+    "generic": "amphetamine salts",
+    "brand": "Adderall",
+    "drugClass": "Stimulant (CII)",
+    "category": "Mental Health",
+    "indication": "ADHD",
+    "ptceTip": "Controlled substance; appetite suppression.",
+    "id": "drug-045"
+  },
+  {
+    "generic": "albuterol",
+    "brand": "ProAir/Ventolin",
+    "drugClass": "SABA",
+    "category": "Respiratory",
+    "indication": "Bronchospasm, asthma",
+    "ptceTip": "Rescue inhaler; tremor common.",
+    "id": "drug-046"
+  },
+  {
+    "generic": "fluticasone",
+    "brand": "Flovent",
+    "drugClass": "ICS",
+    "category": "Respiratory",
+    "indication": "Asthma maintenance",
+    "ptceTip": "Rinse mouth after use.",
+    "id": "drug-047"
+  },
+  {
+    "generic": "budesonide/formoterol",
+    "brand": "Symbicort",
+    "drugClass": "ICS/LABA",
+    "category": "Respiratory",
+    "indication": "Asthma, COPD",
+    "ptceTip": "Combination inhaler.",
+    "id": "drug-048"
+  },
+  {
+    "generic": "tiotropium",
+    "brand": "Spiriva",
+    "drugClass": "LAMA",
+    "category": "Respiratory",
+    "indication": "COPD",
+    "ptceTip": "Dry powder or soft mist inhaler.",
+    "id": "drug-049"
+  },
+  {
+    "generic": "montelukast",
+    "brand": "Singulair",
+    "drugClass": "Leukotriene antagonist",
+    "category": "Respiratory",
+    "indication": "Asthma, allergic rhinitis",
+    "ptceTip": "Neuropsychiatric warnings.",
+    "id": "drug-050"
+  },
+  {
+    "generic": "prednisone",
+    "brand": "Deltasone",
+    "drugClass": "Corticosteroid",
+    "category": "Respiratory",
+    "indication": "Inflammation, asthma exacerbation",
+    "ptceTip": "Taper if long course.",
+    "id": "drug-051"
+  },
+  {
+    "generic": "amoxicillin",
+    "brand": "Amoxil",
+    "drugClass": "Penicillin",
+    "category": "Antibiotic",
+    "indication": "Bacterial infections",
+    "ptceTip": "Suspension refrigerated; allergy cross-reactivity.",
+    "id": "drug-052"
+  },
+  {
+    "generic": "amoxicillin/clavulanate",
+    "brand": "Augmentin",
+    "drugClass": "Penicillin + beta-lactamase inhibitor",
+    "category": "Antibiotic",
+    "indication": "Resistant infections",
+    "ptceTip": "GI upset common.",
+    "id": "drug-053"
+  },
+  {
+    "generic": "azithromycin",
+    "brand": "Zithromax/Z-Pak",
+    "drugClass": "Macrolide",
+    "category": "Antibiotic",
+    "indication": "Respiratory infections",
+    "ptceTip": "QT prolongation risk.",
+    "id": "drug-054"
+  },
+  {
+    "generic": "ciprofloxacin",
+    "brand": "Cipro",
+    "drugClass": "Fluoroquinolone",
+    "category": "Antibiotic",
+    "indication": "UTI, GI infections",
+    "ptceTip": "Tendon rupture risk; avoid dairy/calcium timing.",
+    "id": "drug-055"
+  },
+  {
+    "generic": "doxycycline",
+    "brand": "Vibramycin",
+    "drugClass": "Tetracycline",
+    "category": "Antibiotic",
+    "indication": "Acne, tick-borne illness",
+    "ptceTip": "Photosensitivity; avoid in pregnancy.",
+    "id": "drug-056"
+  },
+  {
+    "generic": "cephalexin",
+    "brand": "Keflex",
+    "drugClass": "Cephalosporin (1st gen)",
+    "category": "Antibiotic",
+    "indication": "Skin, UTI infections",
+    "ptceTip": "Take with or without food.",
+    "id": "drug-057"
+  },
+  {
+    "generic": "trimethoprim/sulfamethoxazole",
+    "brand": "Bactrim/Septra",
+    "drugClass": "Sulfonamide combo",
+    "category": "Antibiotic",
+    "indication": "UTI, MRSA (some)",
+    "ptceTip": "Sulfa allergy; hyperkalemia with trimethoprim.",
+    "id": "drug-058"
+  },
+  {
+    "generic": "nitrofurantoin",
+    "brand": "Macrobid/Macrodantin",
+    "drugClass": "Antibiotic",
+    "category": "Antibiotic",
+    "indication": "UTI prophylaxis/treatment",
+    "ptceTip": "Take with food.",
+    "id": "drug-059"
+  },
+  {
+    "generic": "omeprazole",
+    "brand": "Prilosec",
+    "drugClass": "PPI",
+    "category": "GI",
+    "indication": "GERD, ulcer prevention",
+    "ptceTip": "Take before breakfast.",
+    "id": "drug-060"
+  },
+  {
+    "generic": "pantoprazole",
+    "brand": "Protonix",
+    "drugClass": "PPI",
+    "category": "GI",
+    "indication": "GERD, erosive esophagitis",
+    "ptceTip": "IV/oral PPI.",
+    "id": "drug-061"
+  },
+  {
+    "generic": "famotidine",
+    "brand": "Pepcid",
+    "drugClass": "H2 blocker",
+    "category": "GI",
+    "indication": "GERD, heartburn",
+    "ptceTip": "Can use PRN heartburn.",
+    "id": "drug-062"
+  },
+  {
+    "generic": "ondansetron",
+    "brand": "Zofran",
+    "drugClass": "5-HT3 antagonist",
+    "category": "GI",
+    "indication": "Nausea/vomiting",
+    "ptceTip": "QT prolongation at high doses.",
+    "id": "drug-063"
+  },
+  {
+    "generic": "docusate",
+    "brand": "Colace",
+    "drugClass": "Stool softener",
+    "category": "GI",
+    "indication": "Constipation",
+    "ptceTip": "Stool softener not stimulant.",
+    "id": "drug-064"
+  },
+  {
+    "generic": "polyethylene glycol",
+    "brand": "MiraLAX",
+    "drugClass": "Osmotic laxative",
+    "category": "GI",
+    "indication": "Constipation",
+    "ptceTip": "Mix in liquid.",
+    "id": "drug-065"
+  },
+  {
+    "generic": "levothyroxine",
+    "brand": "Synthroid",
+    "drugClass": "Thyroid hormone",
+    "category": "Thyroid & Hormone",
+    "indication": "Hypothyroidism",
+    "ptceTip": "Take on empty stomach.",
+    "id": "drug-066"
+  },
+  {
+    "generic": "methimazole",
+    "brand": "Tapazole",
+    "drugClass": "Antithyroid",
+    "category": "Thyroid & Hormone",
+    "indication": "Hyperthyroidism",
+    "ptceTip": "Agranulocytosis warning.",
+    "id": "drug-067"
+  },
+  {
+    "generic": "estradiol",
+    "brand": "Estrace/Climara",
+    "drugClass": "Estrogen",
+    "category": "Thyroid & Hormone",
+    "indication": "Menopause symptoms",
+    "ptceTip": "Transdermal avoids first-pass.",
+    "id": "drug-068"
+  },
+  {
+    "generic": "testosterone",
+    "brand": "AndroGel",
+    "drugClass": "Androgen",
+    "category": "Thyroid & Hormone",
+    "indication": "Hypogonadism",
+    "ptceTip": "Controlled transfer risk topically.",
+    "id": "drug-069"
+  },
+  {
+    "generic": "hydrocortisone",
+    "brand": "Cortef",
+    "drugClass": "Corticosteroid",
+    "category": "Dermatology",
+    "indication": "Adrenal insufficiency, inflammation",
+    "ptceTip": "Short-acting steroid.",
+    "id": "drug-070"
+  },
+  {
+    "generic": "triamcinolone cream",
+    "brand": "Kenalog",
+    "drugClass": "Topical corticosteroid",
+    "category": "Dermatology",
+    "indication": "Eczema, dermatitis",
+    "ptceTip": "Potency varies by vehicle.",
+    "id": "drug-071"
+  },
+  {
+    "generic": "clotrimazole",
+    "brand": "Lotrimin",
+    "drugClass": "Antifungal azole",
+    "category": "Dermatology",
+    "indication": "Fungal skin infections",
+    "ptceTip": "OTC topical antifungal.",
+    "id": "drug-072"
+  },
+  {
+    "generic": "finasteride",
+    "brand": "Proscar/Propecia",
+    "drugClass": "5-alpha reductase inhibitor",
+    "category": "Other",
+    "indication": "BPH, alopecia",
+    "ptceTip": "Teratogenic; handle carefully.",
+    "id": "drug-073"
+  },
+  {
+    "generic": "tamsulosin",
+    "brand": "Flomax",
+    "drugClass": "Alpha blocker",
+    "category": "Other",
+    "indication": "BPH",
+    "ptceTip": "First-dose hypotension.",
+    "id": "drug-074"
+  },
+  {
+    "generic": "sildenafil",
+    "brand": "Viagra",
+    "drugClass": "PDE-5 inhibitor",
+    "category": "Other",
+    "indication": "Erectile dysfunction, PAH",
+    "ptceTip": "No nitrates.",
+    "id": "drug-075"
+  },
+  {
+    "generic": "allopurinol",
+    "brand": "Zyloprim",
+    "drugClass": "Xanthine oxidase inhibitor",
+    "category": "Other",
+    "indication": "Gout prevention",
+    "ptceTip": "Start low; rash risk.",
+    "id": "drug-076"
+  },
+  {
+    "generic": "colchicine",
+    "brand": "Colcrys",
+    "drugClass": "Antigout",
+    "category": "Other",
+    "indication": "Gout flare",
+    "ptceTip": "GI toxicity in overdose.",
+    "id": "drug-077"
+  },
+  {
+    "generic": "methotrexate",
+    "brand": "Trexall",
+    "drugClass": "DMARD",
+    "category": "Other",
+    "indication": "RA, psoriasis",
+    "ptceTip": "Folic acid often prescribed.",
+    "id": "drug-078"
+  },
+  {
+    "generic": "cyclobenzaprine",
+    "brand": "Flexeril",
+    "drugClass": "Muscle relaxant",
+    "category": "Other",
+    "indication": "Muscle spasm",
+    "ptceTip": "Sedating.",
+    "id": "drug-079"
+  },
+  {
+    "generic": "zolpidem",
+    "brand": "Ambien",
+    "drugClass": "Sedative-hypnotic (CIV)",
+    "category": "Other",
+    "indication": "Insomnia",
+    "ptceTip": "Short-term use; complex sleep behaviors.",
+    "id": "drug-080"
+  },
+  {
+    "generic": "diphenhydramine",
+    "brand": "Benadryl",
+    "drugClass": "Antihistamine 1st gen",
+    "category": "Other",
+    "indication": "Allergies, sleep aid",
+    "ptceTip": "Anticholinergic; sedation.",
+    "id": "drug-081"
+  },
+  {
+    "generic": "cetirizine",
+    "brand": "Zyrtec",
+    "drugClass": "Antihistamine 2nd gen",
+    "category": "Other",
+    "indication": "Allergic rhinitis, urticaria",
+    "ptceTip": "Less sedating than diphenhydramine.",
+    "id": "drug-082"
+  },
+  {
+    "generic": "loratadine",
+    "brand": "Claritin",
+    "drugClass": "Antihistamine 2nd gen",
+    "category": "Other",
+    "indication": "Allergic rhinitis",
+    "ptceTip": "Non-sedating antihistamine.",
+    "id": "drug-083"
+  },
+  {
+    "generic": "fluticasone nasal",
+    "brand": "Flonase",
+    "drugClass": "Intranasal corticosteroid",
+    "category": "Other",
+    "indication": "Allergic rhinitis",
+    "ptceTip": "Prime spray initially.",
+    "id": "drug-084"
+  },
+  {
+    "generic": "epinephrine",
+    "brand": "EpiPen",
+    "drugClass": "Sympathomimetic",
+    "category": "Other",
+    "indication": "Anaphylaxis",
+    "ptceTip": "IM anterolateral thigh.",
+    "id": "drug-085"
+  },
+  {
+    "generic": "naloxone",
+    "brand": "Narcan",
+    "drugClass": "Opioid antagonist",
+    "category": "Other",
+    "indication": "Opioid overdose",
+    "ptceTip": "May need repeat doses.",
+    "id": "drug-086"
+  },
+  {
+    "generic": "methylprednisolone",
+    "brand": "Medrol Dosepak",
+    "drugClass": "Corticosteroid",
+    "category": "Other",
+    "indication": "Inflammation",
+    "ptceTip": "Taper packs common.",
+    "id": "drug-087"
+  },
+  {
+    "generic": "digoxin",
+    "brand": "Lanoxin",
+    "drugClass": "Cardiac glycoside",
+    "category": "Cardiovascular",
+    "indication": "Heart failure, AFib",
+    "ptceTip": "Narrow therapeutic index.",
+    "id": "drug-088"
+  },
+  {
+    "generic": "isosorbide mononitrate",
+    "brand": "Imdur",
+    "drugClass": "Nitrate",
+    "category": "Cardiovascular",
+    "indication": "Angina prevention",
+    "ptceTip": "Nitrate-free interval needed.",
+    "id": "drug-089"
+  },
+  {
+    "generic": "nitroglycerin",
+    "brand": "Nitrostat",
+    "drugClass": "Nitrate",
+    "category": "Cardiovascular",
+    "indication": "Acute angina",
+    "ptceTip": "SL tablet; light-sensitive.",
+    "id": "drug-090"
+  },
+  {
+    "generic": "amiodarone",
+    "brand": "Pacerone",
+    "drugClass": "Antiarrhythmic",
+    "category": "Cardiovascular",
+    "indication": "Ventricular arrhythmias, AFib",
+    "ptceTip": "Pulmonary/thyroid toxicity.",
+    "id": "drug-091"
+  },
+  {
+    "generic": "prasugrel",
+    "brand": "Effient",
+    "drugClass": "Antiplatelet",
+    "category": "Cardiovascular",
+    "indication": "ACS with PCI",
+    "ptceTip": "More potent than clopidogrel.",
+    "id": "drug-092"
+  },
+  {
+    "generic": "ticagrelor",
+    "brand": "Brilinta",
+    "drugClass": "Antiplatelet",
+    "category": "Cardiovascular",
+    "indication": "ACS",
+    "ptceTip": "Dyspnea side effect.",
+    "id": "drug-093"
+  },
+  {
+    "generic": "sacubitril/valsartan",
+    "brand": "Entresto",
+    "drugClass": "ARNI",
+    "category": "Cardiovascular",
+    "indication": "HFrEF",
+    "ptceTip": "Do not use with ACE inhibitor.",
+    "id": "drug-094"
+  },
+  {
+    "generic": "ranolazine",
+    "brand": "Ranexa",
+    "drugClass": "Antianginal",
+    "category": "Cardiovascular",
+    "indication": "Chronic angina",
+    "ptceTip": "QT prolongation.",
+    "id": "drug-095"
+  },
+  {
+    "generic": "ezetimibe",
+    "brand": "Zetia",
+    "drugClass": "Cholesterol absorption inhibitor",
+    "category": "Cardiovascular",
+    "indication": "Hyperlipidemia",
+    "ptceTip": "Often combined with statin.",
+    "id": "drug-096"
+  },
+  {
+    "generic": "fenofibrate",
+    "brand": "Tricor",
+    "drugClass": "Fibrate",
+    "category": "Cardiovascular",
+    "indication": "Hypertriglyceridemia",
+    "ptceTip": "Myopathy with statins.",
+    "id": "drug-097"
+  },
+  {
+    "generic": "pravastatin",
+    "brand": "Pravachol",
+    "drugClass": "Statin",
+    "category": "Cardiovascular",
+    "indication": "Hyperlipidemia",
+    "ptceTip": "Fewer CYP interactions.",
+    "id": "drug-098"
+  },
+  {
+    "generic": "propranolol",
+    "brand": "Inderal",
+    "drugClass": "Beta blocker",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, migraine prophylaxis",
+    "ptceTip": "Non-selective beta blocker.",
+    "id": "drug-099"
+  },
+  {
+    "generic": "atenolol",
+    "brand": "Tenormin",
+    "drugClass": "Beta blocker",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, angina",
+    "ptceTip": "Beta-1 selective.",
+    "id": "drug-100"
+  },
+  {
+    "generic": "bisoprolol",
+    "brand": "Zebeta",
+    "drugClass": "Beta blocker",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, heart failure",
+    "ptceTip": "Beta-1 selective.",
+    "id": "drug-101"
+  },
+  {
+    "generic": "verapamil",
+    "brand": "Calan",
+    "drugClass": "Calcium channel blocker",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, AFib",
+    "ptceTip": "Constipation common.",
+    "id": "drug-102"
+  },
+  {
+    "generic": "hydralazine",
+    "brand": "Apresoline",
+    "drugClass": "Vasodilator",
+    "category": "Cardiovascular",
+    "indication": "Hypertension",
+    "ptceTip": "Reflex tachycardia.",
+    "id": "drug-103"
+  },
+  {
+    "generic": "clonidine",
+    "brand": "Catapres",
+    "drugClass": "Alpha-2 agonist",
+    "category": "Cardiovascular",
+    "indication": "Hypertension, ADHD",
+    "ptceTip": "Rebound hypertension if stopped.",
+    "id": "drug-104"
+  },
+  {
+    "generic": "insulin aspart",
+    "brand": "NovoLog",
+    "drugClass": "Rapid insulin",
+    "category": "Diabetes",
+    "indication": "Diabetes",
+    "ptceTip": "Rapid acting mealtime insulin.",
+    "id": "drug-105"
+  },
+  {
+    "generic": "insulin detemir",
+    "brand": "Levemir",
+    "drugClass": "Long-acting insulin",
+    "category": "Diabetes",
+    "indication": "Diabetes",
+    "ptceTip": "May need twice daily.",
+    "id": "drug-106"
+  },
+  {
+    "generic": "insulin degludec",
+    "brand": "Tresiba",
+    "drugClass": "Ultra long insulin",
+    "category": "Diabetes",
+    "indication": "Diabetes",
+    "ptceTip": "Very long duration.",
+    "id": "drug-107"
+  },
+  {
+    "generic": "glyburide",
+    "brand": "DiaBeta",
+    "drugClass": "Sulfonylurea",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes",
+    "ptceTip": "Higher hypoglycemia risk in elderly.",
+    "id": "drug-108"
+  },
+  {
+    "generic": "pioglitazone",
+    "brand": "Actos",
+    "drugClass": "Thiazolidinedione",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes",
+    "ptceTip": "Edema and heart failure risk.",
+    "id": "drug-109"
+  },
+  {
+    "generic": "canagliflozin",
+    "brand": "Invokana",
+    "drugClass": "SGLT2 inhibitor",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes",
+    "ptceTip": "Volume depletion risk.",
+    "id": "drug-110"
+  },
+  {
+    "generic": "liraglutide",
+    "brand": "Victoza",
+    "drugClass": "GLP-1 agonist",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes",
+    "ptceTip": "Injectable GLP-1.",
+    "id": "drug-111"
+  },
+  {
+    "generic": "dulaglutide",
+    "brand": "Trulicity",
+    "drugClass": "GLP-1 agonist",
+    "category": "Diabetes",
+    "indication": "Type 2 diabetes",
+    "ptceTip": "Weekly injection.",
+    "id": "drug-112"
+  },
+  {
+    "generic": "metoclopramide",
+    "brand": "Reglan",
+    "drugClass": "Prokinetic/antiemetic",
+    "category": "GI",
+    "indication": "Gastroparesis, nausea",
+    "ptceTip": "Extrapyramidal effects.",
+    "id": "drug-113"
+  },
+  {
+    "generic": "sucralfate",
+    "brand": "Carafate",
+    "drugClass": "Mucosal protectant",
+    "category": "GI",
+    "indication": "Ulcer",
+    "ptceTip": "Separate from other meds.",
+    "id": "drug-114"
+  },
+  {
+    "generic": "loperamide",
+    "brand": "Imodium",
+    "drugClass": "Antidiarrheal",
+    "category": "GI",
+    "indication": "Diarrhea",
+    "ptceTip": "OTC antidiarrheal.",
+    "id": "drug-115"
+  },
+  {
+    "generic": "mesalamine",
+    "brand": "Asacol/Lialda",
+    "drugClass": "5-ASA",
+    "category": "GI",
+    "indication": "Ulcerative colitis",
+    "ptceTip": "Do not crush delayed-release.",
+    "id": "drug-116"
+  },
+  {
+    "generic": "lansoprazole",
+    "brand": "Prevacid",
+    "drugClass": "PPI",
+    "category": "GI",
+    "indication": "GERD",
+    "ptceTip": "PPI before meals.",
+    "id": "drug-117"
+  },
+  {
+    "generic": "esomeprazole",
+    "brand": "Nexium",
+    "drugClass": "PPI",
+    "category": "GI",
+    "indication": "GERD",
+    "ptceTip": "S-isomer of omeprazole.",
+    "id": "drug-118"
+  },
+  {
+    "generic": "promethazine",
+    "brand": "Phenergan",
+    "drugClass": "Antihistamine/antiemetic",
+    "category": "GI",
+    "indication": "Nausea, allergies",
+    "ptceTip": "Sedation; tissue injury if IV extravasation.",
+    "id": "drug-119"
+  },
+  {
+    "generic": "ceftriaxone",
+    "brand": "Rocephin",
+    "drugClass": "Cephalosporin (3rd gen)",
+    "category": "Antibiotic",
+    "indication": "Serious infections",
+    "ptceTip": "IM/IV; biliary sludging in neonates.",
+    "id": "drug-120"
+  },
+  {
+    "generic": "levofloxacin",
+    "brand": "Levaquin",
+    "drugClass": "Fluoroquinolone",
+    "category": "Antibiotic",
+    "indication": "Respiratory, UTI",
+    "ptceTip": "Tendon and CNS effects.",
+    "id": "drug-121"
+  },
+  {
+    "generic": "metronidazole",
+    "brand": "Flagyl",
+    "drugClass": "Nitroimidazole",
+    "category": "Antibiotic",
+    "indication": "Anaerobic infections, C. diff",
+    "ptceTip": "No alcohol (disulfiram-like).",
+    "id": "drug-122"
+  },
+  {
+    "generic": "clindamycin",
+    "brand": "Cleocin",
+    "drugClass": "Lincosamide",
+    "category": "Antibiotic",
+    "indication": "Skin, anaerobic infections",
+    "ptceTip": "C. diff risk.",
+    "id": "drug-123"
+  },
+  {
+    "generic": "vancomycin",
+    "brand": "Vancocin",
+    "drugClass": "Glycopeptide",
+    "category": "Antibiotic",
+    "indication": "MRSA, C. diff (oral)",
+    "ptceTip": "Trough levels for IV.",
+    "id": "drug-124"
+  },
+  {
+    "generic": "linezolid",
+    "brand": "Zyvox",
+    "drugClass": "Oxazolidinone",
+    "category": "Antibiotic",
+    "indication": "MRSA, VRE",
+    "ptceTip": "Serotonin syndrome with SSRIs.",
+    "id": "drug-125"
+  },
+  {
+    "generic": "daptomycin",
+    "brand": "Cubicin",
+    "drugClass": "Lipopeptide",
+    "category": "Antibiotic",
+    "indication": "MRSA bacteremia",
+    "ptceTip": "CK monitoring.",
+    "id": "drug-126"
+  },
+  {
+    "generic": "rifampin",
+    "brand": "Rifadin",
+    "drugClass": "Antitubercular",
+    "category": "Antibiotic",
+    "indication": "TB, prophylaxis",
+    "ptceTip": "Orange body fluids.",
+    "id": "drug-127"
+  },
+  {
+    "generic": "isoniazid",
+    "brand": "INH",
+    "drugClass": "Antitubercular",
+    "category": "Antibiotic",
+    "indication": "Tuberculosis",
+    "ptceTip": "Peripheral neuropathy; B6.",
+    "id": "drug-128"
+  },
+  {
+    "generic": "acyclovir",
+    "brand": "Zovirax",
+    "drugClass": "Antiviral",
+    "category": "Antibiotic",
+    "indication": "Herpes infections",
+    "ptceTip": "Renal dosing.",
+    "id": "drug-129"
+  },
+  {
+    "generic": "valacyclovir",
+    "brand": "Valtrex",
+    "drugClass": "Antiviral prodrug",
+    "category": "Antibiotic",
+    "indication": "Herpes, shingles",
+    "ptceTip": "Prodrug of acyclovir.",
+    "id": "drug-130"
+  },
+  {
+    "generic": "oseltamivir",
+    "brand": "Tamiflu",
+    "drugClass": "Neuraminidase inhibitor",
+    "category": "Antibiotic",
+    "indication": "Influenza",
+    "ptceTip": "Start within 48 hours.",
+    "id": "drug-131"
+  },
+  {
+    "generic": "nirmatrelvir/ritonavir",
+    "brand": "Paxlovid",
+    "drugClass": "Antiviral combo",
+    "category": "Antibiotic",
+    "indication": "COVID-19",
+    "ptceTip": "Many drug interactions via ritonavir.",
+    "id": "drug-132"
+  },
+  {
+    "generic": "paroxetine",
+    "brand": "Paxil",
+    "drugClass": "SSRI",
+    "category": "Mental Health",
+    "indication": "Depression, anxiety",
+    "ptceTip": "Anticholinergic among SSRIs.",
+    "id": "drug-133"
+  },
+  {
+    "generic": "venlafaxine",
+    "brand": "Effexor",
+    "drugClass": "SNRI",
+    "category": "Mental Health",
+    "indication": "Depression, anxiety",
+    "ptceTip": "Hypertension at high doses.",
+    "id": "drug-134"
+  },
+  {
+    "generic": "mirtazapine",
+    "brand": "Remeron",
+    "drugClass": "Tetracyclic antidepressant",
+    "category": "Mental Health",
+    "indication": "Depression",
+    "ptceTip": "Increases appetite.",
+    "id": "drug-135"
+  },
+  {
+    "generic": "trazodone",
+    "brand": "Desyrel",
+    "drugClass": "SARI",
+    "category": "Mental Health",
+    "indication": "Depression, insomnia",
+    "ptceTip": "Sedation common.",
+    "id": "drug-136"
+  },
+  {
+    "generic": "lithium",
+    "brand": "Lithobid",
+    "drugClass": "Mood stabilizer",
+    "category": "Mental Health",
+    "indication": "Bipolar disorder",
+    "ptceTip": "Narrow therapeutic index; hydration.",
+    "id": "drug-137"
+  },
+  {
+    "generic": "lamotrigine",
+    "brand": "Lamictal",
+    "drugClass": "Anticonvulsant",
+    "category": "Mental Health",
+    "indication": "Bipolar, seizures",
+    "ptceTip": "SJS risk; slow titration.",
+    "id": "drug-138"
+  },
+  {
+    "generic": "olanzapine",
+    "brand": "Zyprexa",
+    "drugClass": "Atypical antipsychotic",
+    "category": "Mental Health",
+    "indication": "Schizophrenia, bipolar",
+    "ptceTip": "Metabolic weight gain.",
+    "id": "drug-139"
+  },
+  {
+    "generic": "risperidone",
+    "brand": "Risperdal",
+    "drugClass": "Atypical antipsychotic",
+    "category": "Mental Health",
+    "indication": "Schizophrenia, bipolar",
+    "ptceTip": "EPS and prolactin effects.",
+    "id": "drug-140"
+  },
+  {
+    "generic": "haloperidol",
+    "brand": "Haldol",
+    "drugClass": "Typical antipsychotic",
+    "category": "Mental Health",
+    "indication": "Psychosis, agitation",
+    "ptceTip": "EPS and QT risk.",
+    "id": "drug-141"
+  },
+  {
+    "generic": "buspirone",
+    "brand": "Buspar",
+    "drugClass": "Anxiolytic",
+    "category": "Mental Health",
+    "indication": "Anxiety",
+    "ptceTip": "Not a benzo; delayed onset.",
+    "id": "drug-142"
+  },
+  {
+    "generic": "atomoxetine",
+    "brand": "Strattera",
+    "drugClass": "NRI",
+    "category": "Mental Health",
+    "indication": "ADHD",
+    "ptceTip": "Non-stimulant ADHD option.",
+    "id": "drug-143"
+  },
+  {
+    "generic": "guanfacine ER",
+    "brand": "Intuniv",
+    "drugClass": "Alpha-2 agonist",
+    "category": "Mental Health",
+    "indication": "ADHD",
+    "ptceTip": "Sedation and hypotension.",
+    "id": "drug-144"
+  },
+  {
+    "generic": "formoterol",
+    "brand": "Foradil",
+    "drugClass": "LABA",
+    "category": "Respiratory",
+    "indication": "Asthma, COPD",
+    "ptceTip": "Not for acute rescue.",
+    "id": "drug-145"
+  },
+  {
+    "generic": "salmeterol",
+    "brand": "Serevent",
+    "drugClass": "LABA",
+    "category": "Respiratory",
+    "indication": "Asthma, COPD",
+    "ptceTip": "Always with ICS in asthma.",
+    "id": "drug-146"
+  },
+  {
+    "generic": "ipratropium",
+    "brand": "Atrovent",
+    "drugClass": "SAMA",
+    "category": "Respiratory",
+    "indication": "COPD, bronchospasm",
+    "ptceTip": "Anticholinergic inhaler.",
+    "id": "drug-147"
+  },
+  {
+    "generic": "roflumilast",
+    "brand": "Daliresp",
+    "drugClass": "PDE-4 inhibitor",
+    "category": "Respiratory",
+    "indication": "COPD",
+    "ptceTip": "Oral COPD maintenance.",
+    "id": "drug-148"
+  },
+  {
+    "generic": "benzonatate",
+    "brand": "Tessalon",
+    "drugClass": "Antitussive",
+    "category": "Respiratory",
+    "indication": "Cough",
+    "ptceTip": "Chewing causes numbness/serious risk.",
+    "id": "drug-149"
+  },
+  {
+    "generic": "guaifenesin",
+    "brand": "Mucinex",
+    "drugClass": "Expectorant",
+    "category": "Respiratory",
+    "indication": "Cough with mucus",
+    "ptceTip": "Hydration helps efficacy.",
+    "id": "drug-150"
+  },
+  {
+    "generic": "theophylline",
+    "brand": "Theo-24",
+    "drugClass": "Methylxanthine",
+    "category": "Respiratory",
+    "indication": "Asthma, COPD",
+    "ptceTip": "Narrow therapeutic index.",
+    "id": "drug-151"
+  },
+  {
+    "generic": "sumatriptan",
+    "brand": "Imitrex",
+    "drugClass": "Triptan",
+    "category": "Other",
+    "indication": "Migraine",
+    "ptceTip": "Do not use in uncontrolled HTN.",
+    "id": "drug-152"
+  },
+  {
+    "generic": "rizatriptan",
+    "brand": "Maxalt",
+    "drugClass": "Triptan",
+    "category": "Other",
+    "indication": "Migraine",
+    "ptceTip": "Serotonin syndrome with SSRIs.",
+    "id": "drug-153"
+  },
+  {
+    "generic": "topiramate",
+    "brand": "Topamax",
+    "drugClass": "Anticonvulsant",
+    "category": "Other",
+    "indication": "Migraine prophylaxis, seizures",
+    "ptceTip": "Cognitive slowing, kidney stones.",
+    "id": "drug-154"
+  },
+  {
+    "generic": "levetiracetam",
+    "brand": "Keppra",
+    "drugClass": "Anticonvulsant",
+    "category": "Other",
+    "indication": "Seizures",
+    "ptceTip": "Behavioral side effects.",
+    "id": "drug-155"
+  },
+  {
+    "generic": "phenytoin",
+    "brand": "Dilantin",
+    "drugClass": "Anticonvulsant",
+    "category": "Other",
+    "indication": "Seizures",
+    "ptceTip": "Zero-order kinetics at high levels.",
+    "id": "drug-156"
+  },
+  {
+    "generic": "carbamazepine",
+    "brand": "Tegretol",
+    "drugClass": "Anticonvulsant",
+    "category": "Other",
+    "indication": "Seizures, trigeminal neuralgia",
+    "ptceTip": "SJS in HLA-B*1502.",
+    "id": "drug-157"
+  },
+  {
+    "generic": "levocetirizine",
+    "brand": "Xyzal",
+    "drugClass": "Antihistamine",
+    "category": "Other",
+    "indication": "Allergic rhinitis",
+    "ptceTip": "Active enantiomer of cetirizine.",
+    "id": "drug-158"
+  },
+  {
+    "generic": "fexofenadine",
+    "brand": "Allegra",
+    "drugClass": "Antihistamine",
+    "category": "Other",
+    "indication": "Allergic rhinitis",
+    "ptceTip": "Avoid fruit juice near dose.",
+    "id": "drug-159"
+  },
+  {
+    "generic": "pseudoephedrine",
+    "brand": "Sudafed",
+    "drugClass": "Decongestant",
+    "category": "Other",
+    "indication": "Nasal congestion",
+    "ptceTip": "Behind counter; BP elevation.",
+    "id": "drug-160"
+  },
+  {
+    "generic": "phenylephrine",
+    "brand": "Sudafed PE",
+    "drugClass": "Decongestant",
+    "category": "Other",
+    "indication": "Nasal congestion",
+    "ptceTip": "Less effective orally for some.",
+    "id": "drug-161"
+  },
+  {
+    "generic": "hydroxyzine",
+    "brand": "Vistaril/Atarax",
+    "drugClass": "Antihistamine",
+    "category": "Other",
+    "indication": "Anxiety, pruritus",
+    "ptceTip": "Sedating antihistamine.",
+    "id": "drug-162"
+  },
+  {
+    "generic": "ketoconazole",
+    "brand": "Nizoral",
+    "drugClass": "Antifungal",
+    "category": "Dermatology",
+    "indication": "Fungal infections",
+    "ptceTip": "Systemic hepatotoxicity.",
+    "id": "drug-163"
+  },
+  {
+    "generic": "terbinafine",
+    "brand": "Lamisil",
+    "drugClass": "Antifungal",
+    "category": "Dermatology",
+    "indication": "Onychomycosis",
+    "ptceTip": "Monitor LFTs oral.",
+    "id": "drug-164"
+  },
+  {
+    "generic": "mupirocin",
+    "brand": "Bactroban",
+    "drugClass": "Topical antibiotic",
+    "category": "Dermatology",
+    "indication": "Impetigo, nasal MRSA",
+    "ptceTip": "Intranasal for decolonization.",
+    "id": "drug-165"
+  },
+  {
+    "generic": "tretinoin",
+    "brand": "Retin-A",
+    "drugClass": "Retinoid",
+    "category": "Dermatology",
+    "indication": "Acne",
+    "ptceTip": "Photosensitivity.",
+    "id": "drug-166"
+  },
+  {
+    "generic": "benzoyl peroxide",
+    "brand": "Benzac",
+    "drugClass": "Antiacne topical",
+    "category": "Dermatology",
+    "indication": "Acne",
+    "ptceTip": "Bleaches fabric.",
+    "id": "drug-167"
+  },
+  {
+    "generic": "permethrin",
+    "brand": "Nix/Elimite",
+    "drugClass": "Scabicide/pediculicide",
+    "category": "Dermatology",
+    "indication": "Scabies, lice",
+    "ptceTip": "Topical application.",
+    "id": "drug-168"
+  },
+  {
+    "generic": "silver sulfadiazine",
+    "brand": "Silvadene",
+    "drugClass": "Topical antimicrobial",
+    "category": "Dermatology",
+    "indication": "Burn wound",
+    "ptceTip": "Sulfa-based cream.",
+    "id": "drug-169"
+  },
+  {
+    "generic": "calcipotriene",
+    "brand": "Dovonex",
+    "drugClass": "Vitamin D analog",
+    "category": "Dermatology",
+    "indication": "Psoriasis",
+    "ptceTip": "Hypercalcemia if overused.",
+    "id": "drug-170"
+  },
+  {
+    "generic": "adalimumab",
+    "brand": "Humira",
+    "drugClass": "TNF inhibitor",
+    "category": "Other",
+    "indication": "RA, psoriasis, IBD",
+    "ptceTip": "Infection risk biologic.",
+    "id": "drug-171"
+  },
+  {
+    "generic": "etanercept",
+    "brand": "Enbrel",
+    "drugClass": "TNF inhibitor",
+    "category": "Other",
+    "indication": "RA, psoriasis",
+    "ptceTip": "Refrigerate.",
+    "id": "drug-172"
+  },
+  {
+    "generic": "infliximab",
+    "brand": "Remicade",
+    "drugClass": "TNF inhibitor",
+    "category": "Other",
+    "indication": "IBD, RA",
+    "ptceTip": "IV infusion biologic.",
+    "id": "drug-173"
+  },
+  {
+    "generic": "secukinumab",
+    "brand": "Cosentyx",
+    "drugClass": "IL-17 inhibitor",
+    "category": "Other",
+    "indication": "Psoriasis",
+    "ptceTip": "Biologic injection.",
+    "id": "drug-174"
+  },
+  {
+    "generic": "apixaban reversal",
+    "brand": "Andexxa",
+    "drugClass": "Reversal agent",
+    "category": "Other",
+    "indication": "Apixaban reversal",
+    "ptceTip": "Specialty reversal.",
+    "id": "drug-175"
+  },
+  {
+    "generic": "vitamin D3",
+    "brand": "Cholecalciferol",
+    "drugClass": "Vitamin",
+    "category": "Other",
+    "indication": "Vitamin D deficiency",
+    "ptceTip": "Fat-soluble vitamin.",
+    "id": "drug-176"
+  },
+  {
+    "generic": "calcium carbonate",
+    "brand": "Tums",
+    "drugClass": "Antacid/supplement",
+    "category": "Other",
+    "indication": "Calcium supplementation, heartburn",
+    "ptceTip": "Take with food; constipation.",
+    "id": "drug-177"
+  },
+  {
+    "generic": "ferrous sulfate",
+    "brand": "Feosol",
+    "drugClass": "Iron supplement",
+    "category": "Other",
+    "indication": "Iron deficiency anemia",
+    "ptceTip": "Black stools; take with vitamin C.",
+    "id": "drug-178"
+  },
+  {
+    "generic": "potassium chloride",
+    "brand": "K-Dur",
+    "drugClass": "Electrolyte",
+    "category": "Other",
+    "indication": "Hypokalemia",
+    "ptceTip": "Do not crush ER tabs.",
+    "id": "drug-179"
+  },
+  {
+    "generic": "magnesium oxide",
+    "brand": "Mag-Ox",
+    "drugClass": "Magnesium supplement",
+    "category": "Other",
+    "indication": "Hypomagnesemia",
+    "ptceTip": "Laxative effect.",
+    "id": "drug-180"
+  },
+  {
+    "generic": "cyanocobalamin",
+    "brand": "Vitamin B12",
+    "drugClass": "Vitamin",
+    "category": "Other",
+    "indication": "B12 deficiency",
+    "ptceTip": "IM or oral depending on cause.",
+    "id": "drug-181"
+  },
+  {
+    "generic": "folic acid",
+    "brand": "Folvite",
+    "drugClass": "Vitamin",
+    "category": "Other",
+    "indication": "Folate deficiency",
+    "ptceTip": "Masks B12 deficiency.",
+    "id": "drug-182"
+  },
+  {
+    "generic": "multivitamin",
+    "brand": "Centrum",
+    "drugClass": "Vitamin combo",
+    "category": "Other",
+    "indication": "Nutritional supplementation",
+    "ptceTip": "OTC supplement.",
+    "id": "drug-183"
+  },
+  {
+    "generic": "fish oil",
+    "brand": "Omega-3",
+    "drugClass": "Supplement",
+    "category": "Other",
+    "indication": "Hypertriglyceridemia support",
+    "ptceTip": "Bleeding risk high doses.",
+    "id": "drug-184"
+  },
+  {
+    "generic": "cholecalciferol",
+    "brand": "Vitamin D",
+    "drugClass": "Vitamin",
+    "category": "Other",
+    "indication": "Vitamin D deficiency",
+    "ptceTip": "D2 vs D3 distinctions.",
+    "id": "drug-185"
+  },
+  {
+    "generic": "prenatal vitamin",
+    "brand": "Prenatal",
+    "drugClass": "Vitamin combo",
+    "category": "Other",
+    "indication": "Pregnancy nutrition",
+    "ptceTip": "Folic acid essential.",
+    "id": "drug-186"
+  },
+  {
+    "generic": "aspirin",
+    "brand": "Bayer",
+    "drugClass": "Antiplatelet/NSAID",
+    "category": "Cardiovascular",
+    "indication": "CAD prevention, pain",
+    "ptceTip": "Low-dose for cardioprotection.",
+    "id": "drug-187"
+  },
+  {
+    "generic": "nitrofurantoin macro",
+    "brand": "Macrobid",
+    "drugClass": "Antibiotic",
+    "category": "Antibiotic",
+    "indication": "UTI",
+    "ptceTip": "Macro vs Macrodantin dosing.",
+    "id": "drug-188"
+  },
+  {
+    "generic": "hydroxychloroquine",
+    "brand": "Plaquenil",
+    "drugClass": "Antimalarial/DMARD",
+    "category": "Other",
+    "indication": "RA, lupus",
+    "ptceTip": "Retinal toxicity screening.",
+    "id": "drug-189"
+  },
+  {
+    "generic": "sulfasalazine",
+    "brand": "Azulfidine",
+    "drugClass": "DMARD",
+    "category": "Other",
+    "indication": "RA, UC",
+    "ptceTip": "Sulfa component.",
+    "id": "drug-190"
+  },
+  {
+    "generic": "baclofen",
+    "brand": "Lioresal",
+    "drugClass": "Muscle relaxant",
+    "category": "Other",
+    "indication": "Spasticity",
+    "ptceTip": "Do not stop abruptly.",
+    "id": "drug-191"
+  },
+  {
+    "generic": "tizanidine",
+    "brand": "Zanaflex",
+    "drugClass": "Muscle relaxant",
+    "category": "Other",
+    "indication": "Muscle spasm",
+    "ptceTip": "Hypotension and sedation.",
+    "id": "drug-192"
+  },
+  {
+    "generic": "oxybutynin",
+    "brand": "Ditropan",
+    "drugClass": "Anticholinergic",
+    "category": "Other",
+    "indication": "Overactive bladder",
+    "ptceTip": "Dry mouth common.",
+    "id": "drug-193"
+  },
+  {
+    "generic": "tolterodine",
+    "brand": "Detrol",
+    "drugClass": "Anticholinergic",
+    "category": "Other",
+    "indication": "Overactive bladder",
+    "ptceTip": "Anticholinergic burden.",
+    "id": "drug-194"
+  },
+  {
+    "generic": "mirabegron",
+    "brand": "Myrbetriq",
+    "drugClass": "Beta-3 agonist",
+    "category": "Other",
+    "indication": "Overactive bladder",
+    "ptceTip": "May increase BP.",
+    "id": "drug-195"
+  },
+  {
+    "generic": "solifenacin",
+    "brand": "Vesicare",
+    "drugClass": "Anticholinergic",
+    "category": "Other",
+    "indication": "Overactive bladder",
+    "ptceTip": "Once daily anticholinergic.",
+    "id": "drug-196"
+  },
+  {
+    "generic": "finasteride/tamsulosin",
+    "brand": "Jalyn",
+    "drugClass": "BPH combo",
+    "category": "Other",
+    "indication": "BPH",
+    "ptceTip": "Combo for prostate.",
+    "id": "drug-197"
+  },
+  {
+    "generic": "desmopressin",
+    "brand": "DDAVP",
+    "drugClass": "Antidiuretic hormone analog",
+    "category": "Other",
+    "indication": "Diabetes insipidus, nocturnal enuresis",
+    "ptceTip": "Hyponatremia risk.",
+    "id": "drug-198"
+  },
+  {
+    "generic": "levonorgestrel",
+    "brand": "Plan B",
+    "drugClass": "Emergency contraceptive",
+    "category": "Other",
+    "indication": "Emergency contraception",
+    "ptceTip": "OTC timing sensitive.",
+    "id": "drug-199"
+  },
+  {
+    "generic": "ethinyl estradiol/norgestimate",
+    "brand": "Ortho Tri-Cyclen",
+    "drugClass": "Combined OCP",
+    "category": "Other",
+    "indication": "Contraception",
+    "ptceTip": "Take same time daily.",
+    "id": "drug-200"
+  }
+]

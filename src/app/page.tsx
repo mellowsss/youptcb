@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BarChart3, BookMarked, CheckCircle2, Target } from "lucide-react";
+import { BarChart3, BookMarked, CheckCircle2, Pill, Target } from "lucide-react";
 import { DomainBreakdown } from "@/components/DomainBreakdown";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
@@ -55,6 +55,10 @@ export default function DashboardPage() {
             <div className="mt-10 flex flex-wrap gap-4">
               <Button href="/exam" variant="hero">
                 Start Exam
+              </Button>
+              <Button href="/drugs" variant="heroOutline">
+                <Pill className="h-4 w-4" strokeWidth={1.5} />
+                Top 200 Drugs
               </Button>
               <Button href="/review" variant="heroOutline">
                 Review Missed ({missedQuestionIds.length})
