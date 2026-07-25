@@ -1,7 +1,10 @@
 import mathData from "../../data/pharmacy-math.json";
-import type { MathCategory, MathProblem } from "@/types/math";
+import type { MathCategory, MathDifficulty, MathProblem } from "@/types/math";
 
-const problems = mathData as MathProblem[];
+const problems = (mathData as MathProblem[]).map((p) => ({
+  ...p,
+  difficulty: p.difficulty ?? "standard",
+}));
 
 export function getAllMathProblems(): MathProblem[] {
   return problems;
@@ -15,9 +18,19 @@ export function getMathCategories(): MathCategory[] {
   return Array.from(new Set(problems.map((p) => p.category))).sort();
 }
 
+export function getMathByFilters(
+  category: MathCategory | "all",
+  difficulty: MathDifficulty | "all"
+): MathProblem[] {
+  return problems.filter((p) => {
+    if (category !== "all" && p.category !== category) return false;
+    if (difficulty !== "all" && p.difficulty !== difficulty) return false;
+    return true;
+  });
+}
+
 export function getMathByCategory(category: MathCategory | "all"): MathProblem[] {
-  if (category === "all") return problems;
-  return problems.filter((p) => p.category === category);
+  return getMathByFilters(category, "all");
 }
 
 export function shuffleMath<T>(items: T[]): T[] {

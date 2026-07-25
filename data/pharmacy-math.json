@@ -3,6 +3,7 @@
     "id": "math-001",
     "title": "Days' supply \u00b7 30 tabs once daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet once daily. Quantity dispensed is 30. What is the days' supply?",
     "answer": "30 days",
@@ -18,6 +19,7 @@
     "id": "math-002",
     "title": "Days' supply \u00b7 60 tabs twice daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet twice daily. Quantity dispensed is 60. What is the days' supply?",
     "answer": "30 days",
@@ -33,6 +35,7 @@
     "id": "math-003",
     "title": "Days' supply \u00b7 90 tabs three times daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet three times daily. Quantity dispensed is 90. What is the days' supply?",
     "answer": "30 days",
@@ -48,6 +51,7 @@
     "id": "math-004",
     "title": "Days' supply \u00b7 120 tabs four times daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet four times daily. Quantity dispensed is 120. What is the days' supply?",
     "answer": "30 days",
@@ -63,6 +67,7 @@
     "id": "math-005",
     "title": "Days' supply \u00b7 28 tabs once daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet once daily. Quantity dispensed is 28. What is the days' supply?",
     "answer": "28 days",
@@ -78,6 +83,7 @@
     "id": "math-006",
     "title": "Days' supply \u00b7 56 tabs twice daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet twice daily. Quantity dispensed is 56. What is the days' supply?",
     "answer": "28 days",
@@ -93,6 +99,7 @@
     "id": "math-007",
     "title": "Days' supply \u00b7 84 tabs t.i.d.",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet t.i.d.. Quantity dispensed is 84. What is the days' supply?",
     "answer": "28 days",
@@ -108,6 +115,7 @@
     "id": "math-008",
     "title": "Days' supply \u00b7 14 tabs daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet daily. Quantity dispensed is 14. What is the days' supply?",
     "answer": "14 days",
@@ -123,6 +131,7 @@
     "id": "math-009",
     "title": "Days' supply \u00b7 21 tabs three times daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet three times daily. Quantity dispensed is 21. What is the days' supply?",
     "answer": "7 days",
@@ -138,6 +147,7 @@
     "id": "math-010",
     "title": "Days' supply \u00b7 40 tabs b.i.d.",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet b.i.d.. Quantity dispensed is 40. What is the days' supply?",
     "answer": "20 days",
@@ -153,6 +163,7 @@
     "id": "math-011",
     "title": "Days' supply \u00b7 100 tabs twice daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet twice daily. Quantity dispensed is 100. What is the days' supply?",
     "answer": "50 days",
@@ -168,6 +179,7 @@
     "id": "math-012",
     "title": "Days' supply \u00b7 45 tabs t.i.d.",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet t.i.d.. Quantity dispensed is 45. What is the days' supply?",
     "answer": "15 days",
@@ -183,6 +195,7 @@
     "id": "math-013",
     "title": "Days' supply \u00b7 15 tabs q.d.",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet q.d.. Quantity dispensed is 15. What is the days' supply?",
     "answer": "15 days",
@@ -198,6 +211,7 @@
     "id": "math-014",
     "title": "Days' supply \u00b7 36 tabs three times daily",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet three times daily. Quantity dispensed is 36. What is the days' supply?",
     "answer": "12 days",
@@ -213,6 +227,7 @@
     "id": "math-015",
     "title": "Days' supply \u00b7 48 tabs q.i.d.",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 doses per day",
     "prompt": "A patient takes 1 tablet q.i.d.. Quantity dispensed is 48. What is the days' supply?",
     "answer": "12 days",
@@ -228,6 +243,7 @@
     "id": "math-016",
     "title": "Days' supply \u00b7 2 tabs \u00d7 1/day",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
     "prompt": "SIG: take 2 tablets 1 time(s) daily. Dispense 60. Days' supply?",
     "answer": "30 days",
@@ -243,6 +259,7 @@
     "id": "math-017",
     "title": "Days' supply \u00b7 2 tabs \u00d7 2/day",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
     "prompt": "SIG: take 2 tablets 2 time(s) daily. Dispense 60. Days' supply?",
     "answer": "15 days",
@@ -258,6 +275,7 @@
     "id": "math-018",
     "title": "Days' supply \u00b7 3 tabs \u00d7 1/day",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
     "prompt": "SIG: take 3 tablets 1 time(s) daily. Dispense 90. Days' supply?",
     "answer": "30 days",
@@ -273,6 +291,7 @@
     "id": "math-019",
     "title": "Days' supply \u00b7 2 tabs \u00d7 3/day",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
     "prompt": "SIG: take 2 tablets 3 time(s) daily. Dispense 120. Days' supply?",
     "answer": "20 days",
@@ -288,6 +307,7 @@
     "id": "math-020",
     "title": "Days' supply \u00b7 2 tabs \u00d7 1/day",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
     "prompt": "SIG: take 2 tablets 1 time(s) daily. Dispense 30. Days' supply?",
     "answer": "15 days",
@@ -303,6 +323,7 @@
     "id": "math-021",
     "title": "Liquid quantity \u00b7 5 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 5 mL 2\u00d7 daily for 10 days. How much volume to dispense?",
     "answer": "100 mL",
@@ -318,6 +339,7 @@
     "id": "math-022",
     "title": "Liquid quantity \u00b7 5 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 5 mL 3\u00d7 daily for 7 days. How much volume to dispense?",
     "answer": "105 mL",
@@ -333,6 +355,7 @@
     "id": "math-023",
     "title": "Liquid quantity \u00b7 10 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 10 mL 2\u00d7 daily for 5 days. How much volume to dispense?",
     "answer": "100 mL",
@@ -348,6 +371,7 @@
     "id": "math-024",
     "title": "Liquid quantity \u00b7 2.5 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 2.5 mL 2\u00d7 daily for 10 days. How much volume to dispense?",
     "answer": "50 mL",
@@ -363,6 +387,7 @@
     "id": "math-025",
     "title": "Liquid quantity \u00b7 7.5 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 7.5 mL 2\u00d7 daily for 10 days. How much volume to dispense?",
     "answer": "150 mL",
@@ -378,6 +403,7 @@
     "id": "math-026",
     "title": "Liquid quantity \u00b7 5 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 5 mL 4\u00d7 daily for 5 days. How much volume to dispense?",
     "answer": "100 mL",
@@ -393,6 +419,7 @@
     "id": "math-027",
     "title": "Liquid quantity \u00b7 15 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 15 mL 1\u00d7 daily for 10 days. How much volume to dispense?",
     "answer": "150 mL",
@@ -408,6 +435,7 @@
     "id": "math-028",
     "title": "Liquid quantity \u00b7 5 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 5 mL 1\u00d7 daily for 14 days. How much volume to dispense?",
     "answer": "70 mL",
@@ -423,6 +451,7 @@
     "id": "math-029",
     "title": "Liquid quantity \u00b7 10 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 10 mL 3\u00d7 daily for 7 days. How much volume to dispense?",
     "answer": "210 mL",
@@ -438,6 +467,7 @@
     "id": "math-030",
     "title": "Liquid quantity \u00b7 1 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 1 mL 4\u00d7 daily for 10 days. How much volume to dispense?",
     "answer": "40 mL",
@@ -453,6 +483,7 @@
     "id": "math-031",
     "title": "Liquid quantity \u00b7 12.5 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 12.5 mL 2\u00d7 daily for 8 days. How much volume to dispense?",
     "answer": "200 mL",
@@ -468,6 +499,7 @@
     "id": "math-032",
     "title": "Liquid quantity \u00b7 3 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 3 mL 3\u00d7 daily for 10 days. How much volume to dispense?",
     "answer": "90 mL",
@@ -483,6 +515,7 @@
     "id": "math-033",
     "title": "Liquid quantity \u00b7 20 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 20 mL 2\u00d7 daily for 5 days. How much volume to dispense?",
     "answer": "200 mL",
@@ -498,6 +531,7 @@
     "id": "math-034",
     "title": "Liquid quantity \u00b7 4 mL",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
     "prompt": "Dose 4 mL 2\u00d7 daily for 15 days. How much volume to dispense?",
     "answer": "120 mL",
@@ -513,6 +547,7 @@
     "id": "math-035",
     "title": "Tablet quantity \u00b7 30 days",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
     "prompt": "Take 1 tablet(s) 2\u00d7 daily for 30 days. Quantity to dispense?",
     "answer": "60 tablets",
@@ -528,6 +563,7 @@
     "id": "math-036",
     "title": "Tablet quantity \u00b7 30 days",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
     "prompt": "Take 2 tablet(s) 1\u00d7 daily for 30 days. Quantity to dispense?",
     "answer": "60 tablets",
@@ -543,6 +579,7 @@
     "id": "math-037",
     "title": "Tablet quantity \u00b7 14 days",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
     "prompt": "Take 1 tablet(s) 3\u00d7 daily for 14 days. Quantity to dispense?",
     "answer": "42 tablets",
@@ -558,6 +595,7 @@
     "id": "math-038",
     "title": "Tablet quantity \u00b7 10 days",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
     "prompt": "Take 2 tablet(s) 2\u00d7 daily for 10 days. Quantity to dispense?",
     "answer": "40 tablets",
@@ -573,6 +611,7 @@
     "id": "math-039",
     "title": "Tablet quantity \u00b7 7 days",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
     "prompt": "Take 1 tablet(s) 4\u00d7 daily for 7 days. Quantity to dispense?",
     "answer": "28 tablets",
@@ -588,6 +627,7 @@
     "id": "math-040",
     "title": "1 teaspoon (tsp)",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 teaspoon (tsp) = ? mL",
     "answer": "5 mL",
@@ -603,6 +643,7 @@
     "id": "math-041",
     "title": "1 tablespoon (tbsp)",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 tablespoon (tbsp) = ? mL",
     "answer": "15 mL",
@@ -618,6 +659,7 @@
     "id": "math-042",
     "title": "1 fluid ounce \u2248 ? mL",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 fluid ounce \u2248 ? mL",
     "answer": "30 mL",
@@ -633,6 +675,7 @@
     "id": "math-043",
     "title": "1 pint \u2248 ? mL",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 pint \u2248 ? mL",
     "answer": "473 mL",
@@ -648,6 +691,7 @@
     "id": "math-044",
     "title": "1 quart \u2248 ? mL",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 quart \u2248 ? mL",
     "answer": "946 mL",
@@ -663,6 +707,7 @@
     "id": "math-045",
     "title": "1 kg",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 kg = ? g",
     "answer": "1000 g",
@@ -678,6 +723,7 @@
     "id": "math-046",
     "title": "1 g",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 g = ? mg",
     "answer": "1000 mg",
@@ -693,6 +739,7 @@
     "id": "math-047",
     "title": "1 mg",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 mg = ? mcg",
     "answer": "1000 mcg",
@@ -708,6 +755,7 @@
     "id": "math-048",
     "title": "2.2 lb \u2248 ? kg",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "2.2 lb \u2248 ? kg",
     "answer": "1 kg",
@@ -723,6 +771,7 @@
     "id": "math-049",
     "title": "A patient weighs 154 lb. Approx kg?",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "A patient weighs 154 lb. Approx kg?",
     "answer": "70 kg",
@@ -738,6 +787,7 @@
     "id": "math-050",
     "title": "1 grain (gr) \u2248 ? mg (approx)",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "1 grain (gr) \u2248 ? mg (approx)",
     "answer": "65 mg",
@@ -753,6 +803,7 @@
     "id": "math-051",
     "title": "How many mL in 8 fl oz?",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "How many mL in 8 fl oz?",
     "answer": "240 mL",
@@ -768,6 +819,7 @@
     "id": "math-052",
     "title": "500 mL",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "500 mL = ? L",
     "answer": "0.5 L",
@@ -783,6 +835,7 @@
     "id": "math-053",
     "title": "0.25 g",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "0.25 g = ? mg",
     "answer": "250 mg",
@@ -798,6 +851,7 @@
     "id": "math-054",
     "title": "2500 mcg",
     "category": "Conversions",
+    "difficulty": "standard",
     "formula": "Use standard pharmacy conversion factors",
     "prompt": "2500 mcg = ? mg",
     "answer": "2.5 mg",
@@ -813,6 +867,7 @@
     "id": "math-055",
     "title": "Proportion \u00b7 250 mg/5 mL",
     "category": "Ratio & Proportion",
+    "difficulty": "standard",
     "formula": "want/have = x / volume \u2192 cross multiply",
     "prompt": "Stock is 250 mg / 5 mL. How many mL provide 100 mg?",
     "answer": "2 mL",
@@ -828,6 +883,7 @@
     "id": "math-056",
     "title": "Proportion \u00b7 500 mg/10 mL",
     "category": "Ratio & Proportion",
+    "difficulty": "standard",
     "formula": "want/have = x / volume \u2192 cross multiply",
     "prompt": "Stock is 500 mg / 10 mL. How many mL provide 250 mg?",
     "answer": "5 mL",
@@ -843,6 +899,7 @@
     "id": "math-057",
     "title": "Proportion \u00b7 125 mg/5 mL",
     "category": "Ratio & Proportion",
+    "difficulty": "standard",
     "formula": "want/have = x / volume \u2192 cross multiply",
     "prompt": "Stock is 125 mg / 5 mL. How many mL provide 75 mg?",
     "answer": "3 mL",
@@ -858,6 +915,7 @@
     "id": "math-058",
     "title": "Proportion \u00b7 40 mg/1 mL",
     "category": "Ratio & Proportion",
+    "difficulty": "standard",
     "formula": "want/have = x / volume \u2192 cross multiply",
     "prompt": "Stock is 40 mg / 1 mL. How many mL provide 10 mg?",
     "answer": "0.25 mL",
@@ -873,6 +931,7 @@
     "id": "math-059",
     "title": "Proportion \u00b7 80 mg/2 mL",
     "category": "Ratio & Proportion",
+    "difficulty": "standard",
     "formula": "want/have = x / volume \u2192 cross multiply",
     "prompt": "Stock is 80 mg / 2 mL. How many mL provide 20 mg?",
     "answer": "0.5 mL",
@@ -888,6 +947,7 @@
     "id": "math-060",
     "title": "Proportion \u00b7 100 mg/2 mL",
     "category": "Ratio & Proportion",
+    "difficulty": "standard",
     "formula": "want/have = x / volume \u2192 cross multiply",
     "prompt": "Stock is 100 mg / 2 mL. How many mL provide 50 mg?",
     "answer": "1 mL",
@@ -903,6 +963,7 @@
     "id": "math-061",
     "title": "Proportion \u00b7 200 mg/5 mL",
     "category": "Ratio & Proportion",
+    "difficulty": "standard",
     "formula": "want/have = x / volume \u2192 cross multiply",
     "prompt": "Stock is 200 mg / 5 mL. How many mL provide 120 mg?",
     "answer": "3 mL",
@@ -918,6 +979,7 @@
     "id": "math-062",
     "title": "Proportion \u00b7 10 mg/1 mL",
     "category": "Ratio & Proportion",
+    "difficulty": "standard",
     "formula": "want/have = x / volume \u2192 cross multiply",
     "prompt": "Stock is 10 mg / 1 mL. How many mL provide 4 mg?",
     "answer": "0.4 mL",
@@ -933,6 +995,7 @@
     "id": "math-063",
     "title": "1% w/v in 100 mL",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "g = (%/100) \u00d7 mL for % w/v",
     "prompt": "How many grams of drug are in 100 mL of a 1% w/v solution?",
     "answer": "1 g",
@@ -948,6 +1011,7 @@
     "id": "math-064",
     "title": "2% w/v in 50 mL",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "g = (%/100) \u00d7 mL for % w/v",
     "prompt": "How many grams of drug are in 50 mL of a 2% w/v solution?",
     "answer": "1 g",
@@ -963,6 +1027,7 @@
     "id": "math-065",
     "title": "0.9% w/v in 1000 mL",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "g = (%/100) \u00d7 mL for % w/v",
     "prompt": "How many grams of drug are in 1000 mL of a 0.9% w/v solution?",
     "answer": "9 g",
@@ -978,6 +1043,7 @@
     "id": "math-066",
     "title": "5% w/v in 20 mL",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "g = (%/100) \u00d7 mL for % w/v",
     "prompt": "How many grams of drug are in 20 mL of a 5% w/v solution?",
     "answer": "1 g",
@@ -993,6 +1059,7 @@
     "id": "math-067",
     "title": "10% w/v in 30 mL",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "g = (%/100) \u00d7 mL for % w/v",
     "prompt": "How many grams of drug are in 30 mL of a 10% w/v solution?",
     "answer": "3 g",
@@ -1008,6 +1075,7 @@
     "id": "math-068",
     "title": "0.45% w/v in 1000 mL",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "g = (%/100) \u00d7 mL for % w/v",
     "prompt": "How many grams of drug are in 1000 mL of a 0.45% w/v solution?",
     "answer": "4.5 g",
@@ -1023,6 +1091,7 @@
     "id": "math-069",
     "title": "2.5% w/v in 40 mL",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "g = (%/100) \u00d7 mL for % w/v",
     "prompt": "How many grams of drug are in 40 mL of a 2.5% w/v solution?",
     "answer": "1 g",
@@ -1038,6 +1107,7 @@
     "id": "math-070",
     "title": "0.1% w/v in 10 mL",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "g = (%/100) \u00d7 mL for % w/v",
     "prompt": "How many grams of drug are in 10 mL of a 0.1% w/v solution?",
     "answer": "0.01 g",
@@ -1053,6 +1123,7 @@
     "id": "math-071",
     "title": "Normal saline percent",
     "category": "Percent Strength",
+    "difficulty": "standard",
     "formula": "% w/v = g/100 mL",
     "prompt": "0.9% sodium chloride contains how many grams of NaCl per 100 mL?",
     "answer": "0.9 g",
@@ -1068,8 +1139,9 @@
     "id": "math-072",
     "title": "Dilution \u00b7 10% \u2192 2%",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2",
-    "prompt": "How many mL of 10% solution are needed to make 5 mL wait\u2014 How many total mL of 2% can be made from 5 mL of 10%?",
+    "prompt": "How many total mL of 2% solution can be made from 5 mL of 10% stock?",
     "answer": "25 mL",
     "distractors": [
       "5 mL",
@@ -1083,8 +1155,9 @@
     "id": "math-073",
     "title": "Dilution \u00b7 20% \u2192 5%",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2",
-    "prompt": "How many mL of 20% solution are needed to make 10 mL wait\u2014 How many total mL of 5% can be made from 10 mL of 20%?",
+    "prompt": "How many total mL of 5% solution can be made from 10 mL of 20% stock?",
     "answer": "40 mL",
     "distractors": [
       "10 mL",
@@ -1098,8 +1171,9 @@
     "id": "math-074",
     "title": "Dilution \u00b7 100% \u2192 10%",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2",
-    "prompt": "How many mL of 100% solution are needed to make 2 mL wait\u2014 How many total mL of 10% can be made from 2 mL of 100%?",
+    "prompt": "How many total mL of 10% solution can be made from 2 mL of 100% stock?",
     "answer": "20 mL",
     "distractors": [
       "2 mL",
@@ -1113,8 +1187,9 @@
     "id": "math-075",
     "title": "Dilution \u00b7 50% \u2192 10%",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2",
-    "prompt": "How many mL of 50% solution are needed to make 4 mL wait\u2014 How many total mL of 10% can be made from 4 mL of 50%?",
+    "prompt": "How many total mL of 10% solution can be made from 4 mL of 50% stock?",
     "answer": "20 mL",
     "distractors": [
       "4 mL",
@@ -1128,8 +1203,9 @@
     "id": "math-076",
     "title": "Dilution \u00b7 25% \u2192 5%",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2",
-    "prompt": "How many mL of 25% solution are needed to make 8 mL wait\u2014 How many total mL of 5% can be made from 8 mL of 25%?",
+    "prompt": "How many total mL of 5% solution can be made from 8 mL of 25% stock?",
     "answer": "40 mL",
     "distractors": [
       "8 mL",
@@ -1143,8 +1219,9 @@
     "id": "math-077",
     "title": "Dilution \u00b7 40% \u2192 8%",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2",
-    "prompt": "How many mL of 40% solution are needed to make 5 mL wait\u2014 How many total mL of 8% can be made from 5 mL of 40%?",
+    "prompt": "How many total mL of 8% solution can be made from 5 mL of 40% stock?",
     "answer": "25 mL",
     "distractors": [
       "5 mL",
@@ -1158,8 +1235,9 @@
     "id": "math-078",
     "title": "Dilution \u00b7 5% \u2192 1%",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2",
-    "prompt": "How many mL of 5% solution are needed to make 20 mL wait\u2014 How many total mL of 1% can be made from 20 mL of 5%?",
+    "prompt": "How many total mL of 1% solution can be made from 20 mL of 5% stock?",
     "answer": "100 mL",
     "distractors": [
       "20 mL",
@@ -1173,6 +1251,7 @@
     "id": "math-079",
     "title": "Stock volume for 1% final",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2 \u2192 V1 = (C2V2)/C1",
     "prompt": "You need 100 mL of 1% solution. Stock is 10%. How much stock is required?",
     "answer": "10 mL",
@@ -1188,6 +1267,7 @@
     "id": "math-080",
     "title": "Stock volume for 5% final",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2 \u2192 V1 = (C2V2)/C1",
     "prompt": "You need 50 mL of 5% solution. Stock is 20%. How much stock is required?",
     "answer": "12.5 mL",
@@ -1203,6 +1283,7 @@
     "id": "math-081",
     "title": "Stock volume for 10% final",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2 \u2192 V1 = (C2V2)/C1",
     "prompt": "You need 200 mL of 10% solution. Stock is 50%. How much stock is required?",
     "answer": "40 mL",
@@ -1218,6 +1299,7 @@
     "id": "math-082",
     "title": "Stock volume for 20% final",
     "category": "Dilutions",
+    "difficulty": "standard",
     "formula": "C1V1 = C2V2 \u2192 V1 = (C2V2)/C1",
     "prompt": "You need 50 mL of 20% solution. Stock is 100%. How much stock is required?",
     "answer": "10 mL",
@@ -1233,6 +1315,7 @@
     "id": "math-083",
     "title": "mg/kg dose \u00b7 10 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 10 kg. Order: 15 mg/kg/dose given 1\u00d7 daily. mg per dose?",
     "answer": "150 mg",
@@ -1248,6 +1331,7 @@
     "id": "math-084",
     "title": "mg/kg dose \u00b7 20 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 20 kg. Order: 10 mg/kg/dose given 2\u00d7 daily. mg per dose?",
     "answer": "200 mg",
@@ -1263,6 +1347,7 @@
     "id": "math-085",
     "title": "mg/kg dose \u00b7 12 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 12 kg. Order: 5 mg/kg/dose given 3\u00d7 daily. mg per dose?",
     "answer": "60 mg",
@@ -1278,6 +1363,7 @@
     "id": "math-086",
     "title": "mg/kg dose \u00b7 25 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 25 kg. Order: 8 mg/kg/dose given 2\u00d7 daily. mg per dose?",
     "answer": "200 mg",
@@ -1293,6 +1379,7 @@
     "id": "math-087",
     "title": "mg/kg dose \u00b7 18 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 18 kg. Order: 12 mg/kg/dose given 1\u00d7 daily. mg per dose?",
     "answer": "216 mg",
@@ -1308,6 +1395,7 @@
     "id": "math-088",
     "title": "mg/kg dose \u00b7 30 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 30 kg. Order: 5 mg/kg/dose given 2\u00d7 daily. mg per dose?",
     "answer": "150 mg",
@@ -1323,6 +1411,7 @@
     "id": "math-089",
     "title": "mg/kg dose \u00b7 8 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 8 kg. Order: 20 mg/kg/dose given 1\u00d7 daily. mg per dose?",
     "answer": "160 mg",
@@ -1338,6 +1427,7 @@
     "id": "math-090",
     "title": "mg/kg dose \u00b7 15 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 15 kg. Order: 10 mg/kg/dose given 2\u00d7 daily. mg per dose?",
     "answer": "150 mg",
@@ -1353,6 +1443,7 @@
     "id": "math-091",
     "title": "mg/kg dose \u00b7 22 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 22 kg. Order: 7 mg/kg/dose given 2\u00d7 daily. mg per dose?",
     "answer": "154 mg",
@@ -1368,6 +1459,7 @@
     "id": "math-092",
     "title": "mg/kg dose \u00b7 40 kg",
     "category": "Weight-Based Dosing",
+    "difficulty": "standard",
     "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
     "prompt": "Child weighs 40 kg. Order: 2 mg/kg/dose given 1\u00d7 daily. mg per dose?",
     "answer": "80 mg",
@@ -1383,6 +1475,7 @@
     "id": "math-093",
     "title": "IV mL/hr \u00b7 1000 mL / 8 hr",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "mL/hr = total volume \u00f7 hours",
     "prompt": "Infuse 1000 mL over 8 hours. What is the rate in mL/hr?",
     "answer": "125 mL/hr",
@@ -1398,6 +1491,7 @@
     "id": "math-094",
     "title": "IV mL/hr \u00b7 500 mL / 4 hr",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "mL/hr = total volume \u00f7 hours",
     "prompt": "Infuse 500 mL over 4 hours. What is the rate in mL/hr?",
     "answer": "125 mL/hr",
@@ -1413,6 +1507,7 @@
     "id": "math-095",
     "title": "IV mL/hr \u00b7 250 mL / 2 hr",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "mL/hr = total volume \u00f7 hours",
     "prompt": "Infuse 250 mL over 2 hours. What is the rate in mL/hr?",
     "answer": "125 mL/hr",
@@ -1428,6 +1523,7 @@
     "id": "math-096",
     "title": "IV mL/hr \u00b7 1000 mL / 10 hr",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "mL/hr = total volume \u00f7 hours",
     "prompt": "Infuse 1000 mL over 10 hours. What is the rate in mL/hr?",
     "answer": "100 mL/hr",
@@ -1443,6 +1539,7 @@
     "id": "math-097",
     "title": "IV mL/hr \u00b7 100 mL / 1 hr",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "mL/hr = total volume \u00f7 hours",
     "prompt": "Infuse 100 mL over 1 hours. What is the rate in mL/hr?",
     "answer": "100 mL/hr",
@@ -1458,6 +1555,7 @@
     "id": "math-098",
     "title": "IV mL/hr \u00b7 750 mL / 6 hr",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "mL/hr = total volume \u00f7 hours",
     "prompt": "Infuse 750 mL over 6 hours. What is the rate in mL/hr?",
     "answer": "125 mL/hr",
@@ -1473,6 +1571,7 @@
     "id": "math-099",
     "title": "IV mL/hr \u00b7 500 mL / 5 hr",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "mL/hr = total volume \u00f7 hours",
     "prompt": "Infuse 500 mL over 5 hours. What is the rate in mL/hr?",
     "answer": "100 mL/hr",
@@ -1488,6 +1587,7 @@
     "id": "math-100",
     "title": "IV mL/hr \u00b7 200 mL / 2 hr",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "mL/hr = total volume \u00f7 hours",
     "prompt": "Infuse 200 mL over 2 hours. What is the rate in mL/hr?",
     "answer": "100 mL/hr",
@@ -1503,6 +1603,7 @@
     "id": "math-101",
     "title": "gtt/min \u00b7 15 drop factor",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
     "prompt": "Infuse 100 mL over 60 minutes with a 15 gtt/mL set. Drops per minute?",
     "answer": "25 gtt/min",
@@ -1518,6 +1619,7 @@
     "id": "math-102",
     "title": "gtt/min \u00b7 20 drop factor",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
     "prompt": "Infuse 50 mL over 30 minutes with a 20 gtt/mL set. Drops per minute?",
     "answer": "33.3333 gtt/min",
@@ -1533,6 +1635,7 @@
     "id": "math-103",
     "title": "gtt/min \u00b7 10 drop factor",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
     "prompt": "Infuse 100 mL over 30 minutes with a 10 gtt/mL set. Drops per minute?",
     "answer": "33.3333 gtt/min",
@@ -1548,6 +1651,7 @@
     "id": "math-104",
     "title": "gtt/min \u00b7 15 drop factor",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
     "prompt": "Infuse 250 mL over 120 minutes with a 15 gtt/mL set. Drops per minute?",
     "answer": "31.25 gtt/min",
@@ -1563,6 +1667,7 @@
     "id": "math-105",
     "title": "gtt/min \u00b7 20 drop factor",
     "category": "IV Flow Rates",
+    "difficulty": "standard",
     "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
     "prompt": "Infuse 100 mL over 45 minutes with a 20 gtt/mL set. Drops per minute?",
     "answer": "44.4444 gtt/min",
@@ -1576,8 +1681,1913 @@
   },
   {
     "id": "math-106",
+    "title": "Hard IV \u00b7 1000 mL / 6 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 1000 mL to infuse over 6 hours. What pump rate should be set in mL/hr?",
+    "answer": "166.7 mL/hr",
+    "distractors": [
+      "333.3 mL/hr",
+      "1000 mL/hr",
+      "173.7 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 1000 \u00f7 6 = 166.7 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-107",
+    "title": "Hard IV \u00b7 1000 mL / 12 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 1000 mL to infuse over 12 hours. What pump rate should be set in mL/hr?",
+    "answer": "83.33 mL/hr",
+    "distractors": [
+      "166.7 mL/hr",
+      "1000 mL/hr",
+      "90.33 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 1000 \u00f7 12 = 83.33 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-108",
+    "title": "Hard IV \u00b7 500 mL / 6 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 500 mL to infuse over 6 hours. What pump rate should be set in mL/hr?",
+    "answer": "83.33 mL/hr",
+    "distractors": [
+      "166.7 mL/hr",
+      "500 mL/hr",
+      "90.33 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 500 \u00f7 6 = 83.33 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-109",
+    "title": "Hard IV \u00b7 250 mL / 90 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 250 mL to infuse over 90 minutes. What pump rate should be set in mL/hr?",
+    "answer": "166.7 mL/hr",
+    "distractors": [
+      "2.778 mL/hr",
+      "333.3 mL/hr",
+      "250 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 250 \u00f7 1.5 = 166.7 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-110",
+    "title": "Hard IV \u00b7 100 mL / 45 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 100 mL to infuse over 45 minutes. What pump rate should be set in mL/hr?",
+    "answer": "133.3 mL/hr",
+    "distractors": [
+      "2.222 mL/hr",
+      "266.7 mL/hr",
+      "100 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 100 \u00f7 0.75 = 133.3 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-111",
+    "title": "Hard IV \u00b7 1000 mL / 480 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 1000 mL to infuse over 480 minutes. What pump rate should be set in mL/hr?",
+    "answer": "125 mL/hr",
+    "distractors": [
+      "2.083 mL/hr",
+      "250 mL/hr",
+      "1000 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 1000 \u00f7 8 = 125 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-112",
+    "title": "Hard IV \u00b7 750 mL / 5 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 750 mL to infuse over 5 hours. What pump rate should be set in mL/hr?",
+    "answer": "150 mL/hr",
+    "distractors": [
+      "300 mL/hr",
+      "750 mL/hr",
+      "157 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 750 \u00f7 5 = 150 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-113",
+    "title": "Hard IV \u00b7 125 mL / 60 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 125 mL to infuse over 60 minutes. What pump rate should be set in mL/hr?",
+    "answer": "125 mL/hr",
+    "distractors": [
+      "2.083 mL/hr",
+      "250 mL/hr",
+      "132 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 125 \u00f7 1 = 125 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-114",
+    "title": "Hard IV \u00b7 50 mL / 30 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 50 mL to infuse over 30 minutes. What pump rate should be set in mL/hr?",
+    "answer": "100 mL/hr",
+    "distractors": [
+      "1.667 mL/hr",
+      "200 mL/hr",
+      "50 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 50 \u00f7 0.5 = 100 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-115",
+    "title": "Hard IV \u00b7 2000 mL / 24 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 2000 mL to infuse over 24 hours. What pump rate should be set in mL/hr?",
+    "answer": "83.33 mL/hr",
+    "distractors": [
+      "166.7 mL/hr",
+      "2000 mL/hr",
+      "90.33 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 2000 \u00f7 24 = 83.33 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-116",
+    "title": "Hard IV \u00b7 1500 mL / 10 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 1500 mL to infuse over 10 hours. What pump rate should be set in mL/hr?",
+    "answer": "150 mL/hr",
+    "distractors": [
+      "300 mL/hr",
+      "1500 mL/hr",
+      "157 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 1500 \u00f7 10 = 150 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-117",
+    "title": "Hard IV \u00b7 80 mL / 40 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 80 mL to infuse over 40 minutes. What pump rate should be set in mL/hr?",
+    "answer": "120 mL/hr",
+    "distractors": [
+      "2 mL/hr",
+      "240 mL/hr",
+      "80 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 80 \u00f7 0.6667 = 120 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-118",
+    "title": "Hard IV \u00b7 300 mL / 2.5 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 300 mL to infuse over 2.5 hours. What pump rate should be set in mL/hr?",
+    "answer": "120 mL/hr",
+    "distractors": [
+      "240 mL/hr",
+      "300 mL/hr",
+      "127 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 300 \u00f7 2.5 = 120 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-119",
+    "title": "Hard IV \u00b7 450 mL / 3 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 450 mL to infuse over 3 hours. What pump rate should be set in mL/hr?",
+    "answer": "150 mL/hr",
+    "distractors": [
+      "300 mL/hr",
+      "450 mL/hr",
+      "157 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 450 \u00f7 3 = 150 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-120",
+    "title": "Hard IV \u00b7 600 mL / 8 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 600 mL to infuse over 8 hours. What pump rate should be set in mL/hr?",
+    "answer": "75 mL/hr",
+    "distractors": [
+      "150 mL/hr",
+      "600 mL/hr",
+      "82 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 600 \u00f7 8 = 75 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-121",
+    "title": "Hard IV \u00b7 120 mL / 90 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 120 mL to infuse over 90 minutes. What pump rate should be set in mL/hr?",
+    "answer": "80 mL/hr",
+    "distractors": [
+      "1.333 mL/hr",
+      "160 mL/hr",
+      "120 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 120 \u00f7 1.5 = 80 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-122",
+    "title": "Hard IV \u00b7 90 mL / 45 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 90 mL to infuse over 45 minutes. What pump rate should be set in mL/hr?",
+    "answer": "120 mL/hr",
+    "distractors": [
+      "2 mL/hr",
+      "240 mL/hr",
+      "90 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 90 \u00f7 0.75 = 120 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-123",
+    "title": "Hard IV \u00b7 1000 mL / 7.5 hours",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 1000 mL to infuse over 7.5 hours. What pump rate should be set in mL/hr?",
+    "answer": "133.3 mL/hr",
+    "distractors": [
+      "266.7 mL/hr",
+      "1000 mL/hr",
+      "140.3 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 1000 \u00f7 7.5 = 133.3 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-124",
+    "title": "Hard IV \u00b7 250 mL / 75 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 250 mL to infuse over 75 minutes. What pump rate should be set in mL/hr?",
+    "answer": "200 mL/hr",
+    "distractors": [
+      "3.333 mL/hr",
+      "400 mL/hr",
+      "250 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 250 \u00f7 1.25 = 200 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-125",
+    "title": "Hard IV \u00b7 400 mL / 160 minutes",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = volume(mL) \u00f7 time(hours); convert minutes \u00f7 60",
+    "prompt": "An IV order is 400 mL to infuse over 160 minutes. What pump rate should be set in mL/hr?",
+    "answer": "150 mL/hr",
+    "distractors": [
+      "2.5 mL/hr",
+      "300 mL/hr",
+      "400 mL/hr"
+    ],
+    "explanation": "Convert time to hours if needed, then 400 \u00f7 2.667 = 150 mL/hr.",
+    "ptceTip": "Hard items often hide a minutes\u2192hours conversion."
+  },
+  {
+    "id": "math-126",
+    "title": "Hard gtt/min \u00b7 DF 10",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 100 mL over 60 minutes using a 10 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "17 gtt/min",
+    "distractors": [
+      "16 gtt/min",
+      "19 gtt/min",
+      "1000 gtt/min"
+    ],
+    "explanation": "(100 \u00d7 10) \u00f7 60 = 16.67 \u2192 round to 17 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-127",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 100 mL over 60 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "25 gtt/min",
+    "distractors": [
+      "26 gtt/min",
+      "27 gtt/min",
+      "1500 gtt/min"
+    ],
+    "explanation": "(100 \u00d7 15) \u00f7 60 = 25 \u2192 round to 25 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-128",
+    "title": "Hard gtt/min \u00b7 DF 20",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 100 mL over 60 minutes using a 20 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "33 gtt/min",
+    "distractors": [
+      "34 gtt/min",
+      "35 gtt/min",
+      "2000 gtt/min"
+    ],
+    "explanation": "(100 \u00d7 20) \u00f7 60 = 33.33 \u2192 round to 33 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-129",
+    "title": "Hard gtt/min \u00b7 DF 60",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 100 mL over 60 minutes using a 60 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "100 gtt/min",
+    "distractors": [
+      "101 gtt/min",
+      "102 gtt/min",
+      "6000 gtt/min"
+    ],
+    "explanation": "(100 \u00d7 60) \u00f7 60 = 100 \u2192 round to 100 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-130",
+    "title": "Hard gtt/min \u00b7 DF 10",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 50 mL over 30 minutes using a 10 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "17 gtt/min",
+    "distractors": [
+      "16 gtt/min",
+      "19 gtt/min",
+      "1000 gtt/min"
+    ],
+    "explanation": "(50 \u00d7 10) \u00f7 30 = 16.67 \u2192 round to 17 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-131",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 50 mL over 30 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "25 gtt/min",
+    "distractors": [
+      "26 gtt/min",
+      "27 gtt/min",
+      "1500 gtt/min"
+    ],
+    "explanation": "(50 \u00d7 15) \u00f7 30 = 25 \u2192 round to 25 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-132",
+    "title": "Hard gtt/min \u00b7 DF 60",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 50 mL over 30 minutes using a 60 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "100 gtt/min",
+    "distractors": [
+      "101 gtt/min",
+      "102 gtt/min",
+      "6000 gtt/min"
+    ],
+    "explanation": "(50 \u00d7 60) \u00f7 30 = 100 \u2192 round to 100 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-133",
+    "title": "Hard gtt/min \u00b7 DF 10",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 250 mL over 120 minutes using a 10 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "21 gtt/min",
+    "distractors": [
+      "20 gtt/min",
+      "23 gtt/min",
+      "1250 gtt/min"
+    ],
+    "explanation": "(250 \u00d7 10) \u00f7 120 = 20.83 \u2192 round to 21 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-134",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 250 mL over 120 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "31 gtt/min",
+    "distractors": [
+      "32 gtt/min",
+      "33 gtt/min",
+      "1875 gtt/min"
+    ],
+    "explanation": "(250 \u00d7 15) \u00f7 120 = 31.25 \u2192 round to 31 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-135",
+    "title": "Hard gtt/min \u00b7 DF 20",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 250 mL over 120 minutes using a 20 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "42 gtt/min",
+    "distractors": [
+      "41 gtt/min",
+      "44 gtt/min",
+      "2500 gtt/min"
+    ],
+    "explanation": "(250 \u00d7 20) \u00f7 120 = 41.67 \u2192 round to 42 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-136",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 125 mL over 60 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "31 gtt/min",
+    "distractors": [
+      "32 gtt/min",
+      "33 gtt/min",
+      "1875 gtt/min"
+    ],
+    "explanation": "(125 \u00d7 15) \u00f7 60 = 31.25 \u2192 round to 31 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-137",
+    "title": "Hard gtt/min \u00b7 DF 20",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 125 mL over 60 minutes using a 20 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "42 gtt/min",
+    "distractors": [
+      "41 gtt/min",
+      "44 gtt/min",
+      "2500 gtt/min"
+    ],
+    "explanation": "(125 \u00d7 20) \u00f7 60 = 41.67 \u2192 round to 42 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-138",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 200 mL over 90 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "33 gtt/min",
+    "distractors": [
+      "34 gtt/min",
+      "35 gtt/min",
+      "2000 gtt/min"
+    ],
+    "explanation": "(200 \u00d7 15) \u00f7 90 = 33.33 \u2192 round to 33 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-139",
+    "title": "Hard gtt/min \u00b7 DF 20",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 75 mL over 45 minutes using a 20 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "33 gtt/min",
+    "distractors": [
+      "34 gtt/min",
+      "35 gtt/min",
+      "2000 gtt/min"
+    ],
+    "explanation": "(75 \u00d7 20) \u00f7 45 = 33.33 \u2192 round to 33 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-140",
+    "title": "Hard gtt/min \u00b7 DF 10",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 500 mL over 240 minutes using a 10 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "21 gtt/min",
+    "distractors": [
+      "20 gtt/min",
+      "23 gtt/min",
+      "1250 gtt/min"
+    ],
+    "explanation": "(500 \u00d7 10) \u00f7 240 = 20.83 \u2192 round to 21 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-141",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 500 mL over 180 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "42 gtt/min",
+    "distractors": [
+      "41 gtt/min",
+      "44 gtt/min",
+      "2500 gtt/min"
+    ],
+    "explanation": "(500 \u00d7 15) \u00f7 180 = 41.67 \u2192 round to 42 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-142",
+    "title": "Hard gtt/min \u00b7 DF 10",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 1000 mL over 480 minutes using a 10 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "21 gtt/min",
+    "distractors": [
+      "20 gtt/min",
+      "23 gtt/min",
+      "1250 gtt/min"
+    ],
+    "explanation": "(1000 \u00d7 10) \u00f7 480 = 20.83 \u2192 round to 21 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-143",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 1000 mL over 480 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "31 gtt/min",
+    "distractors": [
+      "32 gtt/min",
+      "33 gtt/min",
+      "1875 gtt/min"
+    ],
+    "explanation": "(1000 \u00d7 15) \u00f7 480 = 31.25 \u2192 round to 31 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-144",
+    "title": "Hard gtt/min \u00b7 DF 20",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 80 mL over 40 minutes using a 20 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "40 gtt/min",
+    "distractors": [
+      "41 gtt/min",
+      "42 gtt/min",
+      "2400 gtt/min"
+    ],
+    "explanation": "(80 \u00d7 20) \u00f7 40 = 40 \u2192 round to 40 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-145",
+    "title": "Hard gtt/min \u00b7 DF 60",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 150 mL over 75 minutes using a 60 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "120 gtt/min",
+    "distractors": [
+      "121 gtt/min",
+      "122 gtt/min",
+      "7200 gtt/min"
+    ],
+    "explanation": "(150 \u00d7 60) \u00f7 75 = 120 \u2192 round to 120 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-146",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 300 mL over 150 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "30 gtt/min",
+    "distractors": [
+      "31 gtt/min",
+      "32 gtt/min",
+      "1800 gtt/min"
+    ],
+    "explanation": "(300 \u00d7 15) \u00f7 150 = 30 \u2192 round to 30 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-147",
+    "title": "Hard gtt/min \u00b7 DF 60",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 40 mL over 20 minutes using a 60 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "120 gtt/min",
+    "distractors": [
+      "121 gtt/min",
+      "122 gtt/min",
+      "7200 gtt/min"
+    ],
+    "explanation": "(40 \u00d7 60) \u00f7 20 = 120 \u2192 round to 120 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-148",
+    "title": "Hard gtt/min \u00b7 DF 10",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 180 mL over 90 minutes using a 10 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "20 gtt/min",
+    "distractors": [
+      "21 gtt/min",
+      "22 gtt/min",
+      "1200 gtt/min"
+    ],
+    "explanation": "(180 \u00d7 10) \u00f7 90 = 20 \u2192 round to 20 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-149",
+    "title": "Hard gtt/min \u00b7 DF 20",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 225 mL over 100 minutes using a 20 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "45 gtt/min",
+    "distractors": [
+      "46 gtt/min",
+      "47 gtt/min",
+      "2700 gtt/min"
+    ],
+    "explanation": "(225 \u00d7 20) \u00f7 100 = 45 \u2192 round to 45 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-150",
+    "title": "Hard gtt/min \u00b7 DF 15",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes; round to nearest drop",
+    "prompt": "Infuse 60 mL over 45 minutes using a 15 gtt/mL set. What is the drip rate (nearest drop)?",
+    "answer": "20 gtt/min",
+    "distractors": [
+      "21 gtt/min",
+      "22 gtt/min",
+      "1200 gtt/min"
+    ],
+    "explanation": "(60 \u00d7 15) \u00f7 45 = 20 \u2192 round to 20 gtt/min.",
+    "ptceTip": "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL."
+  },
+  {
+    "id": "math-151",
+    "title": "Hard IV \u00b7 time from 125 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Time(hr) = volume \u00f7 mL/hr",
+    "prompt": "A bag contains 1000 mL and the pump is set to 125 mL/hr. How long will the infusion last?",
+    "answer": "8 hours",
+    "distractors": [
+      "9 hours",
+      "125 hours",
+      "4 hours"
+    ],
+    "explanation": "1000 \u00f7 125 = 8 hours.",
+    "ptceTip": "Sometimes the exam asks for time, not rate \u2014 invert the formula."
+  },
+  {
+    "id": "math-152",
+    "title": "Hard IV \u00b7 time from 50 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Time(hr) = volume \u00f7 mL/hr",
+    "prompt": "A bag contains 500 mL and the pump is set to 50 mL/hr. How long will the infusion last?",
+    "answer": "10 hours",
+    "distractors": [
+      "11 hours",
+      "50 hours",
+      "5 hours"
+    ],
+    "explanation": "500 \u00f7 50 = 10 hours.",
+    "ptceTip": "Sometimes the exam asks for time, not rate \u2014 invert the formula."
+  },
+  {
+    "id": "math-153",
+    "title": "Hard IV \u00b7 time from 75 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Time(hr) = volume \u00f7 mL/hr",
+    "prompt": "A bag contains 250 mL and the pump is set to 75 mL/hr. How long will the infusion last?",
+    "answer": "3 hr 20 min",
+    "distractors": [
+      "4 hours",
+      "75 hours",
+      "1.667 hours"
+    ],
+    "explanation": "250 \u00f7 75 = 3.333 hr \u2248 3 hr 20 min.",
+    "ptceTip": "Sometimes the exam asks for time, not rate \u2014 invert the formula."
+  },
+  {
+    "id": "math-154",
+    "title": "Hard IV \u00b7 time from 83 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Time(hr) = volume \u00f7 mL/hr",
+    "prompt": "A bag contains 1000 mL and the pump is set to 83 mL/hr. How long will the infusion last?",
+    "answer": "12 hr 3 min",
+    "distractors": [
+      "13 hours",
+      "83 hours",
+      "6.024 hours"
+    ],
+    "explanation": "1000 \u00f7 83 = 12.05 hr \u2248 12 hr 3 min.",
+    "ptceTip": "Sometimes the exam asks for time, not rate \u2014 invert the formula."
+  },
+  {
+    "id": "math-155",
+    "title": "Hard IV \u00b7 time from 100 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Time(hr) = volume \u00f7 mL/hr",
+    "prompt": "A bag contains 750 mL and the pump is set to 100 mL/hr. How long will the infusion last?",
+    "answer": "7 hr 30 min",
+    "distractors": [
+      "8 hours",
+      "100 hours",
+      "3.75 hours"
+    ],
+    "explanation": "750 \u00f7 100 = 7.5 hr \u2248 7 hr 30 min.",
+    "ptceTip": "Sometimes the exam asks for time, not rate \u2014 invert the formula."
+  },
+  {
+    "id": "math-156",
+    "title": "Hard IV \u00b7 time from 40 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Time(hr) = volume \u00f7 mL/hr",
+    "prompt": "A bag contains 200 mL and the pump is set to 40 mL/hr. How long will the infusion last?",
+    "answer": "5 hours",
+    "distractors": [
+      "6 hours",
+      "40 hours",
+      "2.5 hours"
+    ],
+    "explanation": "200 \u00f7 40 = 5 hours.",
+    "ptceTip": "Sometimes the exam asks for time, not rate \u2014 invert the formula."
+  },
+  {
+    "id": "math-157",
+    "title": "Hard IV \u00b7 time from 20 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Time(hr) = volume \u00f7 mL/hr",
+    "prompt": "A bag contains 100 mL and the pump is set to 20 mL/hr. How long will the infusion last?",
+    "answer": "5 hours",
+    "distractors": [
+      "6 hours",
+      "20 hours",
+      "2.5 hours"
+    ],
+    "explanation": "100 \u00f7 20 = 5 hours.",
+    "ptceTip": "Sometimes the exam asks for time, not rate \u2014 invert the formula."
+  },
+  {
+    "id": "math-158",
+    "title": "Hard IV \u00b7 time from 125 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Time(hr) = volume \u00f7 mL/hr",
+    "prompt": "A bag contains 1500 mL and the pump is set to 125 mL/hr. How long will the infusion last?",
+    "answer": "12 hours",
+    "distractors": [
+      "13 hours",
+      "125 hours",
+      "6 hours"
+    ],
+    "explanation": "1500 \u00f7 125 = 12 hours.",
+    "ptceTip": "Sometimes the exam asks for time, not rate \u2014 invert the formula."
+  },
+  {
+    "id": "math-159",
+    "title": "Hard IV \u00b7 volume after 4 hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Volume = rate \u00d7 time",
+    "prompt": "An IV runs at 125 mL/hr for 4 hours. How many mL will infuse?",
+    "answer": "500 mL",
+    "distractors": [
+      "129 mL",
+      "125 mL",
+      "250 mL"
+    ],
+    "explanation": "125 \u00d7 4 = 500 mL.",
+    "ptceTip": "Useful for checking how much drug/fluid a patient has already received."
+  },
+  {
+    "id": "math-160",
+    "title": "Hard IV \u00b7 volume after 6 hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Volume = rate \u00d7 time",
+    "prompt": "An IV runs at 83 mL/hr for 6 hours. How many mL will infuse?",
+    "answer": "498 mL",
+    "distractors": [
+      "89 mL",
+      "83 mL",
+      "249 mL"
+    ],
+    "explanation": "83 \u00d7 6 = 498 mL.",
+    "ptceTip": "Useful for checking how much drug/fluid a patient has already received."
+  },
+  {
+    "id": "math-161",
+    "title": "Hard IV \u00b7 volume after 8 hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Volume = rate \u00d7 time",
+    "prompt": "An IV runs at 50 mL/hr for 8 hours. How many mL will infuse?",
+    "answer": "400 mL",
+    "distractors": [
+      "58 mL",
+      "50 mL",
+      "200 mL"
+    ],
+    "explanation": "50 \u00d7 8 = 400 mL.",
+    "ptceTip": "Useful for checking how much drug/fluid a patient has already received."
+  },
+  {
+    "id": "math-162",
+    "title": "Hard IV \u00b7 volume after 2.5 hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Volume = rate \u00d7 time",
+    "prompt": "An IV runs at 100 mL/hr for 2.5 hours. How many mL will infuse?",
+    "answer": "250 mL",
+    "distractors": [
+      "102.5 mL",
+      "100 mL",
+      "125 mL"
+    ],
+    "explanation": "100 \u00d7 2.5 = 250 mL.",
+    "ptceTip": "Useful for checking how much drug/fluid a patient has already received."
+  },
+  {
+    "id": "math-163",
+    "title": "Hard IV \u00b7 volume after 3 hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Volume = rate \u00d7 time",
+    "prompt": "An IV runs at 75 mL/hr for 3 hours. How many mL will infuse?",
+    "answer": "225 mL",
+    "distractors": [
+      "78 mL",
+      "75 mL",
+      "112.5 mL"
+    ],
+    "explanation": "75 \u00d7 3 = 225 mL.",
+    "ptceTip": "Useful for checking how much drug/fluid a patient has already received."
+  },
+  {
+    "id": "math-164",
+    "title": "Hard IV \u00b7 volume after 1.5 hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Volume = rate \u00d7 time",
+    "prompt": "An IV runs at 200 mL/hr for 1.5 hours. How many mL will infuse?",
+    "answer": "300 mL",
+    "distractors": [
+      "201.5 mL",
+      "200 mL",
+      "150 mL"
+    ],
+    "explanation": "200 \u00d7 1.5 = 300 mL.",
+    "ptceTip": "Useful for checking how much drug/fluid a patient has already received."
+  },
+  {
+    "id": "math-165",
+    "title": "Hard IV \u00b7 volume after 5 hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Volume = rate \u00d7 time",
+    "prompt": "An IV runs at 40 mL/hr for 5 hours. How many mL will infuse?",
+    "answer": "200 mL",
+    "distractors": [
+      "45 mL",
+      "40 mL",
+      "100 mL"
+    ],
+    "explanation": "40 \u00d7 5 = 200 mL.",
+    "ptceTip": "Useful for checking how much drug/fluid a patient has already received."
+  },
+  {
+    "id": "math-166",
+    "title": "Hard IV \u00b7 volume after 2 hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "Volume = rate \u00d7 time",
+    "prompt": "An IV runs at 150 mL/hr for 2 hours. How many mL will infuse?",
+    "answer": "300 mL",
+    "distractors": [
+      "152 mL",
+      "150 mL",
+      "150 mL"
+    ],
+    "explanation": "150 \u00d7 2 = 300 mL.",
+    "ptceTip": "Useful for checking how much drug/fluid a patient has already received."
+  },
+  {
+    "id": "math-167",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 1000 mg in 250 mL D5W. The order is 100 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "25 mL/hr",
+    "distractors": [
+      "4 mL/hr",
+      "100 mL/hr",
+      "50 mL/hr"
+    ],
+    "explanation": "Concentration = 1000 mg \u00f7 250 mL = 4 mg/mL. Rate = 100 \u00f7 4 = 25 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-168",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 1000 mg in 100 mL D5W. The order is 50 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "5 mL/hr",
+    "distractors": [
+      "10 mL/hr",
+      "50 mL/hr",
+      "10 mL/hr"
+    ],
+    "explanation": "Concentration = 1000 mg \u00f7 100 mL = 10 mg/mL. Rate = 50 \u00f7 10 = 5 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-169",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 500 mg in 250 mL D5W. The order is 50 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "25 mL/hr",
+    "distractors": [
+      "2 mL/hr",
+      "50 mL/hr",
+      "50 mL/hr"
+    ],
+    "explanation": "Concentration = 500 mg \u00f7 250 mL = 2 mg/mL. Rate = 50 \u00f7 2 = 25 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-170",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 2 g in 500 mL D5W. The order is 0.5 g/hr. What is the pump rate in mL/hr?",
+    "answer": "125 mL/hr",
+    "distractors": [
+      "4 mL/hr",
+      "500 mL/hr",
+      "250 mL/hr"
+    ],
+    "explanation": "Concentration = 2000 mg \u00f7 500 mL = 4 mg/mL. Rate = 500 \u00f7 4 = 125 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-171",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 1 g in 250 mL D5W. The order is 200 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "50 mL/hr",
+    "distractors": [
+      "4 mL/hr",
+      "200 mL/hr",
+      "100 mL/hr"
+    ],
+    "explanation": "Concentration = 1000 mg \u00f7 250 mL = 4 mg/mL. Rate = 200 \u00f7 4 = 50 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-172",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 400 mg in 200 mL D5W. The order is 40 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "20 mL/hr",
+    "distractors": [
+      "2 mL/hr",
+      "40 mL/hr",
+      "40 mL/hr"
+    ],
+    "explanation": "Concentration = 400 mg \u00f7 200 mL = 2 mg/mL. Rate = 40 \u00f7 2 = 20 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-173",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 2 g in 250 mL D5W. The order is 100 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "12.5 mL/hr",
+    "distractors": [
+      "8 mL/hr",
+      "100 mL/hr",
+      "25 mL/hr"
+    ],
+    "explanation": "Concentration = 2000 mg \u00f7 250 mL = 8 mg/mL. Rate = 100 \u00f7 8 = 12.5 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-174",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 500 mg in 100 mL D5W. The order is 125 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "25 mL/hr",
+    "distractors": [
+      "5 mL/hr",
+      "125 mL/hr",
+      "50 mL/hr"
+    ],
+    "explanation": "Concentration = 500 mg \u00f7 100 mL = 5 mg/mL. Rate = 125 \u00f7 5 = 25 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-175",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 1 g in 500 mL D5W. The order is 50 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "25 mL/hr",
+    "distractors": [
+      "2 mL/hr",
+      "50 mL/hr",
+      "50 mL/hr"
+    ],
+    "explanation": "Concentration = 1000 mg \u00f7 500 mL = 2 mg/mL. Rate = 50 \u00f7 2 = 25 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-176",
+    "title": "Hard IV \u00b7 drug rate to mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (ordered mg/hr) \u00f7 (mg/mL concentration)",
+    "prompt": "A bag has 750 mg in 250 mL D5W. The order is 75 mg/hr. What is the pump rate in mL/hr?",
+    "answer": "25 mL/hr",
+    "distractors": [
+      "3 mL/hr",
+      "75 mL/hr",
+      "50 mL/hr"
+    ],
+    "explanation": "Concentration = 750 mg \u00f7 250 mL = 3 mg/mL. Rate = 75 \u00f7 3 = 25 mL/hr.",
+    "ptceTip": "Hard PTCE-style items combine concentration with infusion rate \u2014 convert units first."
+  },
+  {
+    "id": "math-177",
+    "title": "Hard IV \u00b7 mcg/kg/min \u2192 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (mcg/kg/min \u00d7 kg \u00d7 60) \u00f7 (mcg/mL)",
+    "prompt": "Order: 5 mcg/kg/min. Patient weighs 70 kg. Infusion concentration is 400 mcg/mL. Pump rate in mL/hr?",
+    "answer": "52.5 mL/hr",
+    "distractors": [
+      "350 mL/hr",
+      "0.875 mL/hr",
+      "0.875 mL/hr"
+    ],
+    "explanation": "mcg/min = 70\u00d75 = 350. mL/min = 350/400 = 0.875. \u00d760 = 52.5 mL/hr.",
+    "ptceTip": "Weight-based IV drips need the 60-minute conversion to mL/hr."
+  },
+  {
+    "id": "math-178",
+    "title": "Hard IV \u00b7 mcg/kg/min \u2192 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (mcg/kg/min \u00d7 kg \u00d7 60) \u00f7 (mcg/mL)",
+    "prompt": "Order: 3 mcg/kg/min. Patient weighs 80 kg. Infusion concentration is 200 mcg/mL. Pump rate in mL/hr?",
+    "answer": "72 mL/hr",
+    "distractors": [
+      "240 mL/hr",
+      "1.2 mL/hr",
+      "1.2 mL/hr"
+    ],
+    "explanation": "mcg/min = 80\u00d73 = 240. mL/min = 240/200 = 1.2. \u00d760 = 72 mL/hr.",
+    "ptceTip": "Weight-based IV drips need the 60-minute conversion to mL/hr."
+  },
+  {
+    "id": "math-179",
+    "title": "Hard IV \u00b7 mcg/kg/min \u2192 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (mcg/kg/min \u00d7 kg \u00d7 60) \u00f7 (mcg/mL)",
+    "prompt": "Order: 2 mcg/kg/min. Patient weighs 60 kg. Infusion concentration is 160 mcg/mL. Pump rate in mL/hr?",
+    "answer": "45 mL/hr",
+    "distractors": [
+      "120 mL/hr",
+      "0.75 mL/hr",
+      "0.75 mL/hr"
+    ],
+    "explanation": "mcg/min = 60\u00d72 = 120. mL/min = 120/160 = 0.75. \u00d760 = 45 mL/hr.",
+    "ptceTip": "Weight-based IV drips need the 60-minute conversion to mL/hr."
+  },
+  {
+    "id": "math-180",
+    "title": "Hard IV \u00b7 mcg/kg/min \u2192 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (mcg/kg/min \u00d7 kg \u00d7 60) \u00f7 (mcg/mL)",
+    "prompt": "Order: 4 mcg/kg/min. Patient weighs 90 kg. Infusion concentration is 400 mcg/mL. Pump rate in mL/hr?",
+    "answer": "54 mL/hr",
+    "distractors": [
+      "360 mL/hr",
+      "0.9 mL/hr",
+      "0.9 mL/hr"
+    ],
+    "explanation": "mcg/min = 90\u00d74 = 360. mL/min = 360/400 = 0.9. \u00d760 = 54 mL/hr.",
+    "ptceTip": "Weight-based IV drips need the 60-minute conversion to mL/hr."
+  },
+  {
+    "id": "math-181",
+    "title": "Hard IV \u00b7 mcg/kg/min \u2192 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (mcg/kg/min \u00d7 kg \u00d7 60) \u00f7 (mcg/mL)",
+    "prompt": "Order: 5 mcg/kg/min. Patient weighs 50 kg. Infusion concentration is 250 mcg/mL. Pump rate in mL/hr?",
+    "answer": "60 mL/hr",
+    "distractors": [
+      "250 mL/hr",
+      "1 mL/hr",
+      "1 mL/hr"
+    ],
+    "explanation": "mcg/min = 50\u00d75 = 250. mL/min = 250/250 = 1. \u00d760 = 60 mL/hr.",
+    "ptceTip": "Weight-based IV drips need the 60-minute conversion to mL/hr."
+  },
+  {
+    "id": "math-182",
+    "title": "Hard IV \u00b7 mcg/kg/min \u2192 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (mcg/kg/min \u00d7 kg \u00d7 60) \u00f7 (mcg/mL)",
+    "prompt": "Order: 2.5 mcg/kg/min. Patient weighs 75 kg. Infusion concentration is 200 mcg/mL. Pump rate in mL/hr?",
+    "answer": "56.25 mL/hr",
+    "distractors": [
+      "187.5 mL/hr",
+      "0.9375 mL/hr",
+      "0.9375 mL/hr"
+    ],
+    "explanation": "mcg/min = 75\u00d72.5 = 187.5. mL/min = 187.5/200 = 0.9375. \u00d760 = 56.25 mL/hr.",
+    "ptceTip": "Weight-based IV drips need the 60-minute conversion to mL/hr."
+  },
+  {
+    "id": "math-183",
+    "title": "Hard IV \u00b7 mcg/kg/min \u2192 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (mcg/kg/min \u00d7 kg \u00d7 60) \u00f7 (mcg/mL)",
+    "prompt": "Order: 1 mcg/kg/min. Patient weighs 65 kg. Infusion concentration is 100 mcg/mL. Pump rate in mL/hr?",
+    "answer": "39 mL/hr",
+    "distractors": [
+      "65 mL/hr",
+      "0.65 mL/hr",
+      "0.65 mL/hr"
+    ],
+    "explanation": "mcg/min = 65\u00d71 = 65. mL/min = 65/100 = 0.65. \u00d760 = 39 mL/hr.",
+    "ptceTip": "Weight-based IV drips need the 60-minute conversion to mL/hr."
+  },
+  {
+    "id": "math-184",
+    "title": "Hard IV \u00b7 mcg/kg/min \u2192 mL/hr",
+    "category": "IV Flow Rates",
+    "difficulty": "hard",
+    "formula": "mL/hr = (mcg/kg/min \u00d7 kg \u00d7 60) \u00f7 (mcg/mL)",
+    "prompt": "Order: 3 mcg/kg/min. Patient weighs 100 kg. Infusion concentration is 300 mcg/mL. Pump rate in mL/hr?",
+    "answer": "60 mL/hr",
+    "distractors": [
+      "300 mL/hr",
+      "1 mL/hr",
+      "1 mL/hr"
+    ],
+    "explanation": "mcg/min = 100\u00d73 = 300. mL/min = 300/300 = 1. \u00d760 = 60 mL/hr.",
+    "ptceTip": "Weight-based IV drips need the 60-minute conversion to mL/hr."
+  },
+  {
+    "id": "math-185",
+    "title": "Hard dilution \u00b7 10% \u2192 1%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 250 mL of 1% solution using 10% stock. How many mL of stock are needed?",
+    "answer": "25 mL",
+    "distractors": [
+      "250 mL",
+      "225 mL",
+      "50 mL"
+    ],
+    "explanation": "V1 = (1\u00d7250)/10 = 25 mL stock; then qs diluent to 250 mL (225 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-186",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (250 mL of 1% from 10% stock), how much diluent is added?",
+    "answer": "225 mL",
+    "distractors": [
+      "25 mL",
+      "250 mL",
+      "10 mL"
+    ],
+    "explanation": "Stock needed is 25 mL, so diluent = 250 \u2212 25 = 225 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-187",
+    "title": "Hard dilution \u00b7 50% \u2192 5%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 100 mL of 5% solution using 50% stock. How many mL of stock are needed?",
+    "answer": "10 mL",
+    "distractors": [
+      "100 mL",
+      "90 mL",
+      "20 mL"
+    ],
+    "explanation": "V1 = (5\u00d7100)/50 = 10 mL stock; then qs diluent to 100 mL (90 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-188",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (100 mL of 5% from 50% stock), how much diluent is added?",
+    "answer": "90 mL",
+    "distractors": [
+      "10 mL",
+      "100 mL",
+      "50 mL"
+    ],
+    "explanation": "Stock needed is 10 mL, so diluent = 100 \u2212 10 = 90 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-189",
+    "title": "Hard dilution \u00b7 100% \u2192 20%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 50 mL of 20% solution using 100% stock. How many mL of stock are needed?",
+    "answer": "10 mL",
+    "distractors": [
+      "50 mL",
+      "40 mL",
+      "20 mL"
+    ],
+    "explanation": "V1 = (20\u00d750)/100 = 10 mL stock; then qs diluent to 50 mL (40 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-190",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (50 mL of 20% from 100% stock), how much diluent is added?",
+    "answer": "40 mL",
+    "distractors": [
+      "10 mL",
+      "50 mL",
+      "100 mL"
+    ],
+    "explanation": "Stock needed is 10 mL, so diluent = 50 \u2212 10 = 40 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-191",
+    "title": "Hard dilution \u00b7 25% \u2192 2.5%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 200 mL of 2.5% solution using 25% stock. How many mL of stock are needed?",
+    "answer": "20 mL",
+    "distractors": [
+      "200 mL",
+      "180 mL",
+      "40 mL"
+    ],
+    "explanation": "V1 = (2.5\u00d7200)/25 = 20 mL stock; then qs diluent to 200 mL (180 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-192",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (200 mL of 2.5% from 25% stock), how much diluent is added?",
+    "answer": "180 mL",
+    "distractors": [
+      "20 mL",
+      "200 mL",
+      "25 mL"
+    ],
+    "explanation": "Stock needed is 20 mL, so diluent = 200 \u2212 20 = 180 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-193",
+    "title": "Hard dilution \u00b7 40% \u2192 4%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 500 mL of 4% solution using 40% stock. How many mL of stock are needed?",
+    "answer": "50 mL",
+    "distractors": [
+      "500 mL",
+      "450 mL",
+      "100 mL"
+    ],
+    "explanation": "V1 = (4\u00d7500)/40 = 50 mL stock; then qs diluent to 500 mL (450 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-194",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (500 mL of 4% from 40% stock), how much diluent is added?",
+    "answer": "450 mL",
+    "distractors": [
+      "50 mL",
+      "500 mL",
+      "40 mL"
+    ],
+    "explanation": "Stock needed is 50 mL, so diluent = 500 \u2212 50 = 450 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-195",
+    "title": "Hard dilution \u00b7 70% \u2192 7%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 100 mL of 7% solution using 70% stock. How many mL of stock are needed?",
+    "answer": "10 mL",
+    "distractors": [
+      "100 mL",
+      "90 mL",
+      "20 mL"
+    ],
+    "explanation": "V1 = (7\u00d7100)/70 = 10 mL stock; then qs diluent to 100 mL (90 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-196",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (100 mL of 7% from 70% stock), how much diluent is added?",
+    "answer": "90 mL",
+    "distractors": [
+      "10 mL",
+      "100 mL",
+      "70 mL"
+    ],
+    "explanation": "Stock needed is 10 mL, so diluent = 100 \u2212 10 = 90 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-197",
+    "title": "Hard dilution \u00b7 5% \u2192 0.5%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 1000 mL of 0.5% solution using 5% stock. How many mL of stock are needed?",
+    "answer": "100 mL",
+    "distractors": [
+      "1000 mL",
+      "900 mL",
+      "200 mL"
+    ],
+    "explanation": "V1 = (0.5\u00d71000)/5 = 100 mL stock; then qs diluent to 1000 mL (900 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-198",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (1000 mL of 0.5% from 5% stock), how much diluent is added?",
+    "answer": "900 mL",
+    "distractors": [
+      "100 mL",
+      "1000 mL",
+      "5 mL"
+    ],
+    "explanation": "Stock needed is 100 mL, so diluent = 1000 \u2212 100 = 900 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-199",
+    "title": "Hard dilution \u00b7 20% \u2192 2%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 750 mL of 2% solution using 20% stock. How many mL of stock are needed?",
+    "answer": "75 mL",
+    "distractors": [
+      "750 mL",
+      "675 mL",
+      "150 mL"
+    ],
+    "explanation": "V1 = (2\u00d7750)/20 = 75 mL stock; then qs diluent to 750 mL (675 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-200",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (750 mL of 2% from 20% stock), how much diluent is added?",
+    "answer": "675 mL",
+    "distractors": [
+      "75 mL",
+      "750 mL",
+      "20 mL"
+    ],
+    "explanation": "Stock needed is 75 mL, so diluent = 750 \u2212 75 = 675 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-201",
+    "title": "Hard dilution \u00b7 15% \u2192 3%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 300 mL of 3% solution using 15% stock. How many mL of stock are needed?",
+    "answer": "60 mL",
+    "distractors": [
+      "300 mL",
+      "240 mL",
+      "120 mL"
+    ],
+    "explanation": "V1 = (3\u00d7300)/15 = 60 mL stock; then qs diluent to 300 mL (240 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-202",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (300 mL of 3% from 15% stock), how much diluent is added?",
+    "answer": "240 mL",
+    "distractors": [
+      "60 mL",
+      "300 mL",
+      "15 mL"
+    ],
+    "explanation": "Stock needed is 60 mL, so diluent = 300 \u2212 60 = 240 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-203",
+    "title": "Hard dilution \u00b7 8% \u2192 0.8%",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "V1 = (C2 \u00d7 V2) / C1 ; diluent = V2 \u2212 V1",
+    "prompt": "Prepare 250 mL of 0.8% solution using 8% stock. How many mL of stock are needed?",
+    "answer": "25 mL",
+    "distractors": [
+      "250 mL",
+      "225 mL",
+      "50 mL"
+    ],
+    "explanation": "V1 = (0.8\u00d7250)/8 = 25 mL stock; then qs diluent to 250 mL (225 mL diluent).",
+    "ptceTip": "Alligation is off the 2026 PTCE \u2014 use C1V1=C2V2 for dilution items."
+  },
+  {
+    "id": "math-204",
+    "title": "Hard dilution \u00b7 diluent volume",
+    "category": "Dilutions",
+    "difficulty": "hard",
+    "formula": "Diluent = final volume \u2212 stock volume",
+    "prompt": "Using the same setup (250 mL of 0.8% from 8% stock), how much diluent is added?",
+    "answer": "225 mL",
+    "distractors": [
+      "25 mL",
+      "250 mL",
+      "8 mL"
+    ],
+    "explanation": "Stock needed is 25 mL, so diluent = 250 \u2212 25 = 225 mL.",
+    "ptceTip": "Many techs calculate stock correctly but forget diluent volume."
+  },
+  {
+    "id": "math-205",
+    "title": "Hard % from 250 mg/5 mL",
+    "category": "Percent Strength",
+    "difficulty": "hard",
+    "formula": "% w/v = (g solute \u00f7 mL solution) \u00d7 100",
+    "prompt": "A solution contains 250 mg in 5 mL. What is the % w/v strength?",
+    "answer": "5%",
+    "distractors": [
+      "50%",
+      "50%",
+      "0.25%"
+    ],
+    "explanation": "Convert 250 mg \u2192 0.25 g; (0.25/5)\u00d7100 = 5%.",
+    "ptceTip": "Watch mg vs g \u2014 percent strength uses grams per 100 mL."
+  },
+  {
+    "id": "math-206",
+    "title": "Hard % from 500 mg/10 mL",
+    "category": "Percent Strength",
+    "difficulty": "hard",
+    "formula": "% w/v = (g solute \u00f7 mL solution) \u00d7 100",
+    "prompt": "A solution contains 500 mg in 10 mL. What is the % w/v strength?",
+    "answer": "5%",
+    "distractors": [
+      "50%",
+      "50%",
+      "0.5%"
+    ],
+    "explanation": "Convert 500 mg \u2192 0.5 g; (0.5/10)\u00d7100 = 5%.",
+    "ptceTip": "Watch mg vs g \u2014 percent strength uses grams per 100 mL."
+  },
+  {
+    "id": "math-207",
+    "title": "Hard % from 1000 mg/50 mL",
+    "category": "Percent Strength",
+    "difficulty": "hard",
+    "formula": "% w/v = (g solute \u00f7 mL solution) \u00d7 100",
+    "prompt": "A solution contains 1000 mg in 50 mL. What is the % w/v strength?",
+    "answer": "2%",
+    "distractors": [
+      "20%",
+      "20%",
+      "1%"
+    ],
+    "explanation": "Convert 1000 mg \u2192 1 g; (1/50)\u00d7100 = 2%.",
+    "ptceTip": "Watch mg vs g \u2014 percent strength uses grams per 100 mL."
+  },
+  {
+    "id": "math-208",
+    "title": "Hard % from 40 mg/2 mL",
+    "category": "Percent Strength",
+    "difficulty": "hard",
+    "formula": "% w/v = (g solute \u00f7 mL solution) \u00d7 100",
+    "prompt": "A solution contains 40 mg in 2 mL. What is the % w/v strength?",
+    "answer": "2%",
+    "distractors": [
+      "20%",
+      "20%",
+      "0.04%"
+    ],
+    "explanation": "Convert 40 mg \u2192 0.04 g; (0.04/2)\u00d7100 = 2%.",
+    "ptceTip": "Watch mg vs g \u2014 percent strength uses grams per 100 mL."
+  },
+  {
+    "id": "math-209",
+    "title": "Hard % from 125 mg/5 mL",
+    "category": "Percent Strength",
+    "difficulty": "hard",
+    "formula": "% w/v = (g solute \u00f7 mL solution) \u00d7 100",
+    "prompt": "A solution contains 125 mg in 5 mL. What is the % w/v strength?",
+    "answer": "2.5%",
+    "distractors": [
+      "25%",
+      "25%",
+      "0.125%"
+    ],
+    "explanation": "Convert 125 mg \u2192 0.125 g; (0.125/5)\u00d7100 = 2.5%.",
+    "ptceTip": "Watch mg vs g \u2014 percent strength uses grams per 100 mL."
+  },
+  {
+    "id": "math-210",
+    "title": "Hard % from 80 mg/2 mL",
+    "category": "Percent Strength",
+    "difficulty": "hard",
+    "formula": "% w/v = (g solute \u00f7 mL solution) \u00d7 100",
+    "prompt": "A solution contains 80 mg in 2 mL. What is the % w/v strength?",
+    "answer": "4%",
+    "distractors": [
+      "40%",
+      "40%",
+      "0.08%"
+    ],
+    "explanation": "Convert 80 mg \u2192 0.08 g; (0.08/2)\u00d7100 = 4%.",
+    "ptceTip": "Watch mg vs g \u2014 percent strength uses grams per 100 mL."
+  },
+  {
+    "id": "math-211",
+    "title": "Hard mg/kg \u00b7 44 lb",
+    "category": "Weight-Based Dosing",
+    "difficulty": "hard",
+    "formula": "kg = lb \u00f7 2.2 ; mg/dose = mg/kg \u00d7 kg",
+    "prompt": "Patient weighs 44 lb. Order: 10 mg/kg/dose 2\u00d7 daily. How many mg per dose?",
+    "answer": "200 mg",
+    "distractors": [
+      "400 mg",
+      "440 mg",
+      "20 mg"
+    ],
+    "explanation": "44 \u00f7 2.2 = 20 kg; \u00d7 10 = 200 mg/dose.",
+    "ptceTip": "If the question asks per dose vs per day, that word changes the answer."
+  },
+  {
+    "id": "math-212",
+    "title": "Hard mg/kg \u00b7 66 lb",
+    "category": "Weight-Based Dosing",
+    "difficulty": "hard",
+    "formula": "kg = lb \u00f7 2.2 ; mg/dose = mg/kg \u00d7 kg",
+    "prompt": "Patient weighs 66 lb. Order: 15 mg/kg/dose 3\u00d7 daily. How many mg per dose?",
+    "answer": "450 mg",
+    "distractors": [
+      "1350 mg",
+      "990 mg",
+      "30 mg"
+    ],
+    "explanation": "66 \u00f7 2.2 = 30 kg; \u00d7 15 = 450 mg/dose.",
+    "ptceTip": "If the question asks per dose vs per day, that word changes the answer."
+  },
+  {
+    "id": "math-213",
+    "title": "Hard mg/kg \u00b7 88 lb",
+    "category": "Weight-Based Dosing",
+    "difficulty": "hard",
+    "formula": "kg = lb \u00f7 2.2 ; mg/dose = mg/kg \u00d7 kg",
+    "prompt": "Patient weighs 88 lb. Order: 5 mg/kg/dose 4\u00d7 daily. How many mg per dose?",
+    "answer": "200 mg",
+    "distractors": [
+      "800 mg",
+      "440 mg",
+      "40 mg"
+    ],
+    "explanation": "88 \u00f7 2.2 = 40 kg; \u00d7 5 = 200 mg/dose.",
+    "ptceTip": "If the question asks per dose vs per day, that word changes the answer."
+  },
+  {
+    "id": "math-214",
+    "title": "Hard mg/kg \u00b7 33 lb",
+    "category": "Weight-Based Dosing",
+    "difficulty": "hard",
+    "formula": "kg = lb \u00f7 2.2 ; mg/dose = mg/kg \u00d7 kg",
+    "prompt": "Patient weighs 33 lb. Order: 20 mg/kg/dose 2\u00d7 daily. How many mg per dose?",
+    "answer": "300 mg",
+    "distractors": [
+      "600 mg",
+      "660 mg",
+      "15 mg"
+    ],
+    "explanation": "33 \u00f7 2.2 = 15 kg; \u00d7 20 = 300 mg/dose.",
+    "ptceTip": "If the question asks per dose vs per day, that word changes the answer."
+  },
+  {
+    "id": "math-215",
+    "title": "Hard mg/kg \u00b7 110 lb",
+    "category": "Weight-Based Dosing",
+    "difficulty": "hard",
+    "formula": "kg = lb \u00f7 2.2 ; mg/dose = mg/kg \u00d7 kg",
+    "prompt": "Patient weighs 110 lb. Order: 7.5 mg/kg/dose 2\u00d7 daily. How many mg per dose?",
+    "answer": "375 mg",
+    "distractors": [
+      "750 mg",
+      "825 mg",
+      "50 mg"
+    ],
+    "explanation": "110 \u00f7 2.2 = 50 kg; \u00d7 7.5 = 375 mg/dose.",
+    "ptceTip": "If the question asks per dose vs per day, that word changes the answer."
+  },
+  {
+    "id": "math-216",
+    "title": "Hard mg/kg \u00b7 55 lb",
+    "category": "Weight-Based Dosing",
+    "difficulty": "hard",
+    "formula": "kg = lb \u00f7 2.2 ; mg/dose = mg/kg \u00d7 kg",
+    "prompt": "Patient weighs 55 lb. Order: 12 mg/kg/dose 3\u00d7 daily. How many mg per dose?",
+    "answer": "300 mg",
+    "distractors": [
+      "900 mg",
+      "660 mg",
+      "25 mg"
+    ],
+    "explanation": "55 \u00f7 2.2 = 25 kg; \u00d7 12 = 300 mg/dose.",
+    "ptceTip": "If the question asks per dose vs per day, that word changes the answer."
+  },
+  {
+    "id": "math-217",
+    "title": "Hard draw-up \u00b7 100 mg",
+    "category": "Ratio & Proportion",
+    "difficulty": "hard",
+    "formula": "Volume = desired \u00f7 concentration",
+    "prompt": "After reconstitution, a vial is 250 mg / 5 mL. How many mL are needed for a 100 mg dose?",
+    "answer": "2 mL",
+    "distractors": [
+      "5 mL",
+      "100 mL",
+      "4 mL"
+    ],
+    "explanation": "(100/250) \u00d7 5 = 2 mL.",
+    "ptceTip": "Reconstitution strength is on the label after mixing \u2014 use that for draw-up math."
+  },
+  {
+    "id": "math-218",
+    "title": "Hard draw-up \u00b7 250 mg",
+    "category": "Ratio & Proportion",
+    "difficulty": "hard",
+    "formula": "Volume = desired \u00f7 concentration",
+    "prompt": "After reconstitution, a vial is 500 mg / 10 mL. How many mL are needed for a 250 mg dose?",
+    "answer": "5 mL",
+    "distractors": [
+      "10 mL",
+      "250 mL",
+      "10 mL"
+    ],
+    "explanation": "(250/500) \u00d7 10 = 5 mL.",
+    "ptceTip": "Reconstitution strength is on the label after mixing \u2014 use that for draw-up math."
+  },
+  {
+    "id": "math-219",
+    "title": "Hard draw-up \u00b7 200 mg",
+    "category": "Ratio & Proportion",
+    "difficulty": "hard",
+    "formula": "Volume = desired \u00f7 concentration",
+    "prompt": "After reconstitution, a vial is 125 mg / 5 mL. How many mL are needed for a 200 mg dose?",
+    "answer": "8 mL",
+    "distractors": [
+      "5 mL",
+      "200 mL",
+      "16 mL"
+    ],
+    "explanation": "(200/125) \u00d7 5 = 8 mL.",
+    "ptceTip": "Reconstitution strength is on the label after mixing \u2014 use that for draw-up math."
+  },
+  {
+    "id": "math-220",
+    "title": "Hard draw-up \u00b7 750 mg",
+    "category": "Ratio & Proportion",
+    "difficulty": "hard",
+    "formula": "Volume = desired \u00f7 concentration",
+    "prompt": "After reconstitution, a vial is 1000 mg / 20 mL. How many mL are needed for a 750 mg dose?",
+    "answer": "15 mL",
+    "distractors": [
+      "20 mL",
+      "750 mL",
+      "30 mL"
+    ],
+    "explanation": "(750/1000) \u00d7 20 = 15 mL.",
+    "ptceTip": "Reconstitution strength is on the label after mixing \u2014 use that for draw-up math."
+  },
+  {
+    "id": "math-221",
+    "title": "Hard draw-up \u00b7 35 mg",
+    "category": "Ratio & Proportion",
+    "difficulty": "hard",
+    "formula": "Volume = desired \u00f7 concentration",
+    "prompt": "After reconstitution, a vial is 50 mg / 1 mL. How many mL are needed for a 35 mg dose?",
+    "answer": "0.7 mL",
+    "distractors": [
+      "1 mL",
+      "35 mL",
+      "1.4 mL"
+    ],
+    "explanation": "(35/50) \u00d7 1 = 0.7 mL.",
+    "ptceTip": "Reconstitution strength is on the label after mixing \u2014 use that for draw-up math."
+  },
+  {
+    "id": "math-222",
+    "title": "Hard draw-up \u00b7 300 mg",
+    "category": "Ratio & Proportion",
+    "difficulty": "hard",
+    "formula": "Volume = desired \u00f7 concentration",
+    "prompt": "After reconstitution, a vial is 400 mg / 8 mL. How many mL are needed for a 300 mg dose?",
+    "answer": "6 mL",
+    "distractors": [
+      "8 mL",
+      "300 mL",
+      "12 mL"
+    ],
+    "explanation": "(300/400) \u00d7 8 = 6 mL.",
+    "ptceTip": "Reconstitution strength is on the label after mixing \u2014 use that for draw-up math."
+  },
+  {
+    "id": "math-223",
+    "title": "Hard draw-up \u00b7 150 mg",
+    "category": "Ratio & Proportion",
+    "difficulty": "hard",
+    "formula": "Volume = desired \u00f7 concentration",
+    "prompt": "After reconstitution, a vial is 200 mg / 4 mL. How many mL are needed for a 150 mg dose?",
+    "answer": "3 mL",
+    "distractors": [
+      "4 mL",
+      "150 mL",
+      "6 mL"
+    ],
+    "explanation": "(150/200) \u00d7 4 = 3 mL.",
+    "ptceTip": "Reconstitution strength is on the label after mixing \u2014 use that for draw-up math."
+  },
+  {
+    "id": "math-224",
+    "title": "Hard draw-up \u00b7 175 mg",
+    "category": "Ratio & Proportion",
+    "difficulty": "hard",
+    "formula": "Volume = desired \u00f7 concentration",
+    "prompt": "After reconstitution, a vial is 250 mg / 5 mL. How many mL are needed for a 175 mg dose?",
+    "answer": "3.5 mL",
+    "distractors": [
+      "5 mL",
+      "175 mL",
+      "7 mL"
+    ],
+    "explanation": "(175/250) \u00d7 5 = 3.5 mL.",
+    "ptceTip": "Reconstitution strength is on the label after mixing \u2014 use that for draw-up math."
+  },
+  {
+    "id": "math-225",
     "title": "SIG b.i.d.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'b.i.d.' mean?",
     "answer": "twice daily",
@@ -1590,9 +3600,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-107",
+    "id": "math-226",
     "title": "SIG t.i.d.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 't.i.d.' mean?",
     "answer": "three times daily",
@@ -1605,9 +3616,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-108",
+    "id": "math-227",
     "title": "SIG q.i.d.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'q.i.d.' mean?",
     "answer": "four times daily",
@@ -1620,9 +3632,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-109",
+    "id": "math-228",
     "title": "SIG q.h.s.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'q.h.s.' mean?",
     "answer": "at bedtime",
@@ -1635,9 +3648,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-110",
+    "id": "math-229",
     "title": "SIG a.c.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'a.c.' mean?",
     "answer": "before meals",
@@ -1650,9 +3664,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-111",
+    "id": "math-230",
     "title": "SIG p.c.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'p.c.' mean?",
     "answer": "after meals",
@@ -1665,9 +3680,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-112",
+    "id": "math-231",
     "title": "SIG p.o.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'p.o.' mean?",
     "answer": "by mouth",
@@ -1680,9 +3696,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-113",
+    "id": "math-232",
     "title": "SIG p.r.n.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'p.r.n.' mean?",
     "answer": "as needed",
@@ -1695,9 +3712,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-114",
+    "id": "math-233",
     "title": "SIG q4h",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'q4h' mean?",
     "answer": "every 4 hours",
@@ -1710,9 +3728,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-115",
+    "id": "math-234",
     "title": "SIG q6h",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'q6h' mean?",
     "answer": "every 6 hours",
@@ -1725,9 +3744,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-116",
+    "id": "math-235",
     "title": "SIG q8h",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'q8h' mean?",
     "answer": "every 8 hours",
@@ -1740,9 +3760,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-117",
+    "id": "math-236",
     "title": "SIG q12h",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'q12h' mean?",
     "answer": "every 12 hours",
@@ -1755,9 +3776,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-118",
+    "id": "math-237",
     "title": "SIG stat",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'stat' mean?",
     "answer": "immediately",
@@ -1770,9 +3792,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-119",
+    "id": "math-238",
     "title": "SIG gtt",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'gtt' mean?",
     "answer": "drop",
@@ -1785,9 +3808,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-120",
+    "id": "math-239",
     "title": "SIG ung.",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Translate SIG abbreviations before calculating",
     "prompt": "What does the SIG abbreviation 'ung.' mean?",
     "answer": "ointment",
@@ -1800,9 +3824,10 @@
     "ptceTip": "Wrong SIG translation causes wrong days' supply."
   },
   {
-    "id": "math-121",
+    "id": "math-240",
     "title": "Roman X",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'X' equals?",
     "answer": "10",
@@ -1815,9 +3840,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-122",
+    "id": "math-241",
     "title": "Roman V",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'V' equals?",
     "answer": "5",
@@ -1830,9 +3856,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-123",
+    "id": "math-242",
     "title": "Roman ii",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'ii' equals?",
     "answer": "2",
@@ -1845,9 +3872,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-124",
+    "id": "math-243",
     "title": "Roman iii",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'iii' equals?",
     "answer": "3",
@@ -1860,9 +3888,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-125",
+    "id": "math-244",
     "title": "Roman iv",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'iv' equals?",
     "answer": "4",
@@ -1875,9 +3904,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-126",
+    "id": "math-245",
     "title": "Roman vi",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'vi' equals?",
     "answer": "6",
@@ -1890,9 +3920,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-127",
+    "id": "math-246",
     "title": "Roman iss",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'iss' equals?",
     "answer": "1.5",
@@ -1905,9 +3936,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-128",
+    "id": "math-247",
     "title": "Roman vii",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'vii' equals?",
     "answer": "7",
@@ -1920,9 +3952,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-129",
+    "id": "math-248",
     "title": "Roman ix",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'ix' equals?",
     "answer": "9",
@@ -1935,9 +3968,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-130",
+    "id": "math-249",
     "title": "Roman xx",
     "category": "Sig & Roman Numerals",
+    "difficulty": "standard",
     "formula": "Convert Roman numerals in older prescriptions",
     "prompt": "In pharmacy notation, Roman numeral 'xx' equals?",
     "answer": "20",
@@ -1950,9 +3984,10 @@
     "ptceTip": "iss = 1.5 appears on classic exam items."
   },
   {
-    "id": "math-131",
+    "id": "math-250",
     "title": "Amoxicillin suspension days' supply",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = total mL \u00f7 mL per day",
     "prompt": "150 mL bottle; SIG 5 mL t.i.d. Days' supply?",
     "answer": "10 days",
@@ -1965,9 +4000,10 @@
     "ptceTip": "Liquid days' supply uses mL/day, not tablet counts."
   },
   {
-    "id": "math-132",
+    "id": "math-251",
     "title": "Insulin units days' supply",
     "category": "Days' Supply",
+    "difficulty": "standard",
     "formula": "Days' supply = units in vial \u00f7 units per day",
     "prompt": "A 10 mL vial of U-100 insulin (1000 units). Patient uses 40 units daily. Days' supply?",
     "answer": "25 days",
@@ -1980,9 +4016,10 @@
     "ptceTip": "U-100 means 100 units/mL \u2014 10 mL = 1000 units."
   },
   {
-    "id": "math-133",
+    "id": "math-252",
     "title": "Eye drop quantity estimate",
     "category": "Quantity to Dispense",
+    "difficulty": "standard",
     "formula": "Approx 20 drops/mL for many solutions (estimate)",
     "prompt": "Using 20 drops/mL, how many mL are needed for 2 drops OU q.i.d. for 7 days?",
     "answer": "5.6 mL",

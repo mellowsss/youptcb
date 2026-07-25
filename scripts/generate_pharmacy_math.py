@@ -10,11 +10,12 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "pharmacy-math.json"
 
 
-def item(i, title, category, formula, prompt, answer, distractors, explanation, tip):
+def item(i, title, category, formula, prompt, answer, distractors, explanation, tip, difficulty="standard"):
     return {
         "id": f"math-{i:03d}",
         "title": title,
         "category": category,
+        "difficulty": difficulty,
         "formula": formula,
         "prompt": prompt,
         "answer": answer,
@@ -22,6 +23,13 @@ def item(i, title, category, formula, prompt, answer, distractors, explanation, 
         "explanation": explanation,
         "ptceTip": tip,
     }
+
+
+def fmt(x):
+    """Pretty number formatting without trailing .0 noise."""
+    if abs(x - round(x)) < 1e-9:
+        return str(int(round(x)))
+    return f"{x:.4g}".rstrip("0").rstrip(".") if "." in f"{x:.4g}" else f"{x:.4g}"
 
 
 def main():
@@ -214,6 +222,283 @@ def main():
             "Round to a whole drop when required by the question.",
         )); n += 1
 
+    # -------- HARD: IV flow rates (multi-step / conversions) --------
+    hard_iv_mlhr = [
+        # (volume_mL, time_value, time_unit hours|minutes, note)
+        (1000, 6, "hours"),
+        (1000, 12, "hours"),
+        (500, 6, "hours"),
+        (250, 90, "minutes"),
+        (100, 45, "minutes"),
+        (1000, 480, "minutes"),
+        (750, 5, "hours"),
+        (125, 60, "minutes"),
+        (50, 30, "minutes"),
+        (2000, 24, "hours"),
+        (1500, 10, "hours"),
+        (80, 40, "minutes"),
+        (300, 2.5, "hours"),
+        (450, 3, "hours"),
+        (600, 8, "hours"),
+        (120, 90, "minutes"),
+        (90, 45, "minutes"),
+        (1000, 7.5, "hours"),
+        (250, 75, "minutes"),
+        (400, 160, "minutes"),
+    ]
+    for vol, t, unit in hard_iv_mlhr:
+        hours = t if unit == "hours" else t / 60
+        mlhr = vol / hours
+        ans = f"{fmt(mlhr)} mL/hr"
+        distractors = [
+            f"{fmt(vol / t)} mL/hr",
+            f"{fmt(mlhr * 2)} mL/hr",
+            f"{fmt(vol)} mL/hr",
+        ]
+        # ensure distractors != answer
+        distractors = [d for d in distractors if d != ans][:3]
+        while len(distractors) < 3:
+            distractors.append(f"{fmt(mlhr + 5 + len(distractors))} mL/hr")
+        time_txt = f"{fmt(t)} {unit}"
+        items.append(item(
+            n, f"Hard IV · {fmt(vol)} mL / {time_txt}", "IV Flow Rates",
+            "mL/hr = volume(mL) ÷ time(hours); convert minutes ÷ 60",
+            f"An IV order is {fmt(vol)} mL to infuse over {time_txt}. What pump rate should be set in mL/hr?",
+            ans, distractors,
+            f"Convert time to hours if needed, then {fmt(vol)} ÷ {fmt(hours)} = {fmt(mlhr)} mL/hr.",
+            "Hard items often hide a minutes→hours conversion.",
+            "hard",
+        )); n += 1
+
+    # gtt/min with rounding
+    hard_gtt = [
+        (100, 60, 10), (100, 60, 15), (100, 60, 20), (100, 60, 60),
+        (50, 30, 10), (50, 30, 15), (50, 30, 60),
+        (250, 120, 10), (250, 120, 15), (250, 120, 20),
+        (125, 60, 15), (125, 60, 20), (200, 90, 15),
+        (75, 45, 20), (500, 240, 10), (500, 180, 15),
+        (1000, 480, 10), (1000, 480, 15), (80, 40, 20),
+        (150, 75, 60), (300, 150, 15), (40, 20, 60),
+        (180, 90, 10), (225, 100, 20), (60, 45, 15),
+    ]
+    for vol, minutes, gtt in hard_gtt:
+        raw = vol * gtt / minutes
+        rounded = int(round(raw))
+        ans = f"{rounded} gtt/min"
+        distractors = [
+            f"{int(raw)} gtt/min" if int(raw) != rounded else f"{rounded + 1} gtt/min",
+            f"{rounded + 2} gtt/min",
+            f"{int(round(vol * gtt / (minutes / 60)))} gtt/min",
+        ]
+        distractors = [d for d in distractors if d != ans][:3]
+        while len(distractors) < 3:
+            distractors.append(f"{rounded + 3 + len(distractors)} gtt/min")
+        items.append(item(
+            n, f"Hard gtt/min · DF {gtt}", "IV Flow Rates",
+            "gtt/min = (mL × drop factor) ÷ minutes; round to nearest drop",
+            f"Infuse {fmt(vol)} mL over {fmt(minutes)} minutes using a {gtt} gtt/mL set. What is the drip rate (nearest drop)?",
+            ans, distractors,
+            f"({fmt(vol)} × {gtt}) ÷ {fmt(minutes)} = {fmt(raw)} → round to {rounded} gtt/min.",
+            "Macrodrip sets are often 10/15/20 gtt/mL; microdrip is 60 gtt/mL.",
+            "hard",
+        )); n += 1
+
+    # Find infusion time from rate
+    for vol, rate in [(1000, 125), (500, 50), (250, 75), (1000, 83), (750, 100), (200, 40), (100, 20), (1500, 125)]:
+        hours = vol / rate
+        # express as hours if clean else hours+minutes
+        whole = int(hours)
+        mins = int(round((hours - whole) * 60))
+        if mins == 60:
+            whole += 1
+            mins = 0
+        if mins == 0:
+            ans = f"{whole} hours"
+            expl = f"{fmt(vol)} ÷ {fmt(rate)} = {fmt(hours)} hours."
+        else:
+            ans = f"{whole} hr {mins} min"
+            expl = f"{fmt(vol)} ÷ {fmt(rate)} = {fmt(hours)} hr ≈ {whole} hr {mins} min."
+        distractors = [f"{whole + 1} hours", f"{fmt(rate)} hours", f"{fmt(vol / (rate * 2))} hours"]
+        distractors = [d for d in distractors if d != ans][:3]
+        while len(distractors) < 3:
+            distractors.append(f"{whole + len(distractors) + 2} hours")
+        items.append(item(
+            n, f"Hard IV · time from {fmt(rate)} mL/hr", "IV Flow Rates",
+            "Time(hr) = volume ÷ mL/hr",
+            f"A bag contains {fmt(vol)} mL and the pump is set to {fmt(rate)} mL/hr. How long will the infusion last?",
+            ans, distractors, expl,
+            "Sometimes the exam asks for time, not rate — invert the formula.",
+            "hard",
+        )); n += 1
+
+    # Volume infused after a period
+    for rate, hours in [(125, 4), (83, 6), (50, 8), (100, 2.5), (75, 3), (200, 1.5), (40, 5), (150, 2)]:
+        vol = rate * hours
+        items.append(item(
+            n, f"Hard IV · volume after {fmt(hours)} hr", "IV Flow Rates",
+            "Volume = rate × time",
+            f"An IV runs at {fmt(rate)} mL/hr for {fmt(hours)} hours. How many mL will infuse?",
+            f"{fmt(vol)} mL",
+            [f"{fmt(rate + hours)} mL", f"{fmt(rate)} mL", f"{fmt(vol / 2)} mL"],
+            f"{fmt(rate)} × {fmt(hours)} = {fmt(vol)} mL.",
+            "Useful for checking how much drug/fluid a patient has already received.",
+            "hard",
+        )); n += 1
+
+    # Additive / concentration + rate (hard multi-step, still exam-style)
+    # e.g. 1 g in 250 mL; give 100 mg/hr → mL/hr
+    additive_cases = [
+        (1000, "mg", 250, 100, "mg/hr"),  # 1 g = 1000 mg
+        (1000, "mg", 100, 50, "mg/hr"),
+        (500, "mg", 250, 50, "mg/hr"),
+        (2, "g", 500, 0.5, "g/hr"),
+        (1, "g", 250, 200, "mg/hr"),  # need unit convert
+        (400, "mg", 200, 40, "mg/hr"),
+        (2, "g", 250, 100, "mg/hr"),
+        (500, "mg", 100, 125, "mg/hr"),
+        (1, "g", 500, 50, "mg/hr"),
+        (750, "mg", 250, 75, "mg/hr"),
+    ]
+    for amount, unit, bag_ml, dose_rate, rate_unit in additive_cases:
+        # normalize to mg
+        amount_mg = amount * 1000 if unit == "g" else amount
+        if rate_unit == "g/hr":
+            dose_mg_hr = dose_rate * 1000
+        else:
+            dose_mg_hr = dose_rate
+        conc = amount_mg / bag_ml  # mg/mL
+        mlhr = dose_mg_hr / conc
+        items.append(item(
+            n, f"Hard IV · drug rate to mL/hr", "IV Flow Rates",
+            "mL/hr = (ordered mg/hr) ÷ (mg/mL concentration)",
+            f"A bag has {fmt(amount)} {unit} in {fmt(bag_ml)} mL D5W. The order is {fmt(dose_rate)} {rate_unit}. What is the pump rate in mL/hr?",
+            f"{fmt(mlhr)} mL/hr",
+            [f"{fmt(conc)} mL/hr", f"{fmt(dose_mg_hr)} mL/hr", f"{fmt(mlhr * 2)} mL/hr"],
+            f"Concentration = {fmt(amount_mg)} mg ÷ {fmt(bag_ml)} mL = {fmt(conc)} mg/mL. Rate = {fmt(dose_mg_hr)} ÷ {fmt(conc)} = {fmt(mlhr)} mL/hr.",
+            "Hard PTCE-style items combine concentration with infusion rate — convert units first.",
+            "hard",
+        )); n += 1
+
+    # mcg/kg/min style (common hard hospital calc; still calculation not sterile compounding)
+    mcg_cases = [
+        # weight_kg, mcg/kg/min, concentration mcg/mL → mL/hr
+        (70, 5, 400),   # e.g. 100 mg/250 mL = 400 mcg/mL? 100000/250=400 yes
+        (80, 3, 200),
+        (60, 2, 160),
+        (90, 4, 400),
+        (50, 5, 250),
+        (75, 2.5, 200),
+        (65, 1, 100),
+        (100, 3, 300),
+    ]
+    for wt, mcg_kg_min, conc_mcg_ml in mcg_cases:
+        mcg_min = wt * mcg_kg_min
+        ml_min = mcg_min / conc_mcg_ml
+        ml_hr = ml_min * 60
+        items.append(item(
+            n, f"Hard IV · mcg/kg/min → mL/hr", "IV Flow Rates",
+            "mL/hr = (mcg/kg/min × kg × 60) ÷ (mcg/mL)",
+            f"Order: {fmt(mcg_kg_min)} mcg/kg/min. Patient weighs {fmt(wt)} kg. Infusion concentration is {fmt(conc_mcg_ml)} mcg/mL. Pump rate in mL/hr?",
+            f"{fmt(ml_hr)} mL/hr",
+            [f"{fmt(mcg_min)} mL/hr", f"{fmt(ml_min)} mL/hr", f"{fmt(ml_hr / 60)} mL/hr"],
+            f"mcg/min = {fmt(wt)}×{fmt(mcg_kg_min)} = {fmt(mcg_min)}. mL/min = {fmt(mcg_min)}/{fmt(conc_mcg_ml)} = {fmt(ml_min)}. ×60 = {fmt(ml_hr)} mL/hr.",
+            "Weight-based IV drips need the 60-minute conversion to mL/hr.",
+            "hard",
+        )); n += 1
+
+    # -------- HARD dilutions / concentration (no alligation) --------
+    hard_dilutions = [
+        # make V2 mL of C2% from C1% stock
+        (10, 1, 250),
+        (50, 5, 100),
+        (100, 20, 50),
+        (25, 2.5, 200),
+        (40, 4, 500),
+        (70, 7, 100),
+        (5, 0.5, 1000),
+        (20, 2, 750),
+        (15, 3, 300),
+        (8, 0.8, 250),
+    ]
+    for c1, c2, v2 in hard_dilutions:
+        v1 = c2 * v2 / c1
+        diluent = v2 - v1
+        items.append(item(
+            n, f"Hard dilution · {fmt(c1)}% → {fmt(c2)}%", "Dilutions",
+            "V1 = (C2 × V2) / C1 ; diluent = V2 − V1",
+            f"Prepare {fmt(v2)} mL of {fmt(c2)}% solution using {fmt(c1)}% stock. How many mL of stock are needed?",
+            f"{fmt(v1)} mL",
+            [f"{fmt(v2)} mL", f"{fmt(diluent)} mL", f"{fmt(v1 * 2)} mL"],
+            f"V1 = ({fmt(c2)}×{fmt(v2)})/{fmt(c1)} = {fmt(v1)} mL stock; then qs diluent to {fmt(v2)} mL ({fmt(diluent)} mL diluent).",
+            "Alligation is off the 2026 PTCE — use C1V1=C2V2 for dilution items.",
+            "hard",
+        )); n += 1
+        items.append(item(
+            n, f"Hard dilution · diluent volume", "Dilutions",
+            "Diluent = final volume − stock volume",
+            f"Using the same setup ({fmt(v2)} mL of {fmt(c2)}% from {fmt(c1)}% stock), how much diluent is added?",
+            f"{fmt(diluent)} mL",
+            [f"{fmt(v1)} mL", f"{fmt(v2)} mL", f"{fmt(c1)} mL"],
+            f"Stock needed is {fmt(v1)} mL, so diluent = {fmt(v2)} − {fmt(v1)} = {fmt(diluent)} mL.",
+            "Many techs calculate stock correctly but forget diluent volume.",
+            "hard",
+        )); n += 1
+
+    # Hard percent / ratio combined
+    for mg, ml in [(250, 5), (500, 10), (1000, 50), (40, 2), (125, 5), (80, 2)]:
+        pct = (mg / 1000) / ml * 100  # g/100mL
+        items.append(item(
+            n, f"Hard % from {fmt(mg)} mg/{fmt(ml)} mL", "Percent Strength",
+            "% w/v = (g solute ÷ mL solution) × 100",
+            f"A solution contains {fmt(mg)} mg in {fmt(ml)} mL. What is the % w/v strength?",
+            f"{fmt(pct)}%",
+            [f"{fmt(mg / ml)}%", f"{fmt(pct * 10)}%", f"{fmt(mg / 1000)}%"],
+            f"Convert {fmt(mg)} mg → {fmt(mg/1000)} g; ({fmt(mg/1000)}/{fmt(ml)})×100 = {fmt(pct)}%.",
+            "Watch mg vs g — percent strength uses grams per 100 mL.",
+            "hard",
+        )); n += 1
+
+    # Hard weight-based with lb conversion + daily total
+    for lb, mgkg_dose, times in [(44, 10, 2), (66, 15, 3), (88, 5, 4), (33, 20, 2), (110, 7.5, 2), (55, 12, 3)]:
+        kg = lb / 2.2
+        per_dose = kg * mgkg_dose
+        daily = per_dose * times
+        items.append(item(
+            n, f"Hard mg/kg · {fmt(lb)} lb", "Weight-Based Dosing",
+            "kg = lb ÷ 2.2 ; mg/dose = mg/kg × kg",
+            f"Patient weighs {fmt(lb)} lb. Order: {fmt(mgkg_dose)} mg/kg/dose {times}× daily. How many mg per dose?",
+            f"{fmt(per_dose)} mg",
+            [f"{fmt(daily)} mg", f"{fmt(lb * mgkg_dose)} mg", f"{fmt(kg)} mg"],
+            f"{fmt(lb)} ÷ 2.2 = {fmt(kg)} kg; × {fmt(mgkg_dose)} = {fmt(per_dose)} mg/dose.",
+            "If the question asks per dose vs per day, that word changes the answer.",
+            "hard",
+        )); n += 1
+
+    # Hard ratio: powder reconstitution style (exam-relevant reconstitution math)
+    recon = [
+        # label concentration after recon, desired dose, volume to draw
+        (250, 5, 100),  # 250mg/5mL, want 100mg
+        (500, 10, 250),
+        (125, 5, 200),
+        (1000, 20, 750),
+        (50, 1, 35),
+        (400, 8, 300),
+        (200, 4, 150),
+        (250, 5, 175),
+    ]
+    for have_mg, have_ml, want_mg in recon:
+        vol = want_mg * have_ml / have_mg
+        items.append(item(
+            n, f"Hard draw-up · {fmt(want_mg)} mg", "Ratio & Proportion",
+            "Volume = desired ÷ concentration",
+            f"After reconstitution, a vial is {fmt(have_mg)} mg / {fmt(have_ml)} mL. How many mL are needed for a {fmt(want_mg)} mg dose?",
+            f"{fmt(vol)} mL",
+            [f"{fmt(have_ml)} mL", f"{fmt(want_mg)} mL", f"{fmt(vol * 2)} mL"],
+            f"({fmt(want_mg)}/{fmt(have_mg)}) × {fmt(have_ml)} = {fmt(vol)} mL.",
+            "Reconstitution strength is on the label after mixing — use that for draw-up math.",
+            "hard",
+        )); n += 1
+
     # Sig & Roman
     sigs = [
         ("b.i.d.", "twice daily"),
@@ -286,9 +571,16 @@ def main():
 
     OUT.write_text(json.dumps(items, indent=2) + "\n")
     cats = {}
+    hard = 0
+    hard_iv = 0
     for x in items:
         cats[x["category"]] = cats.get(x["category"], 0) + 1
+        if x.get("difficulty") == "hard":
+            hard += 1
+            if x["category"] == "IV Flow Rates":
+                hard_iv += 1
     print(f"Wrote {len(items)} math items to {OUT}")
+    print(f"Hard items: {hard} (IV hard: {hard_iv})")
     for k, v in sorted(cats.items()):
         print(f"  {k}: {v}")
 

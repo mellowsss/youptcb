@@ -19,7 +19,7 @@ import { Card } from "@/components/ui/Card";
 import {
   MATH_STUDY_TIPS,
   getAllMathProblems,
-  getMathByCategory,
+  getMathByFilters,
   getMathCategories,
   shuffleMath,
 } from "@/lib/math";
@@ -28,15 +28,20 @@ import {
   toggleMasteredMath,
   writeMasteredMathIds,
 } from "@/lib/math-progress";
-import type { MathCategory, MathProblem } from "@/types/math";
+import type { MathCategory, MathDifficulty, MathProblem } from "@/types/math";
 
 type Mode = "browse" | "flashcards" | "quiz";
 
 export default function PharmacyMathPage() {
   const allProblems = getAllMathProblems();
   const categories = getMathCategories();
+  const hardCount = allProblems.filter((p) => p.difficulty === "hard").length;
+  const hardIvCount = allProblems.filter(
+    (p) => p.difficulty === "hard" && p.category === "IV Flow Rates"
+  ).length;
   const [mode, setMode] = useState<Mode>("browse");
-  const [category, setCategory] = useState<MathCategory | "all">("all");
+  const [category, setCategory] = useState<MathCategory | "all">("IV Flow Rates");
+  const [difficulty, setDifficulty] = useState<MathDifficulty | "all">("hard");
   const [search, setSearch] = useState("");
   const [mastered, setMastered] = useState<Set<string>>(() => readMasteredMathIds());
   const [flashIndex, setFlashIndex] = useState(0);
@@ -47,7 +52,7 @@ export default function PharmacyMathPage() {
   const [showQuizFeedback, setShowQuizFeedback] = useState(false);
 
   const filtered = useMemo(() => {
-    let list = getMathByCategory(category);
+    let list = getMathByFilters(category, difficulty);
     if (search.trim()) {
       const q = search.toLowerCase();
       list = list.filter(
@@ -59,7 +64,7 @@ export default function PharmacyMathPage() {
       );
     }
     return list;
-  }, [category, search]);
+  }, [category, difficulty, search]);
 
   const flashDeck = useMemo(() => shuffleMath(filtered), [filtered, mode]);
   const quizDeck = useMemo(() => shuffleMath(filtered), [filtered, mode]);
@@ -118,16 +123,17 @@ export default function PharmacyMathPage() {
             Pharmacy <em className="text-sage">Math</em>
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/80">
-            Drill days&apos; supply, conversions, dilutions, percent strength, weight-based dosing,
-            and IV rates — the calculation skills tested on the 2026 PTCE.
+            Drill IV flow rates, dilutions, percent strength, and weight-based dosing — with a hard
+            set focused on multi-step pump rates and drip math tested on the 2026 PTCE.
           </p>
           <div className="mt-6 flex flex-wrap gap-4 text-sm">
             <span className="rounded-full bg-white/15 px-4 py-2">
               {masteredCount}/{allProblems.length} mastered ({progressPct}%)
             </span>
             <span className="rounded-full bg-white/15 px-4 py-2">
-              {categories.length} topic groups
+              {hardIvCount} hard IV items
             </span>
+            <span className="rounded-full bg-white/15 px-4 py-2">{hardCount} hard total</span>
           </div>
         </div>
       </section>
@@ -188,7 +194,12 @@ export default function PharmacyMathPage() {
         </div>
         <select
           value={category}
-          onChange={(e) => setCategory(e.target.value as MathCategory | "all")}
+          onChange={(e) => {
+            setCategory(e.target.value as MathCategory | "all");
+            setFlashIndex(0);
+            setQuizIndex(0);
+            setShowQuizFeedback(false);
+          }}
           className="rounded-full border border-stone bg-white px-4 py-3 text-sm text-forest focus:border-sage focus:outline-none"
         >
           <option value="all">All topics</option>
@@ -198,6 +209,34 @@ export default function PharmacyMathPage() {
             </option>
           ))}
         </select>
+        <select
+          value={difficulty}
+          onChange={(e) => {
+            setDifficulty(e.target.value as MathDifficulty | "all");
+            setFlashIndex(0);
+            setQuizIndex(0);
+            setShowQuizFeedback(false);
+          }}
+          className="rounded-full border border-stone bg-white px-4 py-3 text-sm text-forest focus:border-sage focus:outline-none"
+        >
+          <option value="all">All levels</option>
+          <option value="hard">Hard only</option>
+          <option value="standard">Standard only</option>
+        </select>
+        <button
+          type="button"
+          onClick={() => {
+            setCategory("IV Flow Rates");
+            setDifficulty("hard");
+            setMode("quiz");
+            setQuizIndex(0);
+            setQuizScore({ correct: 0, total: 0 });
+            setShowQuizFeedback(false);
+          }}
+          className="inline-flex items-center gap-2 rounded-full bg-terracotta px-4 py-3 text-xs font-medium uppercase tracking-widest text-white hover:opacity-90"
+        >
+          Hard IV quiz
+        </button>
         <button
           type="button"
           onClick={resetMastered}
@@ -207,6 +246,14 @@ export default function PharmacyMathPage() {
           Reset mastered
         </button>
       </div>
+
+      {filtered.length === 0 && (
+        <Card clay>
+          <p className="text-sm text-forest/80">
+            No problems match these filters. Try All topics or All levels.
+          </p>
+        </Card>
+      )}
 
       {mode === "browse" && (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -360,8 +407,11 @@ function MathCard({
       <div className="flex items-start justify-between gap-2">
         <div>
           <p className="font-serif text-lg font-semibold text-forest">{problem.title}</p>
-          <p className="mt-1 text-xs font-medium uppercase tracking-widest text-sage">
-            {problem.category}
+          <p className="mt-1 flex flex-wrap items-center gap-2 text-xs font-medium uppercase tracking-widest text-sage">
+            <span>{problem.category}</span>
+            {problem.difficulty === "hard" && (
+              <span className="rounded-full bg-terracotta/15 px-2 py-0.5 text-terracotta">Hard</span>
+            )}
           </p>
         </div>
         <button
@@ -409,7 +459,8 @@ function MathFlashcard({
       className="min-h-[320px] w-full rounded-3xl border border-stone bg-white p-8 text-left shadow-large transition duration-500 ease-out hover:-translate-y-1"
     >
       <p className="text-xs font-medium uppercase tracking-widest text-sage">
-        Card {index + 1} of {total} · {problem.category} · Tap to flip
+        Card {index + 1} of {total} · {problem.category}
+        {problem.difficulty === "hard" ? " · Hard" : ""} · Tap to flip
       </p>
       {!flipped ? (
         <div className="mt-8">

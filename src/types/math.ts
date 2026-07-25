@@ -9,10 +9,13 @@ export type MathCategory =
   | "IV Flow Rates"
   | "Sig & Roman Numerals";
 
+export type MathDifficulty = "standard" | "hard";
+
 export interface MathProblem {
   id: string;
   title: string;
   category: MathCategory;
+  difficulty: MathDifficulty;
   formula: string;
   prompt: string;
   answer: string;
