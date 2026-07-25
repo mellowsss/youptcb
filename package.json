@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate:questions": "tsx scripts/generate-questions.ts",
+    "generate:questions": "python3 scripts/generate_ptce_bank.py",
     "generate:drugs": "node --experimental-strip-types scripts/generate-top200-drugs.ts"
   },
   "dependencies": {
