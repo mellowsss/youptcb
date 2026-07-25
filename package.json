@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "generate:questions": "python3 scripts/generate_ptce_bank.py",
-    "generate:drugs": "node --experimental-strip-types scripts/generate-top200-drugs.ts"
+    "generate:drugs": "node --experimental-strip-types scripts/generate-top200-drugs.ts",
+    "generate:math": "python3 scripts/generate_pharmacy_math.py"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.1",

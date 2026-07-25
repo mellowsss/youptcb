@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
   BookOpen,
+  Calculator,
   Home,
   LogOut,
   Menu,
@@ -22,6 +23,7 @@ const links = [
   { href: "/", label: "Dashboard", Icon: Home },
   { href: "/practice", label: "Practice", Icon: BookOpen },
   { href: "/drugs", label: "Top 200 Drugs", Icon: Pill },
+  { href: "/math", label: "Pharmacy Math", Icon: Calculator },
   { href: "/exam", label: "Practice Exam", Icon: Timer },
   { href: "/review", label: "Review", Icon: Target },
   { href: "/admin/review", label: "Admin", Icon: Settings },

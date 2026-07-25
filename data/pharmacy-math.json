@@ -1,0 +1,1997 @@
+[
+  {
+    "id": "math-001",
+    "title": "Days' supply \u00b7 30 tabs once daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet once daily. Quantity dispensed is 30. What is the days' supply?",
+    "answer": "30 days",
+    "distractors": [
+      "35 days",
+      "28 days",
+      "30 days"
+    ],
+    "explanation": "30 \u00f7 1 = 30 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-002",
+    "title": "Days' supply \u00b7 60 tabs twice daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet twice daily. Quantity dispensed is 60. What is the days' supply?",
+    "answer": "30 days",
+    "distractors": [
+      "35 days",
+      "28 days",
+      "60 days"
+    ],
+    "explanation": "60 \u00f7 2 = 30 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-003",
+    "title": "Days' supply \u00b7 90 tabs three times daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet three times daily. Quantity dispensed is 90. What is the days' supply?",
+    "answer": "30 days",
+    "distractors": [
+      "35 days",
+      "28 days",
+      "90 days"
+    ],
+    "explanation": "90 \u00f7 3 = 30 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-004",
+    "title": "Days' supply \u00b7 120 tabs four times daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet four times daily. Quantity dispensed is 120. What is the days' supply?",
+    "answer": "30 days",
+    "distractors": [
+      "35 days",
+      "28 days",
+      "120 days"
+    ],
+    "explanation": "120 \u00f7 4 = 30 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-005",
+    "title": "Days' supply \u00b7 28 tabs once daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet once daily. Quantity dispensed is 28. What is the days' supply?",
+    "answer": "28 days",
+    "distractors": [
+      "33 days",
+      "26 days",
+      "28 days"
+    ],
+    "explanation": "28 \u00f7 1 = 28 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-006",
+    "title": "Days' supply \u00b7 56 tabs twice daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet twice daily. Quantity dispensed is 56. What is the days' supply?",
+    "answer": "28 days",
+    "distractors": [
+      "33 days",
+      "26 days",
+      "56 days"
+    ],
+    "explanation": "56 \u00f7 2 = 28 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-007",
+    "title": "Days' supply \u00b7 84 tabs t.i.d.",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet t.i.d.. Quantity dispensed is 84. What is the days' supply?",
+    "answer": "28 days",
+    "distractors": [
+      "33 days",
+      "26 days",
+      "84 days"
+    ],
+    "explanation": "84 \u00f7 3 = 28 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-008",
+    "title": "Days' supply \u00b7 14 tabs daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet daily. Quantity dispensed is 14. What is the days' supply?",
+    "answer": "14 days",
+    "distractors": [
+      "19 days",
+      "12 days",
+      "14 days"
+    ],
+    "explanation": "14 \u00f7 1 = 14 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-009",
+    "title": "Days' supply \u00b7 21 tabs three times daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet three times daily. Quantity dispensed is 21. What is the days' supply?",
+    "answer": "7 days",
+    "distractors": [
+      "12 days",
+      "5 days",
+      "21 days"
+    ],
+    "explanation": "21 \u00f7 3 = 7 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-010",
+    "title": "Days' supply \u00b7 40 tabs b.i.d.",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet b.i.d.. Quantity dispensed is 40. What is the days' supply?",
+    "answer": "20 days",
+    "distractors": [
+      "25 days",
+      "18 days",
+      "40 days"
+    ],
+    "explanation": "40 \u00f7 2 = 20 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-011",
+    "title": "Days' supply \u00b7 100 tabs twice daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet twice daily. Quantity dispensed is 100. What is the days' supply?",
+    "answer": "50 days",
+    "distractors": [
+      "55 days",
+      "48 days",
+      "100 days"
+    ],
+    "explanation": "100 \u00f7 2 = 50 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-012",
+    "title": "Days' supply \u00b7 45 tabs t.i.d.",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet t.i.d.. Quantity dispensed is 45. What is the days' supply?",
+    "answer": "15 days",
+    "distractors": [
+      "20 days",
+      "13 days",
+      "45 days"
+    ],
+    "explanation": "45 \u00f7 3 = 15 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-013",
+    "title": "Days' supply \u00b7 15 tabs q.d.",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet q.d.. Quantity dispensed is 15. What is the days' supply?",
+    "answer": "15 days",
+    "distractors": [
+      "20 days",
+      "13 days",
+      "15 days"
+    ],
+    "explanation": "15 \u00f7 1 = 15 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-014",
+    "title": "Days' supply \u00b7 36 tabs three times daily",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet three times daily. Quantity dispensed is 36. What is the days' supply?",
+    "answer": "12 days",
+    "distractors": [
+      "17 days",
+      "10 days",
+      "36 days"
+    ],
+    "explanation": "36 \u00f7 3 = 12 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-015",
+    "title": "Days' supply \u00b7 48 tabs q.i.d.",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 doses per day",
+    "prompt": "A patient takes 1 tablet q.i.d.. Quantity dispensed is 48. What is the days' supply?",
+    "answer": "12 days",
+    "distractors": [
+      "17 days",
+      "10 days",
+      "48 days"
+    ],
+    "explanation": "48 \u00f7 4 = 12 days.",
+    "ptceTip": "Always convert the SIG to doses/day before dividing."
+  },
+  {
+    "id": "math-016",
+    "title": "Days' supply \u00b7 2 tabs \u00d7 1/day",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
+    "prompt": "SIG: take 2 tablets 1 time(s) daily. Dispense 60. Days' supply?",
+    "answer": "30 days",
+    "distractors": [
+      "60 days",
+      "30 days",
+      "2 days"
+    ],
+    "explanation": "Daily use = 2\u00d71 = 2; 60\u00f72 = 30.",
+    "ptceTip": "Watch for multi-tablet doses \u2014 don't treat every fill as 1 tab/day."
+  },
+  {
+    "id": "math-017",
+    "title": "Days' supply \u00b7 2 tabs \u00d7 2/day",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
+    "prompt": "SIG: take 2 tablets 2 time(s) daily. Dispense 60. Days' supply?",
+    "answer": "15 days",
+    "distractors": [
+      "30 days",
+      "30 days",
+      "4 days"
+    ],
+    "explanation": "Daily use = 2\u00d72 = 4; 60\u00f74 = 15.",
+    "ptceTip": "Watch for multi-tablet doses \u2014 don't treat every fill as 1 tab/day."
+  },
+  {
+    "id": "math-018",
+    "title": "Days' supply \u00b7 3 tabs \u00d7 1/day",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
+    "prompt": "SIG: take 3 tablets 1 time(s) daily. Dispense 90. Days' supply?",
+    "answer": "30 days",
+    "distractors": [
+      "90 days",
+      "30 days",
+      "3 days"
+    ],
+    "explanation": "Daily use = 3\u00d71 = 3; 90\u00f73 = 30.",
+    "ptceTip": "Watch for multi-tablet doses \u2014 don't treat every fill as 1 tab/day."
+  },
+  {
+    "id": "math-019",
+    "title": "Days' supply \u00b7 2 tabs \u00d7 3/day",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
+    "prompt": "SIG: take 2 tablets 3 time(s) daily. Dispense 120. Days' supply?",
+    "answer": "20 days",
+    "distractors": [
+      "40 days",
+      "60 days",
+      "6 days"
+    ],
+    "explanation": "Daily use = 2\u00d73 = 6; 120\u00f76 = 20.",
+    "ptceTip": "Watch for multi-tablet doses \u2014 don't treat every fill as 1 tab/day."
+  },
+  {
+    "id": "math-020",
+    "title": "Days' supply \u00b7 2 tabs \u00d7 1/day",
+    "category": "Days' Supply",
+    "formula": "Days' supply = quantity \u00f7 (dose \u00d7 frequency)",
+    "prompt": "SIG: take 2 tablets 1 time(s) daily. Dispense 30. Days' supply?",
+    "answer": "15 days",
+    "distractors": [
+      "30 days",
+      "15 days",
+      "2 days"
+    ],
+    "explanation": "Daily use = 2\u00d71 = 2; 30\u00f72 = 15.",
+    "ptceTip": "Watch for multi-tablet doses \u2014 don't treat every fill as 1 tab/day."
+  },
+  {
+    "id": "math-021",
+    "title": "Liquid quantity \u00b7 5 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 5 mL 2\u00d7 daily for 10 days. How much volume to dispense?",
+    "answer": "100 mL",
+    "distractors": [
+      "110 mL",
+      "50 mL",
+      "95 mL"
+    ],
+    "explanation": "5 \u00d7 2 \u00d7 10 = 100 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-022",
+    "title": "Liquid quantity \u00b7 5 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 5 mL 3\u00d7 daily for 7 days. How much volume to dispense?",
+    "answer": "105 mL",
+    "distractors": [
+      "115 mL",
+      "35 mL",
+      "100 mL"
+    ],
+    "explanation": "5 \u00d7 3 \u00d7 7 = 105 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-023",
+    "title": "Liquid quantity \u00b7 10 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 10 mL 2\u00d7 daily for 5 days. How much volume to dispense?",
+    "answer": "100 mL",
+    "distractors": [
+      "110 mL",
+      "50 mL",
+      "90 mL"
+    ],
+    "explanation": "10 \u00d7 2 \u00d7 5 = 100 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-024",
+    "title": "Liquid quantity \u00b7 2.5 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 2.5 mL 2\u00d7 daily for 10 days. How much volume to dispense?",
+    "answer": "50 mL",
+    "distractors": [
+      "60 mL",
+      "25 mL",
+      "47.5 mL"
+    ],
+    "explanation": "2.5 \u00d7 2 \u00d7 10 = 50 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-025",
+    "title": "Liquid quantity \u00b7 7.5 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 7.5 mL 2\u00d7 daily for 10 days. How much volume to dispense?",
+    "answer": "150 mL",
+    "distractors": [
+      "160 mL",
+      "75 mL",
+      "142.5 mL"
+    ],
+    "explanation": "7.5 \u00d7 2 \u00d7 10 = 150 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-026",
+    "title": "Liquid quantity \u00b7 5 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 5 mL 4\u00d7 daily for 5 days. How much volume to dispense?",
+    "answer": "100 mL",
+    "distractors": [
+      "110 mL",
+      "25 mL",
+      "95 mL"
+    ],
+    "explanation": "5 \u00d7 4 \u00d7 5 = 100 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-027",
+    "title": "Liquid quantity \u00b7 15 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 15 mL 1\u00d7 daily for 10 days. How much volume to dispense?",
+    "answer": "150 mL",
+    "distractors": [
+      "160 mL",
+      "150 mL",
+      "135 mL"
+    ],
+    "explanation": "15 \u00d7 1 \u00d7 10 = 150 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-028",
+    "title": "Liquid quantity \u00b7 5 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 5 mL 1\u00d7 daily for 14 days. How much volume to dispense?",
+    "answer": "70 mL",
+    "distractors": [
+      "80 mL",
+      "70 mL",
+      "65 mL"
+    ],
+    "explanation": "5 \u00d7 1 \u00d7 14 = 70 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-029",
+    "title": "Liquid quantity \u00b7 10 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 10 mL 3\u00d7 daily for 7 days. How much volume to dispense?",
+    "answer": "210 mL",
+    "distractors": [
+      "220 mL",
+      "70 mL",
+      "200 mL"
+    ],
+    "explanation": "10 \u00d7 3 \u00d7 7 = 210 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-030",
+    "title": "Liquid quantity \u00b7 1 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 1 mL 4\u00d7 daily for 10 days. How much volume to dispense?",
+    "answer": "40 mL",
+    "distractors": [
+      "50 mL",
+      "10 mL",
+      "39 mL"
+    ],
+    "explanation": "1 \u00d7 4 \u00d7 10 = 40 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-031",
+    "title": "Liquid quantity \u00b7 12.5 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 12.5 mL 2\u00d7 daily for 8 days. How much volume to dispense?",
+    "answer": "200 mL",
+    "distractors": [
+      "210 mL",
+      "100 mL",
+      "187.5 mL"
+    ],
+    "explanation": "12.5 \u00d7 2 \u00d7 8 = 200 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-032",
+    "title": "Liquid quantity \u00b7 3 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 3 mL 3\u00d7 daily for 10 days. How much volume to dispense?",
+    "answer": "90 mL",
+    "distractors": [
+      "100 mL",
+      "30 mL",
+      "87 mL"
+    ],
+    "explanation": "3 \u00d7 3 \u00d7 10 = 90 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-033",
+    "title": "Liquid quantity \u00b7 20 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 20 mL 2\u00d7 daily for 5 days. How much volume to dispense?",
+    "answer": "200 mL",
+    "distractors": [
+      "210 mL",
+      "100 mL",
+      "180 mL"
+    ],
+    "explanation": "20 \u00d7 2 \u00d7 5 = 200 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-034",
+    "title": "Liquid quantity \u00b7 4 mL",
+    "category": "Quantity to Dispense",
+    "formula": "Total volume = dose \u00d7 frequency \u00d7 days",
+    "prompt": "Dose 4 mL 2\u00d7 daily for 15 days. How much volume to dispense?",
+    "answer": "120 mL",
+    "distractors": [
+      "130 mL",
+      "60 mL",
+      "116 mL"
+    ],
+    "explanation": "4 \u00d7 2 \u00d7 15 = 120 mL.",
+    "ptceTip": "Round up to an available bottle size only after calculating exact need."
+  },
+  {
+    "id": "math-035",
+    "title": "Tablet quantity \u00b7 30 days",
+    "category": "Quantity to Dispense",
+    "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
+    "prompt": "Take 1 tablet(s) 2\u00d7 daily for 30 days. Quantity to dispense?",
+    "answer": "60 tablets",
+    "distractors": [
+      "30 tablets",
+      "60 tablets",
+      "70 tablets"
+    ],
+    "explanation": "1\u00d72\u00d730 = 60.",
+    "ptceTip": "Quantity and days' supply are inverse relationships \u2014 know both."
+  },
+  {
+    "id": "math-036",
+    "title": "Tablet quantity \u00b7 30 days",
+    "category": "Quantity to Dispense",
+    "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
+    "prompt": "Take 2 tablet(s) 1\u00d7 daily for 30 days. Quantity to dispense?",
+    "answer": "60 tablets",
+    "distractors": [
+      "60 tablets",
+      "30 tablets",
+      "70 tablets"
+    ],
+    "explanation": "2\u00d71\u00d730 = 60.",
+    "ptceTip": "Quantity and days' supply are inverse relationships \u2014 know both."
+  },
+  {
+    "id": "math-037",
+    "title": "Tablet quantity \u00b7 14 days",
+    "category": "Quantity to Dispense",
+    "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
+    "prompt": "Take 1 tablet(s) 3\u00d7 daily for 14 days. Quantity to dispense?",
+    "answer": "42 tablets",
+    "distractors": [
+      "14 tablets",
+      "42 tablets",
+      "52 tablets"
+    ],
+    "explanation": "1\u00d73\u00d714 = 42.",
+    "ptceTip": "Quantity and days' supply are inverse relationships \u2014 know both."
+  },
+  {
+    "id": "math-038",
+    "title": "Tablet quantity \u00b7 10 days",
+    "category": "Quantity to Dispense",
+    "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
+    "prompt": "Take 2 tablet(s) 2\u00d7 daily for 10 days. Quantity to dispense?",
+    "answer": "40 tablets",
+    "distractors": [
+      "20 tablets",
+      "20 tablets",
+      "50 tablets"
+    ],
+    "explanation": "2\u00d72\u00d710 = 40.",
+    "ptceTip": "Quantity and days' supply are inverse relationships \u2014 know both."
+  },
+  {
+    "id": "math-039",
+    "title": "Tablet quantity \u00b7 7 days",
+    "category": "Quantity to Dispense",
+    "formula": "Quantity = tablets per dose \u00d7 times/day \u00d7 days",
+    "prompt": "Take 1 tablet(s) 4\u00d7 daily for 7 days. Quantity to dispense?",
+    "answer": "28 tablets",
+    "distractors": [
+      "7 tablets",
+      "28 tablets",
+      "38 tablets"
+    ],
+    "explanation": "1\u00d74\u00d77 = 28.",
+    "ptceTip": "Quantity and days' supply are inverse relationships \u2014 know both."
+  },
+  {
+    "id": "math-040",
+    "title": "1 teaspoon (tsp)",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 teaspoon (tsp) = ? mL",
+    "answer": "5 mL",
+    "distractors": [
+      "15 mL",
+      "30 mL",
+      "3 mL"
+    ],
+    "explanation": "1 tsp = 5 mL",
+    "ptceTip": "Household spoons vary \u2014 prefer oral syringes."
+  },
+  {
+    "id": "math-041",
+    "title": "1 tablespoon (tbsp)",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 tablespoon (tbsp) = ? mL",
+    "answer": "15 mL",
+    "distractors": [
+      "5 mL",
+      "30 mL",
+      "10 mL"
+    ],
+    "explanation": "1 tbsp = 15 mL",
+    "ptceTip": "3 tsp = 1 tbsp = 15 mL."
+  },
+  {
+    "id": "math-042",
+    "title": "1 fluid ounce \u2248 ? mL",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 fluid ounce \u2248 ? mL",
+    "answer": "30 mL",
+    "distractors": [
+      "15 mL",
+      "5 mL",
+      "100 mL"
+    ],
+    "explanation": "1 fl oz \u2248 30 mL",
+    "ptceTip": "Common pharmacy approx: 30 mL/oz."
+  },
+  {
+    "id": "math-043",
+    "title": "1 pint \u2248 ? mL",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 pint \u2248 ? mL",
+    "answer": "473 mL",
+    "distractors": [
+      "240 mL",
+      "1000 mL",
+      "30 mL"
+    ],
+    "explanation": "1 pint \u2248 473 mL",
+    "ptceTip": "Memorize pint/quart conversions for the PTCE."
+  },
+  {
+    "id": "math-044",
+    "title": "1 quart \u2248 ? mL",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 quart \u2248 ? mL",
+    "answer": "946 mL",
+    "distractors": [
+      "473 mL",
+      "500 mL",
+      "1000 mL"
+    ],
+    "explanation": "1 quart \u2248 946 mL",
+    "ptceTip": "1 quart = 2 pints."
+  },
+  {
+    "id": "math-045",
+    "title": "1 kg",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 kg = ? g",
+    "answer": "1000 g",
+    "distractors": [
+      "100 g",
+      "10 g",
+      "500 g"
+    ],
+    "explanation": "1 kg = 1000 g",
+    "ptceTip": "Metric moves by powers of 1000."
+  },
+  {
+    "id": "math-046",
+    "title": "1 g",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 g = ? mg",
+    "answer": "1000 mg",
+    "distractors": [
+      "100 mg",
+      "10 mg",
+      "500 mg"
+    ],
+    "explanation": "1 g = 1000 mg",
+    "ptceTip": "Don't confuse mg and mcg."
+  },
+  {
+    "id": "math-047",
+    "title": "1 mg",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 mg = ? mcg",
+    "answer": "1000 mcg",
+    "distractors": [
+      "100 mcg",
+      "10 mcg",
+      "500 mcg"
+    ],
+    "explanation": "1 mg = 1000 mcg",
+    "ptceTip": "mcg errors are classic 1000\u00d7 mistakes."
+  },
+  {
+    "id": "math-048",
+    "title": "2.2 lb \u2248 ? kg",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "2.2 lb \u2248 ? kg",
+    "answer": "1 kg",
+    "distractors": [
+      "2 kg",
+      "0.5 kg",
+      "10 kg"
+    ],
+    "explanation": "1 kg \u2248 2.2 lb",
+    "ptceTip": "Divide pounds by 2.2 for kg."
+  },
+  {
+    "id": "math-049",
+    "title": "A patient weighs 154 lb. Approx kg?",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "A patient weighs 154 lb. Approx kg?",
+    "answer": "70 kg",
+    "distractors": [
+      "154 kg",
+      "35 kg",
+      "100 kg"
+    ],
+    "explanation": "154 \u00f7 2.2 = 70 kg",
+    "ptceTip": "Weight-based dosing needs kg."
+  },
+  {
+    "id": "math-050",
+    "title": "1 grain (gr) \u2248 ? mg (approx)",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "1 grain (gr) \u2248 ? mg (approx)",
+    "answer": "65 mg",
+    "distractors": [
+      "5 mg",
+      "100 mg",
+      "30 mg"
+    ],
+    "explanation": "1 gr \u2248 65 mg (often 60\u201365)",
+    "ptceTip": "Know grain approximations for older orders."
+  },
+  {
+    "id": "math-051",
+    "title": "How many mL in 8 fl oz?",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "How many mL in 8 fl oz?",
+    "answer": "240 mL",
+    "distractors": [
+      "80 mL",
+      "120 mL",
+      "480 mL"
+    ],
+    "explanation": "8 \u00d7 30 = 240 mL",
+    "ptceTip": "Multiply ounces by ~30."
+  },
+  {
+    "id": "math-052",
+    "title": "500 mL",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "500 mL = ? L",
+    "answer": "0.5 L",
+    "distractors": [
+      "5 L",
+      "50 L",
+      "0.05 L"
+    ],
+    "explanation": "Divide mL by 1000",
+    "ptceTip": "Move decimal 3 places."
+  },
+  {
+    "id": "math-053",
+    "title": "0.25 g",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "0.25 g = ? mg",
+    "answer": "250 mg",
+    "distractors": [
+      "25 mg",
+      "2.5 mg",
+      "2500 mg"
+    ],
+    "explanation": "0.25 \u00d7 1000 = 250 mg",
+    "ptceTip": "g\u2192mg multiply by 1000."
+  },
+  {
+    "id": "math-054",
+    "title": "2500 mcg",
+    "category": "Conversions",
+    "formula": "Use standard pharmacy conversion factors",
+    "prompt": "2500 mcg = ? mg",
+    "answer": "2.5 mg",
+    "distractors": [
+      "25 mg",
+      "0.25 mg",
+      "250 mg"
+    ],
+    "explanation": "2500 \u00f7 1000 = 2.5 mg",
+    "ptceTip": "mcg\u2192mg divide by 1000."
+  },
+  {
+    "id": "math-055",
+    "title": "Proportion \u00b7 250 mg/5 mL",
+    "category": "Ratio & Proportion",
+    "formula": "want/have = x / volume \u2192 cross multiply",
+    "prompt": "Stock is 250 mg / 5 mL. How many mL provide 100 mg?",
+    "answer": "2 mL",
+    "distractors": [
+      "4 mL",
+      "5 mL",
+      "100 mL"
+    ],
+    "explanation": "(100/250) \u00d7 5 = 2 mL.",
+    "ptceTip": "Set up ratios carefully and keep units aligned."
+  },
+  {
+    "id": "math-056",
+    "title": "Proportion \u00b7 500 mg/10 mL",
+    "category": "Ratio & Proportion",
+    "formula": "want/have = x / volume \u2192 cross multiply",
+    "prompt": "Stock is 500 mg / 10 mL. How many mL provide 250 mg?",
+    "answer": "5 mL",
+    "distractors": [
+      "10 mL",
+      "10 mL",
+      "250 mL"
+    ],
+    "explanation": "(250/500) \u00d7 10 = 5 mL.",
+    "ptceTip": "Set up ratios carefully and keep units aligned."
+  },
+  {
+    "id": "math-057",
+    "title": "Proportion \u00b7 125 mg/5 mL",
+    "category": "Ratio & Proportion",
+    "formula": "want/have = x / volume \u2192 cross multiply",
+    "prompt": "Stock is 125 mg / 5 mL. How many mL provide 75 mg?",
+    "answer": "3 mL",
+    "distractors": [
+      "6 mL",
+      "5 mL",
+      "75 mL"
+    ],
+    "explanation": "(75/125) \u00d7 5 = 3 mL.",
+    "ptceTip": "Set up ratios carefully and keep units aligned."
+  },
+  {
+    "id": "math-058",
+    "title": "Proportion \u00b7 40 mg/1 mL",
+    "category": "Ratio & Proportion",
+    "formula": "want/have = x / volume \u2192 cross multiply",
+    "prompt": "Stock is 40 mg / 1 mL. How many mL provide 10 mg?",
+    "answer": "0.25 mL",
+    "distractors": [
+      "0.5 mL",
+      "1 mL",
+      "10 mL"
+    ],
+    "explanation": "(10/40) \u00d7 1 = 0.25 mL.",
+    "ptceTip": "Set up ratios carefully and keep units aligned."
+  },
+  {
+    "id": "math-059",
+    "title": "Proportion \u00b7 80 mg/2 mL",
+    "category": "Ratio & Proportion",
+    "formula": "want/have = x / volume \u2192 cross multiply",
+    "prompt": "Stock is 80 mg / 2 mL. How many mL provide 20 mg?",
+    "answer": "0.5 mL",
+    "distractors": [
+      "1 mL",
+      "2 mL",
+      "20 mL"
+    ],
+    "explanation": "(20/80) \u00d7 2 = 0.5 mL.",
+    "ptceTip": "Set up ratios carefully and keep units aligned."
+  },
+  {
+    "id": "math-060",
+    "title": "Proportion \u00b7 100 mg/2 mL",
+    "category": "Ratio & Proportion",
+    "formula": "want/have = x / volume \u2192 cross multiply",
+    "prompt": "Stock is 100 mg / 2 mL. How many mL provide 50 mg?",
+    "answer": "1 mL",
+    "distractors": [
+      "2 mL",
+      "2 mL",
+      "50 mL"
+    ],
+    "explanation": "(50/100) \u00d7 2 = 1 mL.",
+    "ptceTip": "Set up ratios carefully and keep units aligned."
+  },
+  {
+    "id": "math-061",
+    "title": "Proportion \u00b7 200 mg/5 mL",
+    "category": "Ratio & Proportion",
+    "formula": "want/have = x / volume \u2192 cross multiply",
+    "prompt": "Stock is 200 mg / 5 mL. How many mL provide 120 mg?",
+    "answer": "3 mL",
+    "distractors": [
+      "6 mL",
+      "5 mL",
+      "120 mL"
+    ],
+    "explanation": "(120/200) \u00d7 5 = 3 mL.",
+    "ptceTip": "Set up ratios carefully and keep units aligned."
+  },
+  {
+    "id": "math-062",
+    "title": "Proportion \u00b7 10 mg/1 mL",
+    "category": "Ratio & Proportion",
+    "formula": "want/have = x / volume \u2192 cross multiply",
+    "prompt": "Stock is 10 mg / 1 mL. How many mL provide 4 mg?",
+    "answer": "0.4 mL",
+    "distractors": [
+      "0.8 mL",
+      "1 mL",
+      "4 mL"
+    ],
+    "explanation": "(4/10) \u00d7 1 = 0.4 mL.",
+    "ptceTip": "Set up ratios carefully and keep units aligned."
+  },
+  {
+    "id": "math-063",
+    "title": "1% w/v in 100 mL",
+    "category": "Percent Strength",
+    "formula": "g = (%/100) \u00d7 mL for % w/v",
+    "prompt": "How many grams of drug are in 100 mL of a 1% w/v solution?",
+    "answer": "1 g",
+    "distractors": [
+      "1 g",
+      "100 g",
+      "10 g"
+    ],
+    "explanation": "(1/100) \u00d7 100 = 1 g.",
+    "ptceTip": "% w/v means grams per 100 mL."
+  },
+  {
+    "id": "math-064",
+    "title": "2% w/v in 50 mL",
+    "category": "Percent Strength",
+    "formula": "g = (%/100) \u00d7 mL for % w/v",
+    "prompt": "How many grams of drug are in 50 mL of a 2% w/v solution?",
+    "answer": "1 g",
+    "distractors": [
+      "2 g",
+      "50 g",
+      "10 g"
+    ],
+    "explanation": "(2/100) \u00d7 50 = 1 g.",
+    "ptceTip": "% w/v means grams per 100 mL."
+  },
+  {
+    "id": "math-065",
+    "title": "0.9% w/v in 1000 mL",
+    "category": "Percent Strength",
+    "formula": "g = (%/100) \u00d7 mL for % w/v",
+    "prompt": "How many grams of drug are in 1000 mL of a 0.9% w/v solution?",
+    "answer": "9 g",
+    "distractors": [
+      "0.9 g",
+      "1000 g",
+      "90 g"
+    ],
+    "explanation": "(0.9/100) \u00d7 1000 = 9 g.",
+    "ptceTip": "% w/v means grams per 100 mL."
+  },
+  {
+    "id": "math-066",
+    "title": "5% w/v in 20 mL",
+    "category": "Percent Strength",
+    "formula": "g = (%/100) \u00d7 mL for % w/v",
+    "prompt": "How many grams of drug are in 20 mL of a 5% w/v solution?",
+    "answer": "1 g",
+    "distractors": [
+      "5 g",
+      "20 g",
+      "10 g"
+    ],
+    "explanation": "(5/100) \u00d7 20 = 1 g.",
+    "ptceTip": "% w/v means grams per 100 mL."
+  },
+  {
+    "id": "math-067",
+    "title": "10% w/v in 30 mL",
+    "category": "Percent Strength",
+    "formula": "g = (%/100) \u00d7 mL for % w/v",
+    "prompt": "How many grams of drug are in 30 mL of a 10% w/v solution?",
+    "answer": "3 g",
+    "distractors": [
+      "10 g",
+      "30 g",
+      "30 g"
+    ],
+    "explanation": "(10/100) \u00d7 30 = 3 g.",
+    "ptceTip": "% w/v means grams per 100 mL."
+  },
+  {
+    "id": "math-068",
+    "title": "0.45% w/v in 1000 mL",
+    "category": "Percent Strength",
+    "formula": "g = (%/100) \u00d7 mL for % w/v",
+    "prompt": "How many grams of drug are in 1000 mL of a 0.45% w/v solution?",
+    "answer": "4.5 g",
+    "distractors": [
+      "0.45 g",
+      "1000 g",
+      "45 g"
+    ],
+    "explanation": "(0.45/100) \u00d7 1000 = 4.5 g.",
+    "ptceTip": "% w/v means grams per 100 mL."
+  },
+  {
+    "id": "math-069",
+    "title": "2.5% w/v in 40 mL",
+    "category": "Percent Strength",
+    "formula": "g = (%/100) \u00d7 mL for % w/v",
+    "prompt": "How many grams of drug are in 40 mL of a 2.5% w/v solution?",
+    "answer": "1 g",
+    "distractors": [
+      "2.5 g",
+      "40 g",
+      "10 g"
+    ],
+    "explanation": "(2.5/100) \u00d7 40 = 1 g.",
+    "ptceTip": "% w/v means grams per 100 mL."
+  },
+  {
+    "id": "math-070",
+    "title": "0.1% w/v in 10 mL",
+    "category": "Percent Strength",
+    "formula": "g = (%/100) \u00d7 mL for % w/v",
+    "prompt": "How many grams of drug are in 10 mL of a 0.1% w/v solution?",
+    "answer": "0.01 g",
+    "distractors": [
+      "0.1 g",
+      "10 g",
+      "0.1 g"
+    ],
+    "explanation": "(0.1/100) \u00d7 10 = 0.01 g.",
+    "ptceTip": "% w/v means grams per 100 mL."
+  },
+  {
+    "id": "math-071",
+    "title": "Normal saline percent",
+    "category": "Percent Strength",
+    "formula": "% w/v = g/100 mL",
+    "prompt": "0.9% sodium chloride contains how many grams of NaCl per 100 mL?",
+    "answer": "0.9 g",
+    "distractors": [
+      "9 g",
+      "0.09 g",
+      "90 g"
+    ],
+    "explanation": "0.9% w/v = 0.9 g per 100 mL.",
+    "ptceTip": "NS is 0.9% NaCl \u2014 a high-yield percent example."
+  },
+  {
+    "id": "math-072",
+    "title": "Dilution \u00b7 10% \u2192 2%",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2",
+    "prompt": "How many mL of 10% solution are needed to make 5 mL wait\u2014 How many total mL of 2% can be made from 5 mL of 10%?",
+    "answer": "25 mL",
+    "distractors": [
+      "5 mL",
+      "10 mL",
+      "12.5 mL"
+    ],
+    "explanation": "V2 = (C1\u00d7V1)/C2 = (10\u00d75)/2 = 25 mL.",
+    "ptceTip": "Solve for the unknown; don't mix up stock vs final volume."
+  },
+  {
+    "id": "math-073",
+    "title": "Dilution \u00b7 20% \u2192 5%",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2",
+    "prompt": "How many mL of 20% solution are needed to make 10 mL wait\u2014 How many total mL of 5% can be made from 10 mL of 20%?",
+    "answer": "40 mL",
+    "distractors": [
+      "10 mL",
+      "20 mL",
+      "20 mL"
+    ],
+    "explanation": "V2 = (C1\u00d7V1)/C2 = (20\u00d710)/5 = 40 mL.",
+    "ptceTip": "Solve for the unknown; don't mix up stock vs final volume."
+  },
+  {
+    "id": "math-074",
+    "title": "Dilution \u00b7 100% \u2192 10%",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2",
+    "prompt": "How many mL of 100% solution are needed to make 2 mL wait\u2014 How many total mL of 10% can be made from 2 mL of 100%?",
+    "answer": "20 mL",
+    "distractors": [
+      "2 mL",
+      "100 mL",
+      "10 mL"
+    ],
+    "explanation": "V2 = (C1\u00d7V1)/C2 = (100\u00d72)/10 = 20 mL.",
+    "ptceTip": "Solve for the unknown; don't mix up stock vs final volume."
+  },
+  {
+    "id": "math-075",
+    "title": "Dilution \u00b7 50% \u2192 10%",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2",
+    "prompt": "How many mL of 50% solution are needed to make 4 mL wait\u2014 How many total mL of 10% can be made from 4 mL of 50%?",
+    "answer": "20 mL",
+    "distractors": [
+      "4 mL",
+      "50 mL",
+      "10 mL"
+    ],
+    "explanation": "V2 = (C1\u00d7V1)/C2 = (50\u00d74)/10 = 20 mL.",
+    "ptceTip": "Solve for the unknown; don't mix up stock vs final volume."
+  },
+  {
+    "id": "math-076",
+    "title": "Dilution \u00b7 25% \u2192 5%",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2",
+    "prompt": "How many mL of 25% solution are needed to make 8 mL wait\u2014 How many total mL of 5% can be made from 8 mL of 25%?",
+    "answer": "40 mL",
+    "distractors": [
+      "8 mL",
+      "25 mL",
+      "20 mL"
+    ],
+    "explanation": "V2 = (C1\u00d7V1)/C2 = (25\u00d78)/5 = 40 mL.",
+    "ptceTip": "Solve for the unknown; don't mix up stock vs final volume."
+  },
+  {
+    "id": "math-077",
+    "title": "Dilution \u00b7 40% \u2192 8%",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2",
+    "prompt": "How many mL of 40% solution are needed to make 5 mL wait\u2014 How many total mL of 8% can be made from 5 mL of 40%?",
+    "answer": "25 mL",
+    "distractors": [
+      "5 mL",
+      "40 mL",
+      "12.5 mL"
+    ],
+    "explanation": "V2 = (C1\u00d7V1)/C2 = (40\u00d75)/8 = 25 mL.",
+    "ptceTip": "Solve for the unknown; don't mix up stock vs final volume."
+  },
+  {
+    "id": "math-078",
+    "title": "Dilution \u00b7 5% \u2192 1%",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2",
+    "prompt": "How many mL of 5% solution are needed to make 20 mL wait\u2014 How many total mL of 1% can be made from 20 mL of 5%?",
+    "answer": "100 mL",
+    "distractors": [
+      "20 mL",
+      "5 mL",
+      "50 mL"
+    ],
+    "explanation": "V2 = (C1\u00d7V1)/C2 = (5\u00d720)/1 = 100 mL.",
+    "ptceTip": "Solve for the unknown; don't mix up stock vs final volume."
+  },
+  {
+    "id": "math-079",
+    "title": "Stock volume for 1% final",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2 \u2192 V1 = (C2V2)/C1",
+    "prompt": "You need 100 mL of 1% solution. Stock is 10%. How much stock is required?",
+    "answer": "10 mL",
+    "distractors": [
+      "100 mL",
+      "10 mL",
+      "20 mL"
+    ],
+    "explanation": "V1 = (1\u00d7100)/10 = 10 mL; qs with diluent to 100 mL.",
+    "ptceTip": "After calculating stock volume, qs (quantity sufficient) with diluent."
+  },
+  {
+    "id": "math-080",
+    "title": "Stock volume for 5% final",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2 \u2192 V1 = (C2V2)/C1",
+    "prompt": "You need 50 mL of 5% solution. Stock is 20%. How much stock is required?",
+    "answer": "12.5 mL",
+    "distractors": [
+      "50 mL",
+      "20 mL",
+      "25 mL"
+    ],
+    "explanation": "V1 = (5\u00d750)/20 = 12.5 mL; qs with diluent to 50 mL.",
+    "ptceTip": "After calculating stock volume, qs (quantity sufficient) with diluent."
+  },
+  {
+    "id": "math-081",
+    "title": "Stock volume for 10% final",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2 \u2192 V1 = (C2V2)/C1",
+    "prompt": "You need 200 mL of 10% solution. Stock is 50%. How much stock is required?",
+    "answer": "40 mL",
+    "distractors": [
+      "200 mL",
+      "50 mL",
+      "80 mL"
+    ],
+    "explanation": "V1 = (10\u00d7200)/50 = 40 mL; qs with diluent to 200 mL.",
+    "ptceTip": "After calculating stock volume, qs (quantity sufficient) with diluent."
+  },
+  {
+    "id": "math-082",
+    "title": "Stock volume for 20% final",
+    "category": "Dilutions",
+    "formula": "C1V1 = C2V2 \u2192 V1 = (C2V2)/C1",
+    "prompt": "You need 50 mL of 20% solution. Stock is 100%. How much stock is required?",
+    "answer": "10 mL",
+    "distractors": [
+      "50 mL",
+      "100 mL",
+      "20 mL"
+    ],
+    "explanation": "V1 = (20\u00d750)/100 = 10 mL; qs with diluent to 50 mL.",
+    "ptceTip": "After calculating stock volume, qs (quantity sufficient) with diluent."
+  },
+  {
+    "id": "math-083",
+    "title": "mg/kg dose \u00b7 10 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 10 kg. Order: 15 mg/kg/dose given 1\u00d7 daily. mg per dose?",
+    "answer": "150 mg",
+    "distractors": [
+      "150 mg",
+      "10 mg",
+      "15 mg"
+    ],
+    "explanation": "15 \u00d7 10 = 150 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-084",
+    "title": "mg/kg dose \u00b7 20 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 20 kg. Order: 10 mg/kg/dose given 2\u00d7 daily. mg per dose?",
+    "answer": "200 mg",
+    "distractors": [
+      "400 mg",
+      "20 mg",
+      "10 mg"
+    ],
+    "explanation": "10 \u00d7 20 = 200 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-085",
+    "title": "mg/kg dose \u00b7 12 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 12 kg. Order: 5 mg/kg/dose given 3\u00d7 daily. mg per dose?",
+    "answer": "60 mg",
+    "distractors": [
+      "180 mg",
+      "12 mg",
+      "5 mg"
+    ],
+    "explanation": "5 \u00d7 12 = 60 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-086",
+    "title": "mg/kg dose \u00b7 25 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 25 kg. Order: 8 mg/kg/dose given 2\u00d7 daily. mg per dose?",
+    "answer": "200 mg",
+    "distractors": [
+      "400 mg",
+      "25 mg",
+      "8 mg"
+    ],
+    "explanation": "8 \u00d7 25 = 200 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-087",
+    "title": "mg/kg dose \u00b7 18 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 18 kg. Order: 12 mg/kg/dose given 1\u00d7 daily. mg per dose?",
+    "answer": "216 mg",
+    "distractors": [
+      "216 mg",
+      "18 mg",
+      "12 mg"
+    ],
+    "explanation": "12 \u00d7 18 = 216 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-088",
+    "title": "mg/kg dose \u00b7 30 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 30 kg. Order: 5 mg/kg/dose given 2\u00d7 daily. mg per dose?",
+    "answer": "150 mg",
+    "distractors": [
+      "300 mg",
+      "30 mg",
+      "5 mg"
+    ],
+    "explanation": "5 \u00d7 30 = 150 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-089",
+    "title": "mg/kg dose \u00b7 8 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 8 kg. Order: 20 mg/kg/dose given 1\u00d7 daily. mg per dose?",
+    "answer": "160 mg",
+    "distractors": [
+      "160 mg",
+      "8 mg",
+      "20 mg"
+    ],
+    "explanation": "20 \u00d7 8 = 160 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-090",
+    "title": "mg/kg dose \u00b7 15 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 15 kg. Order: 10 mg/kg/dose given 2\u00d7 daily. mg per dose?",
+    "answer": "150 mg",
+    "distractors": [
+      "300 mg",
+      "15 mg",
+      "10 mg"
+    ],
+    "explanation": "10 \u00d7 15 = 150 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-091",
+    "title": "mg/kg dose \u00b7 22 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 22 kg. Order: 7 mg/kg/dose given 2\u00d7 daily. mg per dose?",
+    "answer": "154 mg",
+    "distractors": [
+      "308 mg",
+      "22 mg",
+      "7 mg"
+    ],
+    "explanation": "7 \u00d7 22 = 154 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-092",
+    "title": "mg/kg dose \u00b7 40 kg",
+    "category": "Weight-Based Dosing",
+    "formula": "mg/dose = mg/kg \u00d7 weight(kg)",
+    "prompt": "Child weighs 40 kg. Order: 2 mg/kg/dose given 1\u00d7 daily. mg per dose?",
+    "answer": "80 mg",
+    "distractors": [
+      "80 mg",
+      "40 mg",
+      "2 mg"
+    ],
+    "explanation": "2 \u00d7 40 = 80 mg per dose.",
+    "ptceTip": "Convert lb\u2192kg first if weight is in pounds."
+  },
+  {
+    "id": "math-093",
+    "title": "IV mL/hr \u00b7 1000 mL / 8 hr",
+    "category": "IV Flow Rates",
+    "formula": "mL/hr = total volume \u00f7 hours",
+    "prompt": "Infuse 1000 mL over 8 hours. What is the rate in mL/hr?",
+    "answer": "125 mL/hr",
+    "distractors": [
+      "1000 mL/hr",
+      "8 mL/hr",
+      "250 mL/hr"
+    ],
+    "explanation": "1000 \u00f7 8 = 125 mL/hr.",
+    "ptceTip": "Pump rates are usually mL/hr on the PTCE."
+  },
+  {
+    "id": "math-094",
+    "title": "IV mL/hr \u00b7 500 mL / 4 hr",
+    "category": "IV Flow Rates",
+    "formula": "mL/hr = total volume \u00f7 hours",
+    "prompt": "Infuse 500 mL over 4 hours. What is the rate in mL/hr?",
+    "answer": "125 mL/hr",
+    "distractors": [
+      "500 mL/hr",
+      "4 mL/hr",
+      "250 mL/hr"
+    ],
+    "explanation": "500 \u00f7 4 = 125 mL/hr.",
+    "ptceTip": "Pump rates are usually mL/hr on the PTCE."
+  },
+  {
+    "id": "math-095",
+    "title": "IV mL/hr \u00b7 250 mL / 2 hr",
+    "category": "IV Flow Rates",
+    "formula": "mL/hr = total volume \u00f7 hours",
+    "prompt": "Infuse 250 mL over 2 hours. What is the rate in mL/hr?",
+    "answer": "125 mL/hr",
+    "distractors": [
+      "250 mL/hr",
+      "2 mL/hr",
+      "250 mL/hr"
+    ],
+    "explanation": "250 \u00f7 2 = 125 mL/hr.",
+    "ptceTip": "Pump rates are usually mL/hr on the PTCE."
+  },
+  {
+    "id": "math-096",
+    "title": "IV mL/hr \u00b7 1000 mL / 10 hr",
+    "category": "IV Flow Rates",
+    "formula": "mL/hr = total volume \u00f7 hours",
+    "prompt": "Infuse 1000 mL over 10 hours. What is the rate in mL/hr?",
+    "answer": "100 mL/hr",
+    "distractors": [
+      "1000 mL/hr",
+      "10 mL/hr",
+      "200 mL/hr"
+    ],
+    "explanation": "1000 \u00f7 10 = 100 mL/hr.",
+    "ptceTip": "Pump rates are usually mL/hr on the PTCE."
+  },
+  {
+    "id": "math-097",
+    "title": "IV mL/hr \u00b7 100 mL / 1 hr",
+    "category": "IV Flow Rates",
+    "formula": "mL/hr = total volume \u00f7 hours",
+    "prompt": "Infuse 100 mL over 1 hours. What is the rate in mL/hr?",
+    "answer": "100 mL/hr",
+    "distractors": [
+      "100 mL/hr",
+      "1 mL/hr",
+      "200 mL/hr"
+    ],
+    "explanation": "100 \u00f7 1 = 100 mL/hr.",
+    "ptceTip": "Pump rates are usually mL/hr on the PTCE."
+  },
+  {
+    "id": "math-098",
+    "title": "IV mL/hr \u00b7 750 mL / 6 hr",
+    "category": "IV Flow Rates",
+    "formula": "mL/hr = total volume \u00f7 hours",
+    "prompt": "Infuse 750 mL over 6 hours. What is the rate in mL/hr?",
+    "answer": "125 mL/hr",
+    "distractors": [
+      "750 mL/hr",
+      "6 mL/hr",
+      "250 mL/hr"
+    ],
+    "explanation": "750 \u00f7 6 = 125 mL/hr.",
+    "ptceTip": "Pump rates are usually mL/hr on the PTCE."
+  },
+  {
+    "id": "math-099",
+    "title": "IV mL/hr \u00b7 500 mL / 5 hr",
+    "category": "IV Flow Rates",
+    "formula": "mL/hr = total volume \u00f7 hours",
+    "prompt": "Infuse 500 mL over 5 hours. What is the rate in mL/hr?",
+    "answer": "100 mL/hr",
+    "distractors": [
+      "500 mL/hr",
+      "5 mL/hr",
+      "200 mL/hr"
+    ],
+    "explanation": "500 \u00f7 5 = 100 mL/hr.",
+    "ptceTip": "Pump rates are usually mL/hr on the PTCE."
+  },
+  {
+    "id": "math-100",
+    "title": "IV mL/hr \u00b7 200 mL / 2 hr",
+    "category": "IV Flow Rates",
+    "formula": "mL/hr = total volume \u00f7 hours",
+    "prompt": "Infuse 200 mL over 2 hours. What is the rate in mL/hr?",
+    "answer": "100 mL/hr",
+    "distractors": [
+      "200 mL/hr",
+      "2 mL/hr",
+      "200 mL/hr"
+    ],
+    "explanation": "200 \u00f7 2 = 100 mL/hr.",
+    "ptceTip": "Pump rates are usually mL/hr on the PTCE."
+  },
+  {
+    "id": "math-101",
+    "title": "gtt/min \u00b7 15 drop factor",
+    "category": "IV Flow Rates",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
+    "prompt": "Infuse 100 mL over 60 minutes with a 15 gtt/mL set. Drops per minute?",
+    "answer": "25 gtt/min",
+    "distractors": [
+      "100 gtt/min",
+      "15 gtt/min",
+      "50 gtt/min"
+    ],
+    "explanation": "(100 \u00d7 15) \u00f7 60 = 25 gtt/min.",
+    "ptceTip": "Round to a whole drop when required by the question."
+  },
+  {
+    "id": "math-102",
+    "title": "gtt/min \u00b7 20 drop factor",
+    "category": "IV Flow Rates",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
+    "prompt": "Infuse 50 mL over 30 minutes with a 20 gtt/mL set. Drops per minute?",
+    "answer": "33.3333 gtt/min",
+    "distractors": [
+      "50 gtt/min",
+      "20 gtt/min",
+      "66.6667 gtt/min"
+    ],
+    "explanation": "(50 \u00d7 20) \u00f7 30 = 33.3333 gtt/min.",
+    "ptceTip": "Round to a whole drop when required by the question."
+  },
+  {
+    "id": "math-103",
+    "title": "gtt/min \u00b7 10 drop factor",
+    "category": "IV Flow Rates",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
+    "prompt": "Infuse 100 mL over 30 minutes with a 10 gtt/mL set. Drops per minute?",
+    "answer": "33.3333 gtt/min",
+    "distractors": [
+      "100 gtt/min",
+      "10 gtt/min",
+      "66.6667 gtt/min"
+    ],
+    "explanation": "(100 \u00d7 10) \u00f7 30 = 33.3333 gtt/min.",
+    "ptceTip": "Round to a whole drop when required by the question."
+  },
+  {
+    "id": "math-104",
+    "title": "gtt/min \u00b7 15 drop factor",
+    "category": "IV Flow Rates",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
+    "prompt": "Infuse 250 mL over 120 minutes with a 15 gtt/mL set. Drops per minute?",
+    "answer": "31.25 gtt/min",
+    "distractors": [
+      "250 gtt/min",
+      "15 gtt/min",
+      "62.5 gtt/min"
+    ],
+    "explanation": "(250 \u00d7 15) \u00f7 120 = 31.25 gtt/min.",
+    "ptceTip": "Round to a whole drop when required by the question."
+  },
+  {
+    "id": "math-105",
+    "title": "gtt/min \u00b7 20 drop factor",
+    "category": "IV Flow Rates",
+    "formula": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes",
+    "prompt": "Infuse 100 mL over 45 minutes with a 20 gtt/mL set. Drops per minute?",
+    "answer": "44.4444 gtt/min",
+    "distractors": [
+      "100 gtt/min",
+      "20 gtt/min",
+      "88.8889 gtt/min"
+    ],
+    "explanation": "(100 \u00d7 20) \u00f7 45 = 44.4444 gtt/min.",
+    "ptceTip": "Round to a whole drop when required by the question."
+  },
+  {
+    "id": "math-106",
+    "title": "SIG b.i.d.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'b.i.d.' mean?",
+    "answer": "twice daily",
+    "distractors": [
+      "three times daily",
+      "four times daily",
+      "at bedtime"
+    ],
+    "explanation": "b.i.d. means twice daily.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-107",
+    "title": "SIG t.i.d.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 't.i.d.' mean?",
+    "answer": "three times daily",
+    "distractors": [
+      "twice daily",
+      "four times daily",
+      "at bedtime"
+    ],
+    "explanation": "t.i.d. means three times daily.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-108",
+    "title": "SIG q.i.d.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'q.i.d.' mean?",
+    "answer": "four times daily",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "at bedtime"
+    ],
+    "explanation": "q.i.d. means four times daily.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-109",
+    "title": "SIG q.h.s.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'q.h.s.' mean?",
+    "answer": "at bedtime",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "q.h.s. means at bedtime.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-110",
+    "title": "SIG a.c.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'a.c.' mean?",
+    "answer": "before meals",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "a.c. means before meals.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-111",
+    "title": "SIG p.c.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'p.c.' mean?",
+    "answer": "after meals",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "p.c. means after meals.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-112",
+    "title": "SIG p.o.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'p.o.' mean?",
+    "answer": "by mouth",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "p.o. means by mouth.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-113",
+    "title": "SIG p.r.n.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'p.r.n.' mean?",
+    "answer": "as needed",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "p.r.n. means as needed.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-114",
+    "title": "SIG q4h",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'q4h' mean?",
+    "answer": "every 4 hours",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "q4h means every 4 hours.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-115",
+    "title": "SIG q6h",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'q6h' mean?",
+    "answer": "every 6 hours",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "q6h means every 6 hours.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-116",
+    "title": "SIG q8h",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'q8h' mean?",
+    "answer": "every 8 hours",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "q8h means every 8 hours.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-117",
+    "title": "SIG q12h",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'q12h' mean?",
+    "answer": "every 12 hours",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "q12h means every 12 hours.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-118",
+    "title": "SIG stat",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'stat' mean?",
+    "answer": "immediately",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "stat means immediately.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-119",
+    "title": "SIG gtt",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'gtt' mean?",
+    "answer": "drop",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "gtt means drop.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-120",
+    "title": "SIG ung.",
+    "category": "Sig & Roman Numerals",
+    "formula": "Translate SIG abbreviations before calculating",
+    "prompt": "What does the SIG abbreviation 'ung.' mean?",
+    "answer": "ointment",
+    "distractors": [
+      "twice daily",
+      "three times daily",
+      "four times daily"
+    ],
+    "explanation": "ung. means ointment.",
+    "ptceTip": "Wrong SIG translation causes wrong days' supply."
+  },
+  {
+    "id": "math-121",
+    "title": "Roman X",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'X' equals?",
+    "answer": "10",
+    "distractors": [
+      "5",
+      "2",
+      "3"
+    ],
+    "explanation": "X = 10.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-122",
+    "title": "Roman V",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'V' equals?",
+    "answer": "5",
+    "distractors": [
+      "10",
+      "2",
+      "3"
+    ],
+    "explanation": "V = 5.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-123",
+    "title": "Roman ii",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'ii' equals?",
+    "answer": "2",
+    "distractors": [
+      "10",
+      "5",
+      "3"
+    ],
+    "explanation": "ii = 2.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-124",
+    "title": "Roman iii",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'iii' equals?",
+    "answer": "3",
+    "distractors": [
+      "10",
+      "5",
+      "2"
+    ],
+    "explanation": "iii = 3.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-125",
+    "title": "Roman iv",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'iv' equals?",
+    "answer": "4",
+    "distractors": [
+      "10",
+      "5",
+      "2"
+    ],
+    "explanation": "iv = 4.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-126",
+    "title": "Roman vi",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'vi' equals?",
+    "answer": "6",
+    "distractors": [
+      "10",
+      "5",
+      "2"
+    ],
+    "explanation": "vi = 6.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-127",
+    "title": "Roman iss",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'iss' equals?",
+    "answer": "1.5",
+    "distractors": [
+      "10",
+      "5",
+      "2"
+    ],
+    "explanation": "iss = 1.5.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-128",
+    "title": "Roman vii",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'vii' equals?",
+    "answer": "7",
+    "distractors": [
+      "10",
+      "5",
+      "2"
+    ],
+    "explanation": "vii = 7.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-129",
+    "title": "Roman ix",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'ix' equals?",
+    "answer": "9",
+    "distractors": [
+      "10",
+      "5",
+      "2"
+    ],
+    "explanation": "ix = 9.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-130",
+    "title": "Roman xx",
+    "category": "Sig & Roman Numerals",
+    "formula": "Convert Roman numerals in older prescriptions",
+    "prompt": "In pharmacy notation, Roman numeral 'xx' equals?",
+    "answer": "20",
+    "distractors": [
+      "10",
+      "5",
+      "2"
+    ],
+    "explanation": "xx = 20.",
+    "ptceTip": "iss = 1.5 appears on classic exam items."
+  },
+  {
+    "id": "math-131",
+    "title": "Amoxicillin suspension days' supply",
+    "category": "Days' Supply",
+    "formula": "Days' supply = total mL \u00f7 mL per day",
+    "prompt": "150 mL bottle; SIG 5 mL t.i.d. Days' supply?",
+    "answer": "10 days",
+    "distractors": [
+      "15 days",
+      "30 days",
+      "5 days"
+    ],
+    "explanation": "Daily use = 5\u00d73 = 15 mL; 150\u00f715 = 10 days.",
+    "ptceTip": "Liquid days' supply uses mL/day, not tablet counts."
+  },
+  {
+    "id": "math-132",
+    "title": "Insulin units days' supply",
+    "category": "Days' Supply",
+    "formula": "Days' supply = units in vial \u00f7 units per day",
+    "prompt": "A 10 mL vial of U-100 insulin (1000 units). Patient uses 40 units daily. Days' supply?",
+    "answer": "25 days",
+    "distractors": [
+      "10 days",
+      "40 days",
+      "100 days"
+    ],
+    "explanation": "1000 \u00f7 40 = 25 days.",
+    "ptceTip": "U-100 means 100 units/mL \u2014 10 mL = 1000 units."
+  },
+  {
+    "id": "math-133",
+    "title": "Eye drop quantity estimate",
+    "category": "Quantity to Dispense",
+    "formula": "Approx 20 drops/mL for many solutions (estimate)",
+    "prompt": "Using 20 drops/mL, how many mL are needed for 2 drops OU q.i.d. for 7 days?",
+    "answer": "5.6 mL",
+    "distractors": [
+      "2.8 mL",
+      "14 mL",
+      "7 mL"
+    ],
+    "explanation": "2 drops \u00d7 2 eyes \u00d7 4 \u00d7 7 = 112 drops; 112/20 = 5.6 mL.",
+    "ptceTip": "OU = both eyes; include both eyes in the count."
+  }
+]
